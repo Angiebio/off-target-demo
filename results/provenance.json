@@ -1,0 +1,286 @@
+{
+  "schema": "offtarget.provenance/0.1",
+  "base": {
+    "repo": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17"
+  },
+  "edited": {
+    "repo": "RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+    "revision": "d1671a178705bcab7644806d23c535517f35723b"
+  },
+  "edit_source": "exp8_math/runs/p50c/edit",
+  "checks": [
+    {
+      "tensor": "model.language_model.layers.15.mlp.down_proj.weight",
+      "check": "base tensor is the one the edit was made on",
+      "pass": true,
+      "detail": "ours ef60d2c687bab194, manifest ef60d2c687bab194"
+    },
+    {
+      "tensor": "model.language_model.layers.15.mlp.down_proj.weight",
+      "check": "edit rebuilt from the logs matches the evaluated tensor",
+      "pass": true,
+      "detail": "ours 82e2d733ea64feae, manifest 82e2d733ea64feae"
+    },
+    {
+      "tensor": "model.language_model.layers.15.mlp.down_proj.weight",
+      "check": "published checkpoint holds the evaluated tensor",
+      "pass": true,
+      "detail": "hub 82e2d733ea64feae, manifest 82e2d733ea64feae"
+    },
+    {
+      "tensor": "model.language_model.layers.15.mlp.down_proj.weight",
+      "check": "entries that differ after rounding match the manifest",
+      "pass": true,
+      "detail": "ours 65,260, manifest 65,260"
+    },
+    {
+      "tensor": "model.language_model.layers.15.mlp.down_proj.weight",
+      "check": "changed columns are the neurons the editor says it chose",
+      "pass": true,
+      "detail": "64 columns changed, 64 neurons listed"
+    },
+    {
+      "tensor": "model.language_model.layers.19.mlp.down_proj.weight",
+      "check": "base tensor is the one the edit was made on",
+      "pass": true,
+      "detail": "ours 638eedeb701b94aa, manifest 638eedeb701b94aa"
+    },
+    {
+      "tensor": "model.language_model.layers.19.mlp.down_proj.weight",
+      "check": "edit rebuilt from the logs matches the evaluated tensor",
+      "pass": true,
+      "detail": "ours 8ef3c61bc36af113, manifest 8ef3c61bc36af113"
+    },
+    {
+      "tensor": "model.language_model.layers.19.mlp.down_proj.weight",
+      "check": "published checkpoint holds the evaluated tensor",
+      "pass": true,
+      "detail": "hub 8ef3c61bc36af113, manifest 8ef3c61bc36af113"
+    },
+    {
+      "tensor": "model.language_model.layers.19.mlp.down_proj.weight",
+      "check": "entries that differ after rounding match the manifest",
+      "pass": true,
+      "detail": "ours 64,928, manifest 64,928"
+    },
+    {
+      "tensor": "model.language_model.layers.19.mlp.down_proj.weight",
+      "check": "changed columns are the neurons the editor says it chose",
+      "pass": true,
+      "detail": "64 columns changed, 64 neurons listed"
+    }
+  ],
+  "all_pass": true,
+  "tensors": [
+    {
+      "name": "model.language_model.layers.15.mlp.down_proj.weight",
+      "shape": [
+        1024,
+        3584
+      ],
+      "n_changed": 65260,
+      "n_addressed": 65536,
+      "n_cols_changed": 64,
+      "n_rows_changed": 1024,
+      "cols": [
+        0,
+        2,
+        11,
+        25,
+        34,
+        35,
+        38,
+        39,
+        46,
+        50,
+        53,
+        56,
+        61,
+        62,
+        63,
+        64,
+        67,
+        73,
+        100,
+        108,
+        129,
+        135,
+        156,
+        169,
+        209,
+        215,
+        264,
+        266,
+        294,
+        327,
+        328,
+        357,
+        371,
+        376,
+        412,
+        414,
+        442,
+        504,
+        505,
+        509,
+        516,
+        580,
+        590,
+        601,
+        638,
+        682,
+        738,
+        882,
+        926,
+        930,
+        1047,
+        1060,
+        1087,
+        1130,
+        1155,
+        1184,
+        1460,
+        1481,
+        1787,
+        1943,
+        2005,
+        2066,
+        2738,
+        3003
+      ],
+      "delta_fro": 1.7488876203552048,
+      "base_fro": 16.442815441799873,
+      "rel_change": 0.10636181051508337,
+      "max_abs_delta": 0.1463623046875,
+      "singular_values_top5": [
+        1.7488828458330972,
+        0.0009874117289577274,
+        0.0009485556688928292,
+        0.0008693150271350583,
+        0.0008093058803349686
+      ],
+      "rank1_energy": 0.9999945399400907,
+      "numerical_rank_1pct": 1,
+      "projection_fit": {
+        "alpha": 6.0003211053057015,
+        "residual_frac": 0.0023473920246709465,
+        "write_along_u_before": 0.29146486850490944,
+        "write_along_u_after": 1.4574179861052112,
+        "remaining_frac": 5.0003212859963
+      },
+      "column_selection": {
+        "overlap_with_topk_writers": 0.484375,
+        "share_of_layer_write_mass": 0.25245184457655784
+      }
+    },
+    {
+      "name": "model.language_model.layers.19.mlp.down_proj.weight",
+      "shape": [
+        1024,
+        3584
+      ],
+      "n_changed": 64928,
+      "n_addressed": 65472,
+      "n_cols_changed": 64,
+      "n_rows_changed": 1023,
+      "cols": [
+        1,
+        5,
+        8,
+        11,
+        13,
+        15,
+        17,
+        18,
+        34,
+        36,
+        44,
+        55,
+        63,
+        66,
+        69,
+        92,
+        93,
+        95,
+        98,
+        114,
+        119,
+        127,
+        145,
+        152,
+        161,
+        168,
+        171,
+        195,
+        246,
+        259,
+        265,
+        343,
+        364,
+        445,
+        506,
+        544,
+        621,
+        625,
+        636,
+        744,
+        766,
+        770,
+        799,
+        877,
+        965,
+        1003,
+        1346,
+        1410,
+        1505,
+        1704,
+        1799,
+        2072,
+        2135,
+        2175,
+        2248,
+        2314,
+        2376,
+        2437,
+        2514,
+        2595,
+        2664,
+        2684,
+        2816,
+        3343
+      ],
+      "delta_fro": 1.3987631914068714,
+      "base_fro": 17.25531058536553,
+      "rel_change": 0.08106276525634849,
+      "max_abs_delta": 0.21484375,
+      "singular_values_top5": [
+        1.3987571638936862,
+        0.00090125749880106,
+        0.0008135843416199201,
+        0.0007443478527243483,
+        0.0007053113736132158
+      ],
+      "rank1_energy": 0.9999913816717008,
+      "numerical_rank_1pct": 1,
+      "projection_fit": {
+        "alpha": 6.000173248683294,
+        "residual_frac": 0.002943758546737267,
+        "write_along_u_before": 0.23311945718559698,
+        "write_along_u_after": 1.165637713336079,
+        "remaining_frac": 5.000173419278605
+      },
+      "column_selection": {
+        "overlap_with_topk_writers": 0.28125,
+        "share_of_layer_write_mass": 0.16013269932324933
+      }
+    }
+  ],
+  "direction_cosines": [
+    {
+      "a": "model.language_model.layers.15.mlp.down_proj.weight",
+      "b": "model.language_model.layers.19.mlp.down_proj.weight",
+      "abs_cos": 0.8490049839019775
+    }
+  ]
+}

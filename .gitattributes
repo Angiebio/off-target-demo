@@ -1,0 +1,5 @@
+# Off-Target · .gitattributes
+# One line ending everywhere, so a hash of a registration is the same on every machine.
+* text=auto eol=lf
+*.png binary
+*.safetensors binary

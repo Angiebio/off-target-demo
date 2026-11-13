@@ -1,0 +1,62 @@
+{
+  "schema": "offtarget.pilot/0.1",
+  "prereg": "prereg/001-pilot-dose-and-default-mode.md",
+  "run_a": {
+    "n_per_dose": 32,
+    "loop_share": {
+      "0.0": 0.3125,
+      "1.0": 0.34375,
+      "6.0": 0.15625
+    },
+    "loop_share_interval": {
+      "0.0": [
+        0.17952352116618736,
+        0.4856699969803239
+      ],
+      "1.0": [
+        0.20410233354328552,
+        0.5168922649121406
+      ],
+      "6.0": [
+        0.06864319106627216,
+        0.31754492553566527
+      ]
+    },
+    "drop_alpha0_to_alpha6": 0.15625,
+    "threshold": 0.4,
+    "pass": false,
+    "predictions": {
+      "alpha0_at_least_70pct": false,
+      "alpha6_at_most_30pct": true,
+      "alpha1_strictly_between": false
+    }
+  },
+  "run_b": {
+    "n": 100,
+    "default_mode_accuracy": 0.5,
+    "default_mode_interval": [
+      0.40382982859014716,
+      0.5961701714098528
+    ],
+    "default_mode_kinds": {
+      "finished": 70,
+      "loop": 7,
+      "whitespace": 0,
+      "long": 23
+    },
+    "default_mode_mean_tokens": 3560.97,
+    "published_edited_thinking_same_problems": {
+      "problems": 100,
+      "samples": 400,
+      "accuracy": 0.475
+    },
+    "published_base_thinking_same_problems": {
+      "problems": 100,
+      "samples": 400,
+      "accuracy": 0.0925
+    },
+    "edited_minus_default": -0.025000000000000022,
+    "margin": 0.05,
+    "report": "the documented default setting does about as well as the weight edit on MATH-500"
+  }
+}

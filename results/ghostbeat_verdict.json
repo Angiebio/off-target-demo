@@ -1,0 +1,133 @@
+{
+ "schema": "offtarget.ghostbeat_verdict/0.1",
+ "prereg": "prereg/002-identical-lines-and-twins.md",
+ "analysis_set": 103,
+ "lists": 280,
+ "twins": 160,
+ "Q1": {
+  "k": 75,
+  "n": 103,
+  "share": 0.7281553398058253,
+  "interval": [
+   0.6351896398284613,
+   0.8047139183361487
+  ],
+  "verdict": "SUPPORTED"
+ },
+ "Q2": {
+  "short_share": {
+   "dose:1": 0.22330097087378642,
+   "dose:2": 0.36893203883495146,
+   "dose:4": 0.6019417475728155,
+   "dose:6": 0.7281553398058253
+  },
+  "mean_p_stop_line3": {
+   "dose:0": 0.1928671875,
+   "dose:1": 0.23548062500000003,
+   "dose:2": 0.2809491875,
+   "dose:4": 0.36799575,
+   "dose:6": 0.42958468749999995
+  },
+  "rise_dose1_to_6": 0.5048543689320388,
+  "no_dip": true,
+  "p_stop_rises_every_step": true,
+  "verdict": "SUPPORTED"
+ },
+ "Q3": {
+  "edit_short_share": 0.7281553398058253,
+  "edit_not_exact_share": 0.7572815533980582,
+  "matched_directions_doing_at_least_half_as_much": 6,
+  "of": 8,
+  "matched": {
+   "short_share": {
+    "matched:0": 0.6699029126213593,
+    "matched:1": 0.4077669902912621,
+    "matched:2": 0.8446601941747572,
+    "matched:3": 0.21359223300970873,
+    "matched:4": 0.8252427184466019,
+    "matched:5": 0.7378640776699029,
+    "matched:6": 0.0,
+    "matched:7": 0.6116504854368932
+   },
+   "mean": 0.5388349514563107,
+   "push_relative_to_edit": {
+    "L15": 0.9173201228674087,
+    "L19": 0.983443496353842
+   },
+   "other_breakage": {
+    "matched:0": 0.038834951456310676,
+    "matched:1": 0.038834951456310676,
+    "matched:2": 0.06796116504854369,
+    "matched:3": 0.009708737864077669,
+    "matched:4": 0.0,
+    "matched:5": 0.0,
+    "matched:6": 0.34951456310679613,
+    "matched:7": 0.0
+   }
+  },
+  "as_usually_specified": {
+   "short_share": {
+    "random:0": 0.0,
+    "random:1": 0.2524271844660194,
+    "random:2": 0.0
+   },
+   "mean": 0.08414239482200647,
+   "push_relative_to_edit": {
+    "L15": 0.20973626285519945,
+    "L19": 0.15926127723133174
+   },
+   "other_breakage": {
+    "random:0": 0.009708737864077669,
+    "random:1": 0.0,
+    "random:2": 0.04854368932038835
+   }
+  },
+  "control_is_weak": false,
+  "verdict": "DAMAGE IN THE RIGHT PLACE"
+ },
+ "Q4": {
+  "points_where_p_stop_is_lower": 0.9651785714285714,
+  "points": 1120,
+  "unedited_short": 87,
+  "long_share_of_S": {
+   "dose:-6": 0.0,
+   "dose:-2": 0.04854368932038835
+  },
+  "no_longer_short": {
+   "k": 0,
+   "n": 87,
+   "share": 0.0,
+   "interval": [
+    0.0,
+    0.04228899535014795
+   ]
+  },
+  "made_exact": 0.0,
+  "verdict": "NOT SUPPORTED"
+ },
+ "Q5": {
+  "k": 4,
+  "n": 138,
+  "share": 0.028985507246376812,
+  "interval": [
+   0.011328232574981004,
+   0.07215644328879944
+  ],
+  "verdict": "NO HARM AT THIS SIZE",
+  "fixed_by_the_edit": 6
+ },
+ "Q6": {
+  "only:15": {
+   "short_share": 0.7378640776699029,
+   "p_stop_line3_change": 0.23976468750000005
+  },
+  "only:19": {
+   "short_share": 0.49514563106796117,
+   "p_stop_line3_change": 0.06240443749999999
+  },
+  "dose:6": {
+   "short_share": 0.7281553398058253,
+   "p_stop_line3_change": 0.23671749999999994
+  }
+ }
+}

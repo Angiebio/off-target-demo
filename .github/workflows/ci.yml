@@ -1,0 +1,46 @@
+# Off-Target · .github/workflows/ci.yml
+#
+# Practical: on every push and pull request, install the package on a clean machine,
+# lint it, run the tests, and run the one-command check. CPU only. No model, no
+# download beyond the Python packages, so it finishes in a few minutes. It runs on
+# Linux and on Windows, because the work was done on Windows and a check that only
+# passes on its author's system is not a check.
+#
+# Philosophical: the README tells a stranger they can recheck this repository. This
+# file is that promise kept by a machine that has never seen the author's laptop.
+name: checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ["3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install (CPU build of PyTorch, then the package)
+        run: |
+          python -m pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -e ".[dev]"
+      - name: Lint
+        run: ruff check .
+      - name: Tests
+        run: pytest -q
+      - name: Recompute what the repository claims
+        run: python -m offtarget.verify

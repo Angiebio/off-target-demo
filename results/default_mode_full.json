@@ -1,0 +1,8579 @@
+{
+ "schema": "offtarget.default_full/0.1",
+ "prereg": "prereg/003-default-mode-full.md",
+ "status": "registered run",
+ "base": {
+  "repo": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17"
+ },
+ "mode": "nothink",
+ "cap": 8192,
+ "sampling": {
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "presence_penalty": 1.5
+ },
+ "seed": 1000,
+ "batch": 20,
+ "block": 100,
+ "problem_ids": [
+  "test/counting_and_probability/159.json",
+  "test/number_theory/1065.json",
+  "test/algebra/2193.json",
+  "test/geometry/254.json",
+  "test/algebra/864.json",
+  "test/algebra/2427.json",
+  "test/number_theory/488.json",
+  "test/intermediate_algebra/1407.json",
+  "test/intermediate_algebra/515.json",
+  "test/prealgebra/631.json",
+  "test/prealgebra/1247.json",
+  "test/algebra/2214.json",
+  "test/intermediate_algebra/1566.json",
+  "test/prealgebra/1353.json",
+  "test/algebra/2789.json",
+  "test/prealgebra/307.json",
+  "test/algebra/2470.json",
+  "test/algebra/2584.json",
+  "test/number_theory/631.json",
+  "test/algebra/291.json",
+  "test/intermediate_algebra/1408.json",
+  "test/counting_and_probability/525.json",
+  "test/number_theory/516.json",
+  "test/intermediate_algebra/1151.json",
+  "test/prealgebra/1655.json",
+  "test/prealgebra/1646.json",
+  "test/counting_and_probability/737.json",
+  "test/number_theory/1000.json",
+  "test/algebra/2593.json",
+  "test/intermediate_algebra/1992.json",
+  "test/precalculus/989.json",
+  "test/intermediate_algebra/1930.json",
+  "test/prealgebra/65.json",
+  "test/precalculus/881.json",
+  "test/algebra/2102.json",
+  "test/precalculus/1202.json",
+  "test/algebra/2257.json",
+  "test/geometry/547.json",
+  "test/algebra/2080.json",
+  "test/algebra/1425.json",
+  "test/intermediate_algebra/149.json",
+  "test/precalculus/1291.json",
+  "test/algebra/1338.json",
+  "test/precalculus/285.json",
+  "test/algebra/1031.json",
+  "test/intermediate_algebra/2022.json",
+  "test/intermediate_algebra/1797.json",
+  "test/algebra/2735.json",
+  "test/algebra/1282.json",
+  "test/algebra/1255.json",
+  "test/algebra/841.json",
+  "test/prealgebra/1840.json",
+  "test/intermediate_algebra/90.json",
+  "test/intermediate_algebra/2146.json",
+  "test/algebra/1842.json",
+  "test/geometry/538.json",
+  "test/number_theory/417.json",
+  "test/algebra/478.json",
+  "test/precalculus/920.json",
+  "test/prealgebra/1747.json",
+  "test/intermediate_algebra/955.json",
+  "test/counting_and_probability/1114.json",
+  "test/geometry/843.json",
+  "test/prealgebra/1995.json",
+  "test/prealgebra/1730.json",
+  "test/precalculus/675.json",
+  "test/prealgebra/1297.json",
+  "test/algebra/1184.json",
+  "test/intermediate_algebra/1365.json",
+  "test/prealgebra/2057.json",
+  "test/intermediate_algebra/966.json",
+  "test/intermediate_algebra/964.json",
+  "test/intermediate_algebra/1467.json",
+  "test/intermediate_algebra/607.json",
+  "test/precalculus/441.json",
+  "test/geometry/627.json",
+  "test/intermediate_algebra/1572.json",
+  "test/algebra/2036.json",
+  "test/algebra/2743.json",
+  "test/number_theory/72.json",
+  "test/prealgebra/1203.json",
+  "test/precalculus/356.json",
+  "test/intermediate_algebra/752.json",
+  "test/number_theory/45.json",
+  "test/algebra/1934.json",
+  "test/counting_and_probability/119.json",
+  "test/intermediate_algebra/1063.json",
+  "test/intermediate_algebra/345.json",
+  "test/number_theory/515.json",
+  "test/counting_and_probability/765.json",
+  "test/algebra/975.json",
+  "test/precalculus/1303.json",
+  "test/algebra/661.json",
+  "test/number_theory/368.json",
+  "test/algebra/2780.json",
+  "test/intermediate_algebra/1168.json",
+  "test/precalculus/695.json",
+  "test/prealgebra/1991.json",
+  "test/intermediate_algebra/956.json",
+  "test/counting_and_probability/238.json",
+  "test/algebra/1214.json",
+  "test/algebra/722.json",
+  "test/prealgebra/1922.json",
+  "test/precalculus/117.json",
+  "test/number_theory/156.json",
+  "test/counting_and_probability/508.json",
+  "test/algebra/892.json",
+  "test/number_theory/459.json",
+  "test/number_theory/1090.json",
+  "test/algebra/621.json",
+  "test/counting_and_probability/230.json",
+  "test/algebra/1072.json",
+  "test/intermediate_algebra/860.json",
+  "test/algebra/2199.json",
+  "test/precalculus/625.json",
+  "test/precalculus/742.json",
+  "test/counting_and_probability/181.json",
+  "test/geometry/802.json",
+  "test/number_theory/521.json",
+  "test/intermediate_algebra/1126.json",
+  "test/geometry/248.json",
+  "test/algebra/686.json",
+  "test/counting_and_probability/71.json",
+  "test/algebra/2277.json",
+  "test/intermediate_algebra/1217.json",
+  "test/intermediate_algebra/1410.json",
+  "test/algebra/1837.json",
+  "test/algebra/694.json",
+  "test/counting_and_probability/51.json",
+  "test/number_theory/466.json",
+  "test/precalculus/1252.json",
+  "test/number_theory/753.json",
+  "test/algebra/524.json",
+  "test/precalculus/580.json",
+  "test/precalculus/1105.json",
+  "test/algebra/351.json",
+  "test/prealgebra/1187.json",
+  "test/precalculus/452.json",
+  "test/number_theory/928.json",
+  "test/number_theory/483.json",
+  "test/geometry/434.json",
+  "test/algebra/1339.json",
+  "test/algebra/2626.json",
+  "test/intermediate_algebra/1350.json",
+  "test/algebra/1265.json",
+  "test/geometry/353.json",
+  "test/number_theory/838.json",
+  "test/algebra/2551.json",
+  "test/geometry/965.json",
+  "test/geometry/711.json",
+  "test/precalculus/1133.json",
+  "test/prealgebra/1572.json",
+  "test/intermediate_algebra/1849.json",
+  "test/geometry/1140.json",
+  "test/intermediate_algebra/158.json",
+  "test/algebra/873.json",
+  "test/prealgebra/1423.json",
+  "test/prealgebra/572.json",
+  "test/intermediate_algebra/2152.json",
+  "test/intermediate_algebra/1197.json",
+  "test/number_theory/769.json",
+  "test/number_theory/1032.json",
+  "test/algebra/2046.json",
+  "test/precalculus/263.json",
+  "test/counting_and_probability/1003.json",
+  "test/algebra/1004.json",
+  "test/algebra/2592.json",
+  "test/geometry/473.json",
+  "test/intermediate_algebra/101.json",
+  "test/algebra/114.json",
+  "test/precalculus/1199.json",
+  "test/number_theory/410.json",
+  "test/number_theory/342.json",
+  "test/counting_and_probability/1009.json",
+  "test/algebra/1796.json",
+  "test/geometry/817.json",
+  "test/counting_and_probability/731.json",
+  "test/algebra/893.json",
+  "test/precalculus/697.json",
+  "test/prealgebra/996.json",
+  "test/counting_and_probability/190.json",
+  "test/prealgebra/1558.json",
+  "test/intermediate_algebra/121.json",
+  "test/number_theory/46.json",
+  "test/algebra/346.json",
+  "test/geometry/172.json",
+  "test/algebra/2043.json",
+  "test/algebra/769.json",
+  "test/intermediate_algebra/623.json",
+  "test/intermediate_algebra/1806.json",
+  "test/number_theory/13.json",
+  "test/prealgebra/2086.json",
+  "test/algebra/101.json",
+  "test/number_theory/1201.json",
+  "test/intermediate_algebra/117.json",
+  "test/intermediate_algebra/558.json",
+  "test/geometry/795.json",
+  "test/prealgebra/846.json",
+  "test/algebra/305.json",
+  "test/intermediate_algebra/1000.json",
+  "test/intermediate_algebra/102.json",
+  "test/prealgebra/1622.json",
+  "test/number_theory/239.json",
+  "test/precalculus/96.json",
+  "test/geometry/561.json",
+  "test/algebra/2264.json",
+  "test/precalculus/44.json",
+  "test/prealgebra/1924.json",
+  "test/intermediate_algebra/446.json",
+  "test/intermediate_algebra/1837.json",
+  "test/prealgebra/465.json",
+  "test/geometry/615.json",
+  "test/intermediate_algebra/1510.json",
+  "test/precalculus/990.json",
+  "test/algebra/2680.json",
+  "test/algebra/972.json",
+  "test/prealgebra/1930.json",
+  "test/prealgebra/105.json",
+  "test/algebra/824.json",
+  "test/algebra/1082.json",
+  "test/counting_and_probability/116.json",
+  "test/geometry/1097.json",
+  "test/geometry/465.json",
+  "test/number_theory/132.json",
+  "test/intermediate_algebra/582.json",
+  "test/prealgebra/1973.json",
+  "test/intermediate_algebra/960.json",
+  "test/geometry/702.json",
+  "test/algebra/1578.json",
+  "test/intermediate_algebra/1508.json",
+  "test/precalculus/1289.json",
+  "test/counting_and_probability/10.json",
+  "test/algebra/2253.json",
+  "test/algebra/2023.json",
+  "test/intermediate_algebra/2046.json",
+  "test/algebra/425.json",
+  "test/geometry/229.json",
+  "test/intermediate_algebra/1232.json",
+  "test/number_theory/203.json",
+  "test/intermediate_algebra/1354.json",
+  "test/prealgebra/1555.json",
+  "test/number_theory/1002.json",
+  "test/number_theory/572.json",
+  "test/prealgebra/260.json",
+  "test/algebra/2570.json",
+  "test/counting_and_probability/199.json",
+  "test/counting_and_probability/894.json",
+  "test/counting_and_probability/870.json",
+  "test/prealgebra/1640.json",
+  "test/algebra/1349.json",
+  "test/prealgebra/1128.json",
+  "test/intermediate_algebra/1210.json",
+  "test/prealgebra/192.json",
+  "test/number_theory/1172.json",
+  "test/prealgebra/1908.json",
+  "test/algebra/187.json",
+  "test/counting_and_probability/339.json",
+  "test/number_theory/627.json",
+  "test/geometry/183.json",
+  "test/prealgebra/1252.json",
+  "test/geometry/283.json",
+  "test/prealgebra/977.json",
+  "test/algebra/1343.json",
+  "test/counting_and_probability/803.json",
+  "test/number_theory/864.json",
+  "test/counting_and_probability/282.json",
+  "test/algebra/2391.json",
+  "test/prealgebra/951.json",
+  "test/prealgebra/1388.json",
+  "test/algebra/1547.json",
+  "test/intermediate_algebra/232.json",
+  "test/number_theory/357.json",
+  "test/prealgebra/1272.json",
+  "test/prealgebra/2019.json",
+  "test/algebra/1199.json",
+  "test/algebra/2486.json",
+  "test/geometry/456.json",
+  "test/geometry/226.json",
+  "test/prealgebra/1044.json",
+  "test/geometry/106.json",
+  "test/geometry/347.json",
+  "test/algebra/1098.json",
+  "test/algebra/2058.json",
+  "test/intermediate_algebra/1405.json",
+  "test/algebra/1332.json",
+  "test/prealgebra/1458.json",
+  "test/geometry/947.json",
+  "test/intermediate_algebra/991.json",
+  "test/precalculus/768.json",
+  "test/number_theory/598.json",
+  "test/intermediate_algebra/183.json",
+  "test/prealgebra/2037.json",
+  "test/intermediate_algebra/1544.json",
+  "test/algebra/2157.json",
+  "test/algebra/634.json",
+  "test/intermediate_algebra/1166.json",
+  "test/intermediate_algebra/1454.json",
+  "test/counting_and_probability/1014.json",
+  "test/prealgebra/1834.json",
+  "test/prealgebra/1113.json",
+  "test/intermediate_algebra/834.json",
+  "test/number_theory/679.json",
+  "test/geometry/826.json",
+  "test/algebra/224.json",
+  "test/algebra/2517.json",
+  "test/prealgebra/1686.json",
+  "test/number_theory/914.json",
+  "test/algebra/1936.json",
+  "test/algebra/2176.json",
+  "test/prealgebra/1436.json",
+  "test/algebra/2476.json",
+  "test/geometry/483.json",
+  "test/algebra/251.json",
+  "test/intermediate_algebra/199.json",
+  "test/algebra/853.json",
+  "test/prealgebra/1865.json",
+  "test/intermediate_algebra/894.json",
+  "test/precalculus/34.json",
+  "test/counting_and_probability/761.json",
+  "test/number_theory/183.json",
+  "test/algebra/1814.json",
+  "test/precalculus/477.json",
+  "test/number_theory/634.json",
+  "test/precalculus/1082.json",
+  "test/number_theory/1257.json",
+  "test/intermediate_algebra/1247.json",
+  "test/algebra/529.json",
+  "test/counting_and_probability/377.json",
+  "test/precalculus/541.json",
+  "test/precalculus/807.json",
+  "test/precalculus/927.json",
+  "test/number_theory/109.json",
+  "test/intermediate_algebra/1462.json",
+  "test/algebra/1787.json",
+  "test/precalculus/24313.json",
+  "test/prealgebra/1787.json",
+  "test/algebra/2700.json",
+  "test/algebra/1275.json",
+  "test/algebra/435.json",
+  "test/algebra/1303.json",
+  "test/precalculus/1281.json",
+  "test/counting_and_probability/216.json",
+  "test/intermediate_algebra/1994.json",
+  "test/algebra/1457.json",
+  "test/prealgebra/1907.json",
+  "test/intermediate_algebra/47.json",
+  "test/precalculus/681.json",
+  "test/precalculus/398.json",
+  "test/prealgebra/1761.json",
+  "test/geometry/1108.json",
+  "test/intermediate_algebra/1981.json",
+  "test/geometry/880.json",
+  "test/algebra/518.json",
+  "test/precalculus/703.json",
+  "test/intermediate_algebra/1111.json",
+  "test/algebra/1143.json",
+  "test/precalculus/801.json",
+  "test/number_theory/89.json",
+  "test/precalculus/659.json",
+  "test/precalculus/819.json",
+  "test/algebra/2251.json",
+  "test/intermediate_algebra/1555.json",
+  "test/number_theory/255.json",
+  "test/geometry/967.json",
+  "test/prealgebra/1003.json",
+  "test/intermediate_algebra/1422.json",
+  "test/prealgebra/930.json",
+  "test/intermediate_algebra/1411.json",
+  "test/prealgebra/993.json",
+  "test/prealgebra/1807.json",
+  "test/prealgebra/1227.json",
+  "test/algebra/246.json",
+  "test/algebra/2159.json",
+  "test/number_theory/931.json",
+  "test/counting_and_probability/23957.json",
+  "test/algebra/1519.json",
+  "test/intermediate_algebra/690.json",
+  "test/algebra/567.json",
+  "test/geometry/686.json",
+  "test/intermediate_algebra/2196.json",
+  "test/precalculus/779.json",
+  "test/algebra/988.json",
+  "test/intermediate_algebra/662.json",
+  "test/counting_and_probability/666.json",
+  "test/geometry/73.json",
+  "test/number_theory/22.json",
+  "test/algebra/849.json",
+  "test/prealgebra/2066.json",
+  "test/number_theory/149.json",
+  "test/prealgebra/1804.json",
+  "test/algebra/733.json",
+  "test/intermediate_algebra/1123.json",
+  "test/counting_and_probability/14.json",
+  "test/algebra/276.json",
+  "test/precalculus/902.json",
+  "test/prealgebra/805.json",
+  "test/number_theory/234.json",
+  "test/prealgebra/1512.json",
+  "test/prealgebra/1961.json",
+  "test/intermediate_algebra/1300.json",
+  "test/algebra/1035.json",
+  "test/counting_and_probability/389.json",
+  "test/intermediate_algebra/362.json",
+  "test/intermediate_algebra/1779.json",
+  "test/algebra/2064.json",
+  "test/algebra/907.json",
+  "test/prealgebra/1743.json",
+  "test/counting_and_probability/25149.json",
+  "test/algebra/509.json",
+  "test/intermediate_algebra/1714.json",
+  "test/algebra/109.json",
+  "test/geometry/846.json",
+  "test/intermediate_algebra/279.json",
+  "test/precalculus/1172.json",
+  "test/intermediate_algebra/591.json",
+  "test/precalculus/145.json",
+  "test/intermediate_algebra/134.json",
+  "test/geometry/178.json",
+  "test/precalculus/1201.json",
+  "test/prealgebra/954.json",
+  "test/algebra/1529.json",
+  "test/algebra/1078.json",
+  "test/intermediate_algebra/1014.json",
+  "test/intermediate_algebra/190.json",
+  "test/intermediate_algebra/1898.json",
+  "test/prealgebra/1317.json",
+  "test/algebra/858.json",
+  "test/algebra/24.json",
+  "test/number_theory/737.json",
+  "test/number_theory/533.json",
+  "test/counting_and_probability/430.json",
+  "test/prealgebra/1114.json",
+  "test/number_theory/686.json",
+  "test/number_theory/1185.json",
+  "test/counting_and_probability/913.json",
+  "test/precalculus/1300.json",
+  "test/prealgebra/153.json",
+  "test/intermediate_algebra/1388.json",
+  "test/intermediate_algebra/986.json",
+  "test/prealgebra/1139.json",
+  "test/algebra/776.json",
+  "test/algebra/170.json",
+  "test/precalculus/190.json",
+  "test/prealgebra/1233.json",
+  "test/algebra/668.json",
+  "test/intermediate_algebra/207.json",
+  "test/counting_and_probability/1060.json",
+  "test/number_theory/1128.json",
+  "test/prealgebra/505.json",
+  "test/number_theory/691.json",
+  "test/number_theory/911.json",
+  "test/geometry/221.json",
+  "test/prealgebra/1251.json",
+  "test/precalculus/43.json",
+  "test/precalculus/1146.json",
+  "test/number_theory/612.json",
+  "test/intermediate_algebra/776.json",
+  "test/precalculus/1313.json",
+  "test/algebra/2232.json",
+  "test/intermediate_algebra/1102.json",
+  "test/number_theory/1287.json",
+  "test/precalculus/826.json",
+  "test/geometry/477.json",
+  "test/number_theory/427.json",
+  "test/intermediate_algebra/2015.json",
+  "test/precalculus/323.json",
+  "test/algebra/2430.json",
+  "test/intermediate_algebra/754.json",
+  "test/prealgebra/1302.json",
+  "test/intermediate_algebra/431.json",
+  "test/prealgebra/1238.json",
+  "test/intermediate_algebra/1791.json",
+  "test/algebra/1960.json",
+  "test/intermediate_algebra/1279.json",
+  "test/number_theory/820.json",
+  "test/intermediate_algebra/428.json",
+  "test/number_theory/1055.json",
+  "test/intermediate_algebra/337.json",
+  "test/prealgebra/1742.json",
+  "test/prealgebra/1784.json",
+  "test/algebra/1937.json",
+  "test/algebra/297.json",
+  "test/algebra/791.json",
+  "test/precalculus/1056.json",
+  "test/algebra/2779.json",
+  "test/intermediate_algebra/128.json",
+  "test/counting_and_probability/188.json",
+  "test/precalculus/499.json",
+  "test/number_theory/847.json",
+  "test/prealgebra/914.json",
+  "test/counting_and_probability/134.json",
+  "test/prealgebra/1356.json",
+  "test/prealgebra/874.json",
+  "test/prealgebra/1733.json",
+  "test/prealgebra/378.json",
+  "test/geometry/65.json",
+  "test/precalculus/986.json",
+  "test/number_theory/978.json",
+  "test/algebra/1553.json",
+  "test/prealgebra/1298.json"
+ ],
+ "wiring": {
+  "max_logit_change_at_published_dose": 0.94140625,
+  "restored_exactly": true
+ },
+ "blocks": {
+  "0.0/block0": {
+   "seconds": 1767.2,
+   "rows": [
+    {
+     "id": "test/counting_and_probability/159.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1065.json",
+     "kind": "finished",
+     "tokens": 1073,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2193.json",
+     "kind": "finished",
+     "tokens": 1047,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/254.json",
+     "kind": "finished",
+     "tokens": 753,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/864.json",
+     "kind": "finished",
+     "tokens": 328,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2427.json",
+     "kind": "finished",
+     "tokens": 786,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/488.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 7047
+    },
+    {
+     "id": "test/intermediate_algebra/1407.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 7474
+    },
+    {
+     "id": "test/intermediate_algebra/515.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/631.json",
+     "kind": "finished",
+     "tokens": 4896,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1247.json",
+     "kind": "finished",
+     "tokens": 2085,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2214.json",
+     "kind": "finished",
+     "tokens": 341,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1566.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1353.json",
+     "kind": "finished",
+     "tokens": 863,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2789.json",
+     "kind": "finished",
+     "tokens": 365,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/307.json",
+     "kind": "finished",
+     "tokens": 371,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2470.json",
+     "kind": "finished",
+     "tokens": 467,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2584.json",
+     "kind": "finished",
+     "tokens": 425,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/631.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/291.json",
+     "kind": "finished",
+     "tokens": 695,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1408.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/525.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 5028
+    },
+    {
+     "id": "test/number_theory/516.json",
+     "kind": "finished",
+     "tokens": 1040,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1151.json",
+     "kind": "finished",
+     "tokens": 6997,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1655.json",
+     "kind": "finished",
+     "tokens": 1426,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1646.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/737.json",
+     "kind": "finished",
+     "tokens": 848,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1000.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 8125
+    },
+    {
+     "id": "test/algebra/2593.json",
+     "kind": "finished",
+     "tokens": 1614,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1992.json",
+     "kind": "finished",
+     "tokens": 1288,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/989.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1930.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/65.json",
+     "kind": "finished",
+     "tokens": 904,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/881.json",
+     "kind": "finished",
+     "tokens": 1078,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2102.json",
+     "kind": "finished",
+     "tokens": 423,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1202.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 8025
+    },
+    {
+     "id": "test/algebra/2257.json",
+     "kind": "finished",
+     "tokens": 604,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/547.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2080.json",
+     "kind": "finished",
+     "tokens": 513,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1425.json",
+     "kind": "finished",
+     "tokens": 371,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/149.json",
+     "kind": "finished",
+     "tokens": 575,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1291.json",
+     "kind": "finished",
+     "tokens": 614,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1338.json",
+     "kind": "finished",
+     "tokens": 1267,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/285.json",
+     "kind": "finished",
+     "tokens": 3285,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1031.json",
+     "kind": "finished",
+     "tokens": 747,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/2022.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1797.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2735.json",
+     "kind": "finished",
+     "tokens": 674,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1282.json",
+     "kind": "finished",
+     "tokens": 1510,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1255.json",
+     "kind": "finished",
+     "tokens": 278,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/841.json",
+     "kind": "finished",
+     "tokens": 665,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1840.json",
+     "kind": "finished",
+     "tokens": 2000,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/90.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 8122
+    },
+    {
+     "id": "test/intermediate_algebra/2146.json",
+     "kind": "finished",
+     "tokens": 7502,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1842.json",
+     "kind": "finished",
+     "tokens": 669,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/538.json",
+     "kind": "finished",
+     "tokens": 1000,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/417.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/478.json",
+     "kind": "finished",
+     "tokens": 322,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/920.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1747.json",
+     "kind": "finished",
+     "tokens": 620,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/955.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/1114.json",
+     "kind": "finished",
+     "tokens": 1617,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/843.json",
+     "kind": "finished",
+     "tokens": 668,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1995.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1730.json",
+     "kind": "finished",
+     "tokens": 376,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/675.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1297.json",
+     "kind": "finished",
+     "tokens": 1555,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1184.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 5637
+    },
+    {
+     "id": "test/intermediate_algebra/1365.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/2057.json",
+     "kind": "finished",
+     "tokens": 4361,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/966.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 6248
+    },
+    {
+     "id": "test/intermediate_algebra/964.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 7876
+    },
+    {
+     "id": "test/intermediate_algebra/1467.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 6645
+    },
+    {
+     "id": "test/intermediate_algebra/607.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/441.json",
+     "kind": "finished",
+     "tokens": 616,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/627.json",
+     "kind": "finished",
+     "tokens": 3005,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1572.json",
+     "kind": "finished",
+     "tokens": 699,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2036.json",
+     "kind": "finished",
+     "tokens": 507,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2743.json",
+     "kind": "finished",
+     "tokens": 442,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/72.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1203.json",
+     "kind": "finished",
+     "tokens": 2919,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/356.json",
+     "kind": "finished",
+     "tokens": 468,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/752.json",
+     "kind": "finished",
+     "tokens": 7653,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/45.json",
+     "kind": "finished",
+     "tokens": 646,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1934.json",
+     "kind": "finished",
+     "tokens": 550,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/119.json",
+     "kind": "finished",
+     "tokens": 1030,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1063.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/345.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/515.json",
+     "kind": "finished",
+     "tokens": 1786,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/765.json",
+     "kind": "finished",
+     "tokens": 6128,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/975.json",
+     "kind": "finished",
+     "tokens": 528,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1303.json",
+     "kind": "finished",
+     "tokens": 3194,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/661.json",
+     "kind": "finished",
+     "tokens": 491,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/368.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 2770
+    },
+    {
+     "id": "test/algebra/2780.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1168.json",
+     "kind": "finished",
+     "tokens": 1212,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/695.json",
+     "kind": "finished",
+     "tokens": 1041,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1991.json",
+     "kind": "finished",
+     "tokens": 627,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/956.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 8090
+    },
+    {
+     "id": "test/counting_and_probability/238.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    }
+   ]
+  },
+  "6.0/block0": {
+   "seconds": 1720.0,
+   "rows": [
+    {
+     "id": "test/counting_and_probability/159.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1065.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2193.json",
+     "kind": "finished",
+     "tokens": 1086,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/254.json",
+     "kind": "finished",
+     "tokens": 610,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/864.json",
+     "kind": "finished",
+     "tokens": 326,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2427.json",
+     "kind": "finished",
+     "tokens": 1038,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/488.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1407.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/515.json",
+     "kind": "finished",
+     "tokens": 1117,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/631.json",
+     "kind": "finished",
+     "tokens": 2469,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1247.json",
+     "kind": "finished",
+     "tokens": 523,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2214.json",
+     "kind": "finished",
+     "tokens": 297,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1566.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1353.json",
+     "kind": "finished",
+     "tokens": 3249,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2789.json",
+     "kind": "finished",
+     "tokens": 375,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/307.json",
+     "kind": "finished",
+     "tokens": 321,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2470.json",
+     "kind": "finished",
+     "tokens": 503,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2584.json",
+     "kind": "finished",
+     "tokens": 387,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/631.json",
+     "kind": "finished",
+     "tokens": 1225,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/291.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1408.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/525.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/516.json",
+     "kind": "finished",
+     "tokens": 1567,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1151.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1655.json",
+     "kind": "finished",
+     "tokens": 1664,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1646.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/737.json",
+     "kind": "finished",
+     "tokens": 659,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1000.json",
+     "kind": "finished",
+     "tokens": 1673,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2593.json",
+     "kind": "finished",
+     "tokens": 531,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1992.json",
+     "kind": "finished",
+     "tokens": 1702,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/989.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1930.json",
+     "kind": "finished",
+     "tokens": 5951,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/65.json",
+     "kind": "finished",
+     "tokens": 1757,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/881.json",
+     "kind": "finished",
+     "tokens": 1617,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2102.json",
+     "kind": "finished",
+     "tokens": 610,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1202.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2257.json",
+     "kind": "finished",
+     "tokens": 922,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/547.json",
+     "kind": "finished",
+     "tokens": 3472,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2080.json",
+     "kind": "finished",
+     "tokens": 451,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1425.json",
+     "kind": "finished",
+     "tokens": 396,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/149.json",
+     "kind": "finished",
+     "tokens": 450,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1291.json",
+     "kind": "finished",
+     "tokens": 1434,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1338.json",
+     "kind": "finished",
+     "tokens": 1097,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/285.json",
+     "kind": "finished",
+     "tokens": 1025,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1031.json",
+     "kind": "finished",
+     "tokens": 758,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/2022.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 6457
+    },
+    {
+     "id": "test/intermediate_algebra/1797.json",
+     "kind": "finished",
+     "tokens": 754,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2735.json",
+     "kind": "finished",
+     "tokens": 592,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1282.json",
+     "kind": "finished",
+     "tokens": 890,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1255.json",
+     "kind": "finished",
+     "tokens": 269,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/841.json",
+     "kind": "finished",
+     "tokens": 902,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1840.json",
+     "kind": "finished",
+     "tokens": 1003,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/90.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/2146.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1842.json",
+     "kind": "finished",
+     "tokens": 368,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/538.json",
+     "kind": "finished",
+     "tokens": 1042,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/417.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/478.json",
+     "kind": "finished",
+     "tokens": 336,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/920.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1747.json",
+     "kind": "finished",
+     "tokens": 391,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/955.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/1114.json",
+     "kind": "finished",
+     "tokens": 844,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/843.json",
+     "kind": "finished",
+     "tokens": 605,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1995.json",
+     "kind": "finished",
+     "tokens": 536,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1730.json",
+     "kind": "finished",
+     "tokens": 791,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/675.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1297.json",
+     "kind": "finished",
+     "tokens": 676,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1184.json",
+     "kind": "finished",
+     "tokens": 1638,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1365.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/2057.json",
+     "kind": "finished",
+     "tokens": 2354,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/966.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/964.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1467.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/607.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/441.json",
+     "kind": "finished",
+     "tokens": 2429,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/627.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1572.json",
+     "kind": "finished",
+     "tokens": 768,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2036.json",
+     "kind": "finished",
+     "tokens": 524,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2743.json",
+     "kind": "finished",
+     "tokens": 1185,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/72.json",
+     "kind": "finished",
+     "tokens": 3181,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1203.json",
+     "kind": "finished",
+     "tokens": 1574,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/356.json",
+     "kind": "finished",
+     "tokens": 1209,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/752.json",
+     "kind": "finished",
+     "tokens": 6399,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/45.json",
+     "kind": "finished",
+     "tokens": 641,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1934.json",
+     "kind": "finished",
+     "tokens": 531,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/119.json",
+     "kind": "finished",
+     "tokens": 948,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1063.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/345.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/515.json",
+     "kind": "finished",
+     "tokens": 1269,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/765.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/975.json",
+     "kind": "finished",
+     "tokens": 1320,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1303.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/661.json",
+     "kind": "finished",
+     "tokens": 603,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/368.json",
+     "kind": "finished",
+     "tokens": 787,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2780.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1168.json",
+     "kind": "finished",
+     "tokens": 427,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/695.json",
+     "kind": "finished",
+     "tokens": 2661,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1991.json",
+     "kind": "finished",
+     "tokens": 606,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/956.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/238.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    }
+   ]
+  },
+  "0.0/block1": {
+   "seconds": 1877.2,
+   "rows": [
+    {
+     "id": "test/algebra/1214.json",
+     "kind": "finished",
+     "tokens": 266,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/722.json",
+     "kind": "finished",
+     "tokens": 362,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1922.json",
+     "kind": "finished",
+     "tokens": 368,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/117.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/156.json",
+     "kind": "finished",
+     "tokens": 859,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/508.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 5562
+    },
+    {
+     "id": "test/algebra/892.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/459.json",
+     "kind": "finished",
+     "tokens": 1381,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1090.json",
+     "kind": "finished",
+     "tokens": 6390,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/621.json",
+     "kind": "finished",
+     "tokens": 559,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/230.json",
+     "kind": "finished",
+     "tokens": 1633,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1072.json",
+     "kind": "finished",
+     "tokens": 1937,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/860.json",
+     "kind": "finished",
+     "tokens": 451,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2199.json",
+     "kind": "finished",
+     "tokens": 342,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/625.json",
+     "kind": "finished",
+     "tokens": 638,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/742.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/181.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 6789
+    },
+    {
+     "id": "test/geometry/802.json",
+     "kind": "finished",
+     "tokens": 575,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/521.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1126.json",
+     "kind": "finished",
+     "tokens": 912,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/248.json",
+     "kind": "finished",
+     "tokens": 2341,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/686.json",
+     "kind": "finished",
+     "tokens": 5577,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/71.json",
+     "kind": "finished",
+     "tokens": 567,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2277.json",
+     "kind": "finished",
+     "tokens": 6867,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1217.json",
+     "kind": "whitespace",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1410.json",
+     "kind": "finished",
+     "tokens": 575,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1837.json",
+     "kind": "finished",
+     "tokens": 3965,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/694.json",
+     "kind": "finished",
+     "tokens": 883,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/51.json",
+     "kind": "finished",
+     "tokens": 1467,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/466.json",
+     "kind": "finished",
+     "tokens": 1510,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1252.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/753.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/524.json",
+     "kind": "finished",
+     "tokens": 460,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/580.json",
+     "kind": "finished",
+     "tokens": 1209,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1105.json",
+     "kind": "finished",
+     "tokens": 337,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/351.json",
+     "kind": "finished",
+     "tokens": 582,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1187.json",
+     "kind": "finished",
+     "tokens": 1239,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/452.json",
+     "kind": "finished",
+     "tokens": 682,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/928.json",
+     "kind": "finished",
+     "tokens": 485,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/483.json",
+     "kind": "finished",
+     "tokens": 2561,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/434.json",
+     "kind": "finished",
+     "tokens": 4204,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1339.json",
+     "kind": "finished",
+     "tokens": 654,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2626.json",
+     "kind": "finished",
+     "tokens": 2828,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1350.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1265.json",
+     "kind": "finished",
+     "tokens": 1455,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/353.json",
+     "kind": "finished",
+     "tokens": 591,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/838.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2551.json",
+     "kind": "finished",
+     "tokens": 301,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/965.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/711.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1133.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1572.json",
+     "kind": "finished",
+     "tokens": 935,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1849.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/1140.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/158.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/873.json",
+     "kind": "finished",
+     "tokens": 571,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1423.json",
+     "kind": "finished",
+     "tokens": 685,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/572.json",
+     "kind": "finished",
+     "tokens": 550,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/2152.json",
+     "kind": "finished",
+     "tokens": 3608,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1197.json",
+     "kind": "finished",
+     "tokens": 2840,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/769.json",
+     "kind": "finished",
+     "tokens": 985,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1032.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 1474
+    },
+    {
+     "id": "test/algebra/2046.json",
+     "kind": "finished",
+     "tokens": 497,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/263.json",
+     "kind": "finished",
+     "tokens": 3903,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/1003.json",
+     "kind": "finished",
+     "tokens": 6872,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1004.json",
+     "kind": "finished",
+     "tokens": 391,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2592.json",
+     "kind": "finished",
+     "tokens": 441,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/473.json",
+     "kind": "finished",
+     "tokens": 492,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/101.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/114.json",
+     "kind": "finished",
+     "tokens": 602,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1199.json",
+     "kind": "finished",
+     "tokens": 6978,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/410.json",
+     "kind": "finished",
+     "tokens": 1219,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/342.json",
+     "kind": "finished",
+     "tokens": 344,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/1009.json",
+     "kind": "finished",
+     "tokens": 4847,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1796.json",
+     "kind": "finished",
+     "tokens": 667,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/817.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/731.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/893.json",
+     "kind": "finished",
+     "tokens": 2998,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/697.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 6384
+    },
+    {
+     "id": "test/prealgebra/996.json",
+     "kind": "finished",
+     "tokens": 1049,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/190.json",
+     "kind": "finished",
+     "tokens": 544,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1558.json",
+     "kind": "finished",
+     "tokens": 607,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/121.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/46.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 5031
+    },
+    {
+     "id": "test/algebra/346.json",
+     "kind": "finished",
+     "tokens": 289,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/172.json",
+     "kind": "finished",
+     "tokens": 2431,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2043.json",
+     "kind": "finished",
+     "tokens": 1212,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/769.json",
+     "kind": "finished",
+     "tokens": 402,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/623.json",
+     "kind": "finished",
+     "tokens": 2155,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1806.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/13.json",
+     "kind": "finished",
+     "tokens": 7496,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/2086.json",
+     "kind": "finished",
+     "tokens": 646,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/101.json",
+     "kind": "finished",
+     "tokens": 789,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1201.json",
+     "kind": "finished",
+     "tokens": 589,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/117.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/558.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/795.json",
+     "kind": "finished",
+     "tokens": 7827,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/846.json",
+     "kind": "finished",
+     "tokens": 615,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/305.json",
+     "kind": "finished",
+     "tokens": 488,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1000.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    }
+   ]
+  },
+  "6.0/block1": {
+   "seconds": 1859.5,
+   "rows": [
+    {
+     "id": "test/algebra/1214.json",
+     "kind": "finished",
+     "tokens": 266,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/722.json",
+     "kind": "finished",
+     "tokens": 2414,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1922.json",
+     "kind": "finished",
+     "tokens": 345,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/117.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/156.json",
+     "kind": "finished",
+     "tokens": 7707,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/508.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/892.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/459.json",
+     "kind": "finished",
+     "tokens": 1005,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1090.json",
+     "kind": "finished",
+     "tokens": 6354,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/621.json",
+     "kind": "finished",
+     "tokens": 1300,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/230.json",
+     "kind": "finished",
+     "tokens": 1237,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1072.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/860.json",
+     "kind": "finished",
+     "tokens": 410,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2199.json",
+     "kind": "finished",
+     "tokens": 400,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/625.json",
+     "kind": "finished",
+     "tokens": 731,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/742.json",
+     "kind": "finished",
+     "tokens": 1175,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/181.json",
+     "kind": "finished",
+     "tokens": 7910,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/802.json",
+     "kind": "finished",
+     "tokens": 389,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/521.json",
+     "kind": "finished",
+     "tokens": 6378,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1126.json",
+     "kind": "finished",
+     "tokens": 1178,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/248.json",
+     "kind": "finished",
+     "tokens": 532,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/686.json",
+     "kind": "finished",
+     "tokens": 5643,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/71.json",
+     "kind": "finished",
+     "tokens": 462,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2277.json",
+     "kind": "finished",
+     "tokens": 1347,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1217.json",
+     "kind": "finished",
+     "tokens": 1406,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1410.json",
+     "kind": "finished",
+     "tokens": 2533,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1837.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/694.json",
+     "kind": "finished",
+     "tokens": 981,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/51.json",
+     "kind": "finished",
+     "tokens": 2622,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/466.json",
+     "kind": "finished",
+     "tokens": 4196,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1252.json",
+     "kind": "finished",
+     "tokens": 1122,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/753.json",
+     "kind": "finished",
+     "tokens": 2972,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/524.json",
+     "kind": "finished",
+     "tokens": 1151,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/580.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1105.json",
+     "kind": "finished",
+     "tokens": 2271,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/351.json",
+     "kind": "finished",
+     "tokens": 779,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1187.json",
+     "kind": "finished",
+     "tokens": 5082,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/452.json",
+     "kind": "finished",
+     "tokens": 759,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/928.json",
+     "kind": "finished",
+     "tokens": 564,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/483.json",
+     "kind": "finished",
+     "tokens": 679,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/434.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1339.json",
+     "kind": "finished",
+     "tokens": 586,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2626.json",
+     "kind": "finished",
+     "tokens": 1207,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1350.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1265.json",
+     "kind": "finished",
+     "tokens": 1001,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/353.json",
+     "kind": "finished",
+     "tokens": 781,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/838.json",
+     "kind": "finished",
+     "tokens": 1189,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2551.json",
+     "kind": "finished",
+     "tokens": 2525,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/965.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/711.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1133.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1572.json",
+     "kind": "finished",
+     "tokens": 454,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1849.json",
+     "kind": "finished",
+     "tokens": 1129,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/1140.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/158.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/873.json",
+     "kind": "finished",
+     "tokens": 564,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1423.json",
+     "kind": "finished",
+     "tokens": 2549,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/572.json",
+     "kind": "finished",
+     "tokens": 427,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/2152.json",
+     "kind": "finished",
+     "tokens": 2658,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1197.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/769.json",
+     "kind": "finished",
+     "tokens": 1808,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1032.json",
+     "kind": "finished",
+     "tokens": 4920,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2046.json",
+     "kind": "finished",
+     "tokens": 478,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/263.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/1003.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1004.json",
+     "kind": "finished",
+     "tokens": 353,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2592.json",
+     "kind": "finished",
+     "tokens": 414,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/473.json",
+     "kind": "finished",
+     "tokens": 494,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/101.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/114.json",
+     "kind": "finished",
+     "tokens": 433,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1199.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/410.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/342.json",
+     "kind": "finished",
+     "tokens": 400,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/1009.json",
+     "kind": "finished",
+     "tokens": 4068,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1796.json",
+     "kind": "finished",
+     "tokens": 738,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/817.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/731.json",
+     "kind": "finished",
+     "tokens": 7251,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/893.json",
+     "kind": "finished",
+     "tokens": 1303,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/697.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/996.json",
+     "kind": "finished",
+     "tokens": 457,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/190.json",
+     "kind": "finished",
+     "tokens": 473,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1558.json",
+     "kind": "finished",
+     "tokens": 647,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/121.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/46.json",
+     "kind": "finished",
+     "tokens": 480,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/346.json",
+     "kind": "finished",
+     "tokens": 292,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/172.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2043.json",
+     "kind": "finished",
+     "tokens": 759,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/769.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/623.json",
+     "kind": "finished",
+     "tokens": 7837,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1806.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/13.json",
+     "kind": "finished",
+     "tokens": 1079,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/2086.json",
+     "kind": "finished",
+     "tokens": 668,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/101.json",
+     "kind": "finished",
+     "tokens": 554,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1201.json",
+     "kind": "finished",
+     "tokens": 6601,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/117.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/558.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/795.json",
+     "kind": "finished",
+     "tokens": 973,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/846.json",
+     "kind": "finished",
+     "tokens": 707,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/305.json",
+     "kind": "finished",
+     "tokens": 473,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1000.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    }
+   ]
+  },
+  "0.0/block2": {
+   "seconds": 1738.4,
+   "rows": [
+    {
+     "id": "test/intermediate_algebra/102.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1622.json",
+     "kind": "finished",
+     "tokens": 602,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/239.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/96.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/561.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2264.json",
+     "kind": "finished",
+     "tokens": 557,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/44.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1924.json",
+     "kind": "finished",
+     "tokens": 196,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/446.json",
+     "kind": "finished",
+     "tokens": 1343,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1837.json",
+     "kind": "finished",
+     "tokens": 773,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/465.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/615.json",
+     "kind": "finished",
+     "tokens": 1503,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1510.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/990.json",
+     "kind": "finished",
+     "tokens": 2201,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2680.json",
+     "kind": "finished",
+     "tokens": 415,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/972.json",
+     "kind": "finished",
+     "tokens": 5833,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1930.json",
+     "kind": "finished",
+     "tokens": 7452,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/105.json",
+     "kind": "finished",
+     "tokens": 422,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/824.json",
+     "kind": "finished",
+     "tokens": 871,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1082.json",
+     "kind": "finished",
+     "tokens": 1663,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/116.json",
+     "kind": "finished",
+     "tokens": 754,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/1097.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/465.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/132.json",
+     "kind": "finished",
+     "tokens": 1225,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/582.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1973.json",
+     "kind": "finished",
+     "tokens": 2388,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/960.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/702.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1578.json",
+     "kind": "finished",
+     "tokens": 981,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1508.json",
+     "kind": "finished",
+     "tokens": 2971,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1289.json",
+     "kind": "finished",
+     "tokens": 294,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/10.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2253.json",
+     "kind": "finished",
+     "tokens": 442,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2023.json",
+     "kind": "finished",
+     "tokens": 1033,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/2046.json",
+     "kind": "finished",
+     "tokens": 5677,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/425.json",
+     "kind": "finished",
+     "tokens": 395,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/229.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 3211
+    },
+    {
+     "id": "test/intermediate_algebra/1232.json",
+     "kind": "finished",
+     "tokens": 884,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/203.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 4615
+    },
+    {
+     "id": "test/intermediate_algebra/1354.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1555.json",
+     "kind": "finished",
+     "tokens": 591,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1002.json",
+     "kind": "finished",
+     "tokens": 7137,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/572.json",
+     "kind": "finished",
+     "tokens": 538,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/260.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2570.json",
+     "kind": "finished",
+     "tokens": 5338,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/199.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/894.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/870.json",
+     "kind": "finished",
+     "tokens": 8145,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1640.json",
+     "kind": "finished",
+     "tokens": 4139,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1349.json",
+     "kind": "finished",
+     "tokens": 3414,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1128.json",
+     "kind": "finished",
+     "tokens": 1581,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1210.json",
+     "kind": "finished",
+     "tokens": 1814,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/192.json",
+     "kind": "finished",
+     "tokens": 346,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1172.json",
+     "kind": "finished",
+     "tokens": 1552,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1908.json",
+     "kind": "finished",
+     "tokens": 1536,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/187.json",
+     "kind": "finished",
+     "tokens": 2747,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/339.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/627.json",
+     "kind": "finished",
+     "tokens": 1211,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/183.json",
+     "kind": "finished",
+     "tokens": 4675,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1252.json",
+     "kind": "finished",
+     "tokens": 496,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/283.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/977.json",
+     "kind": "finished",
+     "tokens": 2116,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1343.json",
+     "kind": "finished",
+     "tokens": 988,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/803.json",
+     "kind": "finished",
+     "tokens": 604,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/864.json",
+     "kind": "finished",
+     "tokens": 627,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/282.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2391.json",
+     "kind": "finished",
+     "tokens": 1652,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/951.json",
+     "kind": "finished",
+     "tokens": 719,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1388.json",
+     "kind": "finished",
+     "tokens": 537,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1547.json",
+     "kind": "finished",
+     "tokens": 594,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/232.json",
+     "kind": "finished",
+     "tokens": 7013,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/357.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1272.json",
+     "kind": "finished",
+     "tokens": 405,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/2019.json",
+     "kind": "finished",
+     "tokens": 352,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1199.json",
+     "kind": "finished",
+     "tokens": 535,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2486.json",
+     "kind": "finished",
+     "tokens": 543,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/456.json",
+     "kind": "finished",
+     "tokens": 499,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/226.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1044.json",
+     "kind": "finished",
+     "tokens": 341,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/106.json",
+     "kind": "finished",
+     "tokens": 1245,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/347.json",
+     "kind": "finished",
+     "tokens": 819,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1098.json",
+     "kind": "finished",
+     "tokens": 234,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2058.json",
+     "kind": "finished",
+     "tokens": 1070,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1405.json",
+     "kind": "finished",
+     "tokens": 1142,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1332.json",
+     "kind": "finished",
+     "tokens": 609,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1458.json",
+     "kind": "finished",
+     "tokens": 361,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/947.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/991.json",
+     "kind": "finished",
+     "tokens": 1957,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/768.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/598.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/183.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/2037.json",
+     "kind": "finished",
+     "tokens": 509,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1544.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2157.json",
+     "kind": "finished",
+     "tokens": 488,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/634.json",
+     "kind": "finished",
+     "tokens": 838,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1166.json",
+     "kind": "finished",
+     "tokens": 7794,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1454.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/1014.json",
+     "kind": "finished",
+     "tokens": 3284,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1834.json",
+     "kind": "finished",
+     "tokens": 239,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1113.json",
+     "kind": "finished",
+     "tokens": 3050,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    }
+   ]
+  },
+  "6.0/block2": {
+   "seconds": 1727.8,
+   "rows": [
+    {
+     "id": "test/intermediate_algebra/102.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1622.json",
+     "kind": "finished",
+     "tokens": 1060,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/239.json",
+     "kind": "finished",
+     "tokens": 1007,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/96.json",
+     "kind": "finished",
+     "tokens": 4334,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/561.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2264.json",
+     "kind": "finished",
+     "tokens": 3344,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/44.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1924.json",
+     "kind": "finished",
+     "tokens": 187,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/446.json",
+     "kind": "finished",
+     "tokens": 7500,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1837.json",
+     "kind": "finished",
+     "tokens": 2276,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/465.json",
+     "kind": "finished",
+     "tokens": 4952,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/615.json",
+     "kind": "finished",
+     "tokens": 1244,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1510.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/990.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2680.json",
+     "kind": "finished",
+     "tokens": 369,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/972.json",
+     "kind": "finished",
+     "tokens": 1219,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1930.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/105.json",
+     "kind": "finished",
+     "tokens": 235,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/824.json",
+     "kind": "finished",
+     "tokens": 901,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1082.json",
+     "kind": "finished",
+     "tokens": 717,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/116.json",
+     "kind": "finished",
+     "tokens": 732,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/1097.json",
+     "kind": "finished",
+     "tokens": 1560,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/465.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/132.json",
+     "kind": "finished",
+     "tokens": 879,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/582.json",
+     "kind": "finished",
+     "tokens": 5441,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1973.json",
+     "kind": "finished",
+     "tokens": 392,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/960.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/702.json",
+     "kind": "finished",
+     "tokens": 1561,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1578.json",
+     "kind": "finished",
+     "tokens": 1619,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1508.json",
+     "kind": "finished",
+     "tokens": 3154,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1289.json",
+     "kind": "finished",
+     "tokens": 244,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/10.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2253.json",
+     "kind": "finished",
+     "tokens": 480,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2023.json",
+     "kind": "finished",
+     "tokens": 549,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/2046.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/425.json",
+     "kind": "finished",
+     "tokens": 401,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/229.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1232.json",
+     "kind": "finished",
+     "tokens": 1556,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/203.json",
+     "kind": "finished",
+     "tokens": 3908,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1354.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1555.json",
+     "kind": "finished",
+     "tokens": 348,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1002.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/572.json",
+     "kind": "finished",
+     "tokens": 513,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/260.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2570.json",
+     "kind": "finished",
+     "tokens": 509,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/199.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/894.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/870.json",
+     "kind": "finished",
+     "tokens": 3830,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1640.json",
+     "kind": "finished",
+     "tokens": 934,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1349.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1128.json",
+     "kind": "finished",
+     "tokens": 1830,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1210.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/192.json",
+     "kind": "finished",
+     "tokens": 316,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1172.json",
+     "kind": "finished",
+     "tokens": 984,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1908.json",
+     "kind": "finished",
+     "tokens": 558,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/187.json",
+     "kind": "finished",
+     "tokens": 3708,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/339.json",
+     "kind": "finished",
+     "tokens": 6078,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/627.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/183.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1252.json",
+     "kind": "finished",
+     "tokens": 877,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/283.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/977.json",
+     "kind": "finished",
+     "tokens": 1705,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1343.json",
+     "kind": "finished",
+     "tokens": 611,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/803.json",
+     "kind": "finished",
+     "tokens": 5130,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/864.json",
+     "kind": "finished",
+     "tokens": 5917,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/282.json",
+     "kind": "finished",
+     "tokens": 8175,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2391.json",
+     "kind": "finished",
+     "tokens": 789,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/951.json",
+     "kind": "finished",
+     "tokens": 1604,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1388.json",
+     "kind": "finished",
+     "tokens": 459,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1547.json",
+     "kind": "finished",
+     "tokens": 508,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/232.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/357.json",
+     "kind": "finished",
+     "tokens": 1187,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1272.json",
+     "kind": "finished",
+     "tokens": 373,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/2019.json",
+     "kind": "finished",
+     "tokens": 397,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1199.json",
+     "kind": "finished",
+     "tokens": 812,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2486.json",
+     "kind": "finished",
+     "tokens": 660,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/456.json",
+     "kind": "finished",
+     "tokens": 1286,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/226.json",
+     "kind": "finished",
+     "tokens": 1555,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1044.json",
+     "kind": "finished",
+     "tokens": 1679,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/106.json",
+     "kind": "finished",
+     "tokens": 604,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/347.json",
+     "kind": "finished",
+     "tokens": 699,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1098.json",
+     "kind": "finished",
+     "tokens": 201,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2058.json",
+     "kind": "finished",
+     "tokens": 942,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1405.json",
+     "kind": "finished",
+     "tokens": 990,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1332.json",
+     "kind": "finished",
+     "tokens": 514,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1458.json",
+     "kind": "finished",
+     "tokens": 322,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/947.json",
+     "kind": "finished",
+     "tokens": 1182,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/991.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/768.json",
+     "kind": "finished",
+     "tokens": 3706,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/598.json",
+     "kind": "finished",
+     "tokens": 454,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/183.json",
+     "kind": "finished",
+     "tokens": 4717,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/2037.json",
+     "kind": "finished",
+     "tokens": 730,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1544.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2157.json",
+     "kind": "finished",
+     "tokens": 376,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/634.json",
+     "kind": "finished",
+     "tokens": 759,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1166.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1454.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/1014.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1834.json",
+     "kind": "finished",
+     "tokens": 360,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1113.json",
+     "kind": "finished",
+     "tokens": 956,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    }
+   ]
+  },
+  "0.0/block3": {
+   "seconds": 1685.2,
+   "rows": [
+    {
+     "id": "test/intermediate_algebra/834.json",
+     "kind": "finished",
+     "tokens": 1272,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/679.json",
+     "kind": "finished",
+     "tokens": 2084,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/826.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/224.json",
+     "kind": "finished",
+     "tokens": 761,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2517.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1686.json",
+     "kind": "finished",
+     "tokens": 390,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/914.json",
+     "kind": "finished",
+     "tokens": 620,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1936.json",
+     "kind": "finished",
+     "tokens": 285,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2176.json",
+     "kind": "finished",
+     "tokens": 6967,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1436.json",
+     "kind": "finished",
+     "tokens": 684,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2476.json",
+     "kind": "finished",
+     "tokens": 1257,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/483.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/251.json",
+     "kind": "finished",
+     "tokens": 309,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/199.json",
+     "kind": "finished",
+     "tokens": 5360,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/853.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 8128
+    },
+    {
+     "id": "test/prealgebra/1865.json",
+     "kind": "finished",
+     "tokens": 837,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/894.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/34.json",
+     "kind": "finished",
+     "tokens": 808,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/761.json",
+     "kind": "finished",
+     "tokens": 6304,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/183.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 97
+    },
+    {
+     "id": "test/algebra/1814.json",
+     "kind": "finished",
+     "tokens": 1870,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/477.json",
+     "kind": "finished",
+     "tokens": 907,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/634.json",
+     "kind": "finished",
+     "tokens": 1425,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1082.json",
+     "kind": "finished",
+     "tokens": 2365,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1257.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 7875
+    },
+    {
+     "id": "test/intermediate_algebra/1247.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/529.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/377.json",
+     "kind": "finished",
+     "tokens": 7314,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/541.json",
+     "kind": "finished",
+     "tokens": 803,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/807.json",
+     "kind": "finished",
+     "tokens": 715,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/927.json",
+     "kind": "finished",
+     "tokens": 903,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/109.json",
+     "kind": "finished",
+     "tokens": 1842,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1462.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 7268
+    },
+    {
+     "id": "test/algebra/1787.json",
+     "kind": "finished",
+     "tokens": 1473,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/24313.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1787.json",
+     "kind": "finished",
+     "tokens": 599,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2700.json",
+     "kind": "finished",
+     "tokens": 5919,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1275.json",
+     "kind": "finished",
+     "tokens": 6981,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/435.json",
+     "kind": "finished",
+     "tokens": 374,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1303.json",
+     "kind": "finished",
+     "tokens": 461,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1281.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/216.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1994.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1457.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1907.json",
+     "kind": "finished",
+     "tokens": 392,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/47.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/681.json",
+     "kind": "finished",
+     "tokens": 5864,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/398.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1761.json",
+     "kind": "finished",
+     "tokens": 256,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/1108.json",
+     "kind": "finished",
+     "tokens": 328,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1981.json",
+     "kind": "finished",
+     "tokens": 650,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/880.json",
+     "kind": "finished",
+     "tokens": 6916,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/518.json",
+     "kind": "finished",
+     "tokens": 562,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/703.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1111.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1143.json",
+     "kind": "finished",
+     "tokens": 1085,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/801.json",
+     "kind": "finished",
+     "tokens": 5433,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/89.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/659.json",
+     "kind": "finished",
+     "tokens": 1201,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/819.json",
+     "kind": "finished",
+     "tokens": 501,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2251.json",
+     "kind": "finished",
+     "tokens": 4320,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1555.json",
+     "kind": "finished",
+     "tokens": 686,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/255.json",
+     "kind": "finished",
+     "tokens": 987,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/967.json",
+     "kind": "finished",
+     "tokens": 655,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1003.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1422.json",
+     "kind": "finished",
+     "tokens": 1740,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/930.json",
+     "kind": "finished",
+     "tokens": 435,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1411.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/993.json",
+     "kind": "finished",
+     "tokens": 389,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1807.json",
+     "kind": "finished",
+     "tokens": 371,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1227.json",
+     "kind": "finished",
+     "tokens": 468,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/246.json",
+     "kind": "finished",
+     "tokens": 2535,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2159.json",
+     "kind": "finished",
+     "tokens": 1244,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/931.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/23957.json",
+     "kind": "finished",
+     "tokens": 521,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1519.json",
+     "kind": "finished",
+     "tokens": 1892,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/690.json",
+     "kind": "finished",
+     "tokens": 764,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/567.json",
+     "kind": "finished",
+     "tokens": 609,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/686.json",
+     "kind": "finished",
+     "tokens": 576,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/2196.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/779.json",
+     "kind": "finished",
+     "tokens": 5271,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/988.json",
+     "kind": "finished",
+     "tokens": 2011,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/662.json",
+     "kind": "finished",
+     "tokens": 2806,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/666.json",
+     "kind": "finished",
+     "tokens": 7916,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/73.json",
+     "kind": "finished",
+     "tokens": 612,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/22.json",
+     "kind": "finished",
+     "tokens": 5759,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/849.json",
+     "kind": "finished",
+     "tokens": 323,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/2066.json",
+     "kind": "finished",
+     "tokens": 594,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/149.json",
+     "kind": "finished",
+     "tokens": 5020,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1804.json",
+     "kind": "finished",
+     "tokens": 740,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/733.json",
+     "kind": "finished",
+     "tokens": 5789,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1123.json",
+     "kind": "finished",
+     "tokens": 942,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/14.json",
+     "kind": "finished",
+     "tokens": 318,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/276.json",
+     "kind": "finished",
+     "tokens": 686,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/902.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 7526
+    },
+    {
+     "id": "test/prealgebra/805.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/234.json",
+     "kind": "finished",
+     "tokens": 1261,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1512.json",
+     "kind": "finished",
+     "tokens": 664,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1961.json",
+     "kind": "finished",
+     "tokens": 725,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1300.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    }
+   ]
+  },
+  "6.0/block3": {
+   "seconds": 1694.7,
+   "rows": [
+    {
+     "id": "test/intermediate_algebra/834.json",
+     "kind": "finished",
+     "tokens": 952,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/679.json",
+     "kind": "finished",
+     "tokens": 5695,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/826.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/224.json",
+     "kind": "finished",
+     "tokens": 969,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2517.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1686.json",
+     "kind": "finished",
+     "tokens": 411,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/914.json",
+     "kind": "finished",
+     "tokens": 814,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1936.json",
+     "kind": "finished",
+     "tokens": 364,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2176.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": true,
+     "onset": 8086
+    },
+    {
+     "id": "test/prealgebra/1436.json",
+     "kind": "finished",
+     "tokens": 2068,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2476.json",
+     "kind": "finished",
+     "tokens": 1267,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/483.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/251.json",
+     "kind": "finished",
+     "tokens": 296,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/199.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/853.json",
+     "kind": "finished",
+     "tokens": 888,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1865.json",
+     "kind": "finished",
+     "tokens": 790,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/894.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/34.json",
+     "kind": "finished",
+     "tokens": 3101,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/761.json",
+     "kind": "finished",
+     "tokens": 4739,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/183.json",
+     "kind": "finished",
+     "tokens": 7624,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1814.json",
+     "kind": "finished",
+     "tokens": 5402,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/477.json",
+     "kind": "finished",
+     "tokens": 797,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/634.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1082.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1257.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1247.json",
+     "kind": "finished",
+     "tokens": 1150,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/529.json",
+     "kind": "finished",
+     "tokens": 1907,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/377.json",
+     "kind": "finished",
+     "tokens": 4904,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/541.json",
+     "kind": "finished",
+     "tokens": 1410,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/807.json",
+     "kind": "finished",
+     "tokens": 549,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/927.json",
+     "kind": "finished",
+     "tokens": 1061,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/109.json",
+     "kind": "finished",
+     "tokens": 7707,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1462.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1787.json",
+     "kind": "finished",
+     "tokens": 485,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/24313.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 8092
+    },
+    {
+     "id": "test/prealgebra/1787.json",
+     "kind": "finished",
+     "tokens": 787,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2700.json",
+     "kind": "finished",
+     "tokens": 5132,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1275.json",
+     "kind": "finished",
+     "tokens": 1853,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/435.json",
+     "kind": "finished",
+     "tokens": 360,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1303.json",
+     "kind": "finished",
+     "tokens": 340,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1281.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/216.json",
+     "kind": "finished",
+     "tokens": 1393,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1994.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1457.json",
+     "kind": "finished",
+     "tokens": 832,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1907.json",
+     "kind": "finished",
+     "tokens": 403,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/47.json",
+     "kind": "finished",
+     "tokens": 2733,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/681.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/398.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1761.json",
+     "kind": "finished",
+     "tokens": 396,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/1108.json",
+     "kind": "finished",
+     "tokens": 384,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1981.json",
+     "kind": "finished",
+     "tokens": 1334,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/880.json",
+     "kind": "finished",
+     "tokens": 1144,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/518.json",
+     "kind": "finished",
+     "tokens": 664,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/703.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1111.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1143.json",
+     "kind": "finished",
+     "tokens": 1267,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/801.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/89.json",
+     "kind": "finished",
+     "tokens": 3079,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/659.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/819.json",
+     "kind": "finished",
+     "tokens": 618,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2251.json",
+     "kind": "finished",
+     "tokens": 380,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1555.json",
+     "kind": "finished",
+     "tokens": 669,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/255.json",
+     "kind": "finished",
+     "tokens": 1067,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/967.json",
+     "kind": "finished",
+     "tokens": 559,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1003.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1422.json",
+     "kind": "finished",
+     "tokens": 4155,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/930.json",
+     "kind": "finished",
+     "tokens": 1270,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1411.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/993.json",
+     "kind": "finished",
+     "tokens": 406,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1807.json",
+     "kind": "finished",
+     "tokens": 465,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1227.json",
+     "kind": "finished",
+     "tokens": 1355,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/246.json",
+     "kind": "finished",
+     "tokens": 1718,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2159.json",
+     "kind": "finished",
+     "tokens": 580,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/931.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/23957.json",
+     "kind": "finished",
+     "tokens": 744,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1519.json",
+     "kind": "finished",
+     "tokens": 458,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/690.json",
+     "kind": "finished",
+     "tokens": 1614,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/567.json",
+     "kind": "finished",
+     "tokens": 554,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/686.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/2196.json",
+     "kind": "finished",
+     "tokens": 957,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/779.json",
+     "kind": "finished",
+     "tokens": 580,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/988.json",
+     "kind": "finished",
+     "tokens": 356,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/662.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/666.json",
+     "kind": "finished",
+     "tokens": 279,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/73.json",
+     "kind": "finished",
+     "tokens": 512,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/22.json",
+     "kind": "finished",
+     "tokens": 850,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/849.json",
+     "kind": "finished",
+     "tokens": 294,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/2066.json",
+     "kind": "finished",
+     "tokens": 1784,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/149.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1804.json",
+     "kind": "finished",
+     "tokens": 698,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/733.json",
+     "kind": "finished",
+     "tokens": 7264,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1123.json",
+     "kind": "finished",
+     "tokens": 3912,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/14.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/276.json",
+     "kind": "finished",
+     "tokens": 721,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/902.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/805.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/234.json",
+     "kind": "finished",
+     "tokens": 1095,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1512.json",
+     "kind": "finished",
+     "tokens": 1267,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1961.json",
+     "kind": "finished",
+     "tokens": 340,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1300.json",
+     "kind": "finished",
+     "tokens": 1154,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    }
+   ]
+  },
+  "0.0/block4": {
+   "seconds": 1687.2,
+   "rows": [
+    {
+     "id": "test/algebra/1035.json",
+     "kind": "finished",
+     "tokens": 567,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/389.json",
+     "kind": "finished",
+     "tokens": 569,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/362.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1779.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2064.json",
+     "kind": "finished",
+     "tokens": 892,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/907.json",
+     "kind": "finished",
+     "tokens": 783,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1743.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/25149.json",
+     "kind": "finished",
+     "tokens": 1939,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/509.json",
+     "kind": "finished",
+     "tokens": 1066,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1714.json",
+     "kind": "finished",
+     "tokens": 407,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/109.json",
+     "kind": "finished",
+     "tokens": 459,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/846.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/279.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1172.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/591.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/145.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/134.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/178.json",
+     "kind": "finished",
+     "tokens": 669,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1201.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/954.json",
+     "kind": "finished",
+     "tokens": 1037,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1529.json",
+     "kind": "finished",
+     "tokens": 386,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1078.json",
+     "kind": "finished",
+     "tokens": 790,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1014.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/190.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1898.json",
+     "kind": "finished",
+     "tokens": 1387,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1317.json",
+     "kind": "finished",
+     "tokens": 321,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/858.json",
+     "kind": "finished",
+     "tokens": 375,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/24.json",
+     "kind": "finished",
+     "tokens": 566,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/737.json",
+     "kind": "finished",
+     "tokens": 1259,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/533.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 8124
+    },
+    {
+     "id": "test/counting_and_probability/430.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1114.json",
+     "kind": "finished",
+     "tokens": 3159,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/686.json",
+     "kind": "finished",
+     "tokens": 746,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1185.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 5380
+    },
+    {
+     "id": "test/counting_and_probability/913.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": true,
+     "boxed": true,
+     "onset": 7550
+    },
+    {
+     "id": "test/precalculus/1300.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/153.json",
+     "kind": "finished",
+     "tokens": 841,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1388.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/986.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1139.json",
+     "kind": "finished",
+     "tokens": 1143,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/776.json",
+     "kind": "finished",
+     "tokens": 1059,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/170.json",
+     "kind": "finished",
+     "tokens": 498,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/190.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1233.json",
+     "kind": "finished",
+     "tokens": 867,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/668.json",
+     "kind": "finished",
+     "tokens": 681,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/207.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 6408
+    },
+    {
+     "id": "test/counting_and_probability/1060.json",
+     "kind": "finished",
+     "tokens": 1274,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1128.json",
+     "kind": "finished",
+     "tokens": 539,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/505.json",
+     "kind": "finished",
+     "tokens": 399,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/691.json",
+     "kind": "finished",
+     "tokens": 964,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/911.json",
+     "kind": "finished",
+     "tokens": 1306,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/221.json",
+     "kind": "finished",
+     "tokens": 4847,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1251.json",
+     "kind": "finished",
+     "tokens": 1481,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/43.json",
+     "kind": "finished",
+     "tokens": 328,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1146.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/612.json",
+     "kind": "finished",
+     "tokens": 997,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/776.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1313.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2232.json",
+     "kind": "finished",
+     "tokens": 385,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1102.json",
+     "kind": "finished",
+     "tokens": 1368,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1287.json",
+     "kind": "finished",
+     "tokens": 1964,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/826.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/477.json",
+     "kind": "finished",
+     "tokens": 986,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/427.json",
+     "kind": "finished",
+     "tokens": 1569,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/2015.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/323.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2430.json",
+     "kind": "finished",
+     "tokens": 1931,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/754.json",
+     "kind": "finished",
+     "tokens": 7880,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1302.json",
+     "kind": "finished",
+     "tokens": 389,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/431.json",
+     "kind": "finished",
+     "tokens": 282,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1238.json",
+     "kind": "finished",
+     "tokens": 531,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1791.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1960.json",
+     "kind": "finished",
+     "tokens": 561,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1279.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/820.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/428.json",
+     "kind": "finished",
+     "tokens": 3388,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1055.json",
+     "kind": "finished",
+     "tokens": 4235,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/337.json",
+     "kind": "finished",
+     "tokens": 3355,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1742.json",
+     "kind": "finished",
+     "tokens": 605,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1784.json",
+     "kind": "finished",
+     "tokens": 237,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1937.json",
+     "kind": "finished",
+     "tokens": 394,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/297.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/791.json",
+     "kind": "finished",
+     "tokens": 5407,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1056.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2779.json",
+     "kind": "finished",
+     "tokens": 2225,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/128.json",
+     "kind": "finished",
+     "tokens": 6472,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/188.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/499.json",
+     "kind": "finished",
+     "tokens": 1800,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/847.json",
+     "kind": "finished",
+     "tokens": 287,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/914.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/134.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1356.json",
+     "kind": "finished",
+     "tokens": 516,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/874.json",
+     "kind": "finished",
+     "tokens": 8078,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1733.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/378.json",
+     "kind": "finished",
+     "tokens": 5874,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/65.json",
+     "kind": "finished",
+     "tokens": 1978,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/986.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 5471
+    },
+    {
+     "id": "test/number_theory/978.json",
+     "kind": "finished",
+     "tokens": 567,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1553.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1298.json",
+     "kind": "finished",
+     "tokens": 319,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    }
+   ]
+  },
+  "6.0/block4": {
+   "seconds": 1703.0,
+   "rows": [
+    {
+     "id": "test/algebra/1035.json",
+     "kind": "finished",
+     "tokens": 506,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/389.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/362.json",
+     "kind": "finished",
+     "tokens": 6947,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1779.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2064.json",
+     "kind": "finished",
+     "tokens": 853,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/907.json",
+     "kind": "finished",
+     "tokens": 737,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1743.json",
+     "kind": "finished",
+     "tokens": 905,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/25149.json",
+     "kind": "finished",
+     "tokens": 610,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/509.json",
+     "kind": "finished",
+     "tokens": 6468,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1714.json",
+     "kind": "finished",
+     "tokens": 344,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/109.json",
+     "kind": "finished",
+     "tokens": 371,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/846.json",
+     "kind": "finished",
+     "tokens": 2123,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/279.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1172.json",
+     "kind": "finished",
+     "tokens": 5871,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/591.json",
+     "kind": "finished",
+     "tokens": 3753,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/145.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/134.json",
+     "kind": "finished",
+     "tokens": 497,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/178.json",
+     "kind": "finished",
+     "tokens": 514,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1201.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/954.json",
+     "kind": "finished",
+     "tokens": 1753,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1529.json",
+     "kind": "finished",
+     "tokens": 334,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1078.json",
+     "kind": "finished",
+     "tokens": 1364,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1014.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/190.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1898.json",
+     "kind": "finished",
+     "tokens": 824,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1317.json",
+     "kind": "finished",
+     "tokens": 482,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/858.json",
+     "kind": "finished",
+     "tokens": 411,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/24.json",
+     "kind": "finished",
+     "tokens": 659,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/737.json",
+     "kind": "finished",
+     "tokens": 1786,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/533.json",
+     "kind": "finished",
+     "tokens": 2539,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/430.json",
+     "kind": "finished",
+     "tokens": 977,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1114.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/686.json",
+     "kind": "finished",
+     "tokens": 593,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1185.json",
+     "kind": "finished",
+     "tokens": 798,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/913.json",
+     "kind": "finished",
+     "tokens": 597,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1300.json",
+     "kind": "finished",
+     "tokens": 1840,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/153.json",
+     "kind": "finished",
+     "tokens": 547,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1388.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/986.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1139.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/776.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/170.json",
+     "kind": "finished",
+     "tokens": 1266,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/190.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1233.json",
+     "kind": "finished",
+     "tokens": 781,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/668.json",
+     "kind": "finished",
+     "tokens": 437,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/207.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/1060.json",
+     "kind": "finished",
+     "tokens": 613,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1128.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/505.json",
+     "kind": "finished",
+     "tokens": 1129,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/691.json",
+     "kind": "finished",
+     "tokens": 765,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/911.json",
+     "kind": "finished",
+     "tokens": 2798,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/221.json",
+     "kind": "finished",
+     "tokens": 3606,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1251.json",
+     "kind": "finished",
+     "tokens": 2531,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/43.json",
+     "kind": "finished",
+     "tokens": 337,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1146.json",
+     "kind": "finished",
+     "tokens": 2812,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/612.json",
+     "kind": "finished",
+     "tokens": 493,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/776.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1313.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2232.json",
+     "kind": "finished",
+     "tokens": 343,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1102.json",
+     "kind": "finished",
+     "tokens": 1082,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1287.json",
+     "kind": "finished",
+     "tokens": 8113,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/826.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/477.json",
+     "kind": "finished",
+     "tokens": 6481,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/427.json",
+     "kind": "finished",
+     "tokens": 946,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/2015.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/323.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2430.json",
+     "kind": "finished",
+     "tokens": 5460,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/754.json",
+     "kind": "finished",
+     "tokens": 3686,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1302.json",
+     "kind": "finished",
+     "tokens": 574,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/431.json",
+     "kind": "finished",
+     "tokens": 729,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1238.json",
+     "kind": "finished",
+     "tokens": 617,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1791.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1960.json",
+     "kind": "finished",
+     "tokens": 810,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/1279.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 8095
+    },
+    {
+     "id": "test/number_theory/820.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/428.json",
+     "kind": "finished",
+     "tokens": 7330,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/1055.json",
+     "kind": "loop",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": 8047
+    },
+    {
+     "id": "test/intermediate_algebra/337.json",
+     "kind": "finished",
+     "tokens": 615,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1742.json",
+     "kind": "finished",
+     "tokens": 659,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1784.json",
+     "kind": "finished",
+     "tokens": 506,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1937.json",
+     "kind": "finished",
+     "tokens": 449,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/297.json",
+     "kind": "finished",
+     "tokens": 1747,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/791.json",
+     "kind": "finished",
+     "tokens": 1101,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/1056.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/2779.json",
+     "kind": "finished",
+     "tokens": 686,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/intermediate_algebra/128.json",
+     "kind": "finished",
+     "tokens": 1324,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/188.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/499.json",
+     "kind": "finished",
+     "tokens": 2862,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/847.json",
+     "kind": "finished",
+     "tokens": 336,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/914.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/counting_and_probability/134.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1356.json",
+     "kind": "finished",
+     "tokens": 574,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/874.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1733.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/378.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/geometry/65.json",
+     "kind": "finished",
+     "tokens": 2261,
+     "correct": false,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/precalculus/986.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/number_theory/978.json",
+     "kind": "finished",
+     "tokens": 896,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    },
+    {
+     "id": "test/algebra/1553.json",
+     "kind": "long",
+     "tokens": 8192,
+     "correct": false,
+     "boxed": false,
+     "onset": null
+    },
+    {
+     "id": "test/prealgebra/1298.json",
+     "kind": "finished",
+     "tokens": 232,
+     "correct": true,
+     "boxed": true,
+     "onset": null
+    }
+   ]
+  }
+ },
+ "stopped_by_the_clock": false
+}

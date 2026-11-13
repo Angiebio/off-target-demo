@@ -1,0 +1,15 @@
+# Off-Target · .gitignore
+# Weights, caches and raw generations stay out of git. Results that a reader needs
+# to check a claim (small JSON, one figure, the two direction vectors) stay in.
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.env
+.venv/
+*.safetensors
+!results/*.safetensors
+results/raw/
+data/
+explore/raw/

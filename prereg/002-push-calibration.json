@@ -1,0 +1,82 @@
+{
+ "note": "Factors that make each random direction push as hard as the published edit. Generated, do not edit.",
+ "label": "PVC, isolated",
+ "lists": 28,
+ "measured_on": "the unedited model's activations on the tokens of each correct handoff",
+ "wiring": {
+  "max_logit_change_at_published_dose": 0.94140625,
+  "restored_exactly": true
+ },
+ "push_of_the_edit": {
+  "L15": 1.8741027627672469,
+  "L19": 1.8384915051006137
+ },
+ "push_of_the_usual_random_control": {
+  "random:0": {
+   "L15": 0.346754031876723,
+   "L19": 0.4834447176683517
+  },
+  "random:1": {
+   "L15": 0.4924053262387003,
+   "L19": 0.2943038578544344
+  },
+  "random:2": {
+   "L15": 0.24799617645995958,
+   "L19": 0.3606733222092901
+  },
+  "random:3": {
+   "L15": 0.4160216794837089,
+   "L19": 0.3232436126896313
+  },
+  "random:4": {
+   "L15": 1.2032197955108823,
+   "L19": 0.48402529671078637
+  },
+  "random:5": {
+   "L15": 0.9066001999945867,
+   "L19": 0.8766414906297412
+  },
+  "random:6": {
+   "L15": 1.1304729552496047,
+   "L19": 0.4234403737244152
+  },
+  "random:7": {
+   "L15": 1.0756803311052776,
+   "L19": 0.1993357003444717
+  }
+ },
+ "scales": {
+  "random:0": {
+   "L15": 5.4047,
+   "L19": 3.8029
+  },
+  "random:1": {
+   "L15": 3.806,
+   "L19": 6.2469
+  },
+  "random:2": {
+   "L15": 7.557,
+   "L19": 5.0974
+  },
+  "random:3": {
+   "L15": 4.5048,
+   "L19": 5.6876
+  },
+  "random:4": {
+   "L15": 1.5576,
+   "L19": 3.7983
+  },
+  "random:5": {
+   "L15": 2.0672,
+   "L19": 2.0972
+  },
+  "random:6": {
+   "L15": 1.6578,
+   "L19": 4.3418
+  },
+  "random:7": {
+   "L15": 1.7422,
+   "L19": 9.2231
+  }
+ }
+}

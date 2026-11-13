@@ -1,0 +1,229 @@
+{
+ "schema": "offtarget.default_report/0.1",
+ "prereg": "prereg/003-default-mode-full.md",
+ "problems_complete": 500,
+ "four_accuracies": {
+  "n": 500,
+  "unedited": {
+   "thinking_on_published": 0.079,
+   "thinking_off_ours": 0.444
+  },
+  "edited": {
+   "thinking_on_published": 0.481,
+   "thinking_off_ours": 0.442
+  }
+ },
+ "pilots_hundred": {
+  "n": 100,
+  "unedited_right": 41,
+  "edited_right": 40,
+  "published_edited_thinking": 0.475,
+  "published_unedited_thinking": 0.0925,
+  "pilot_unedited_right": 50,
+  "right_both_times": 34,
+  "right_in_the_pilot_only": 16,
+  "right_this_time_only": 7
+ },
+ "by_block": {
+  "block0": {
+   "n": 100,
+   "unedited_right": 41,
+   "edited_right": 40,
+   "published_edited_thinking": 0.475,
+   "published_unedited_thinking": 0.0925
+  },
+  "block1": {
+   "n": 100,
+   "unedited_right": 50,
+   "edited_right": 47,
+   "published_edited_thinking": 0.495,
+   "published_unedited_thinking": 0.0675
+  },
+  "block2": {
+   "n": 100,
+   "unedited_right": 43,
+   "edited_right": 44,
+   "published_edited_thinking": 0.495,
+   "published_unedited_thinking": 0.1075
+  },
+  "block3": {
+   "n": 100,
+   "unedited_right": 43,
+   "edited_right": 49,
+   "published_edited_thinking": 0.5,
+   "published_unedited_thinking": 0.065
+  },
+  "block4": {
+   "n": 100,
+   "unedited_right": 45,
+   "edited_right": 41,
+   "published_edited_thinking": 0.44,
+   "published_unedited_thinking": 0.0625
+  }
+ },
+ "by_ending": {
+  "0.0": {
+   "finished": {
+    "n": 342,
+    "right": 220
+   },
+   "loop": {
+    "n": 55,
+    "right": 1
+   },
+   "whitespace": {
+    "n": 1,
+    "right": 0
+   },
+   "long": {
+    "n": 102,
+    "right": 1
+   }
+  },
+  "6.0": {
+   "finished": {
+    "n": 352,
+    "right": 219
+   },
+   "loop": {
+    "n": 16,
+    "right": 1
+   },
+   "whitespace": {
+    "n": 0,
+    "right": 0
+   },
+   "long": {
+    "n": 132,
+    "right": 1
+   }
+  }
+ },
+ "moves": {
+  "finished -> finished": {
+   "n": 293,
+   "right_unedited": 204,
+   "right_edited": 197,
+   "gained": 28,
+   "lost": 35
+  },
+  "finished -> long": {
+   "n": 45,
+   "right_unedited": 14,
+   "right_edited": 1,
+   "gained": 1,
+   "lost": 14
+  },
+  "finished -> loop": {
+   "n": 4,
+   "right_unedited": 2,
+   "right_edited": 1,
+   "gained": 0,
+   "lost": 1
+  },
+  "long -> finished": {
+   "n": 32,
+   "right_unedited": 0,
+   "right_edited": 12,
+   "gained": 12,
+   "lost": 0
+  },
+  "long -> long": {
+   "n": 63,
+   "right_unedited": 1,
+   "right_edited": 0,
+   "gained": 0,
+   "lost": 1
+  },
+  "long -> loop": {
+   "n": 7,
+   "right_unedited": 0,
+   "right_edited": 0,
+   "gained": 0,
+   "lost": 0
+  },
+  "loop -> finished": {
+   "n": 26,
+   "right_unedited": 1,
+   "right_edited": 10,
+   "gained": 10,
+   "lost": 1
+  },
+  "loop -> long": {
+   "n": 24,
+   "right_unedited": 0,
+   "right_edited": 0,
+   "gained": 0,
+   "lost": 0
+  },
+  "loop -> loop": {
+   "n": 5,
+   "right_unedited": 0,
+   "right_edited": 0,
+   "gained": 0,
+   "lost": 0
+  },
+  "whitespace -> finished": {
+   "n": 1,
+   "right_unedited": 0,
+   "right_edited": 0,
+   "gained": 0,
+   "lost": 0
+  }
+ },
+ "by_subject": {
+  "algebra": {
+   "n": 124,
+   "unedited_right": 91,
+   "edited_right": 86,
+   "published_edited_thinking": 0.7580645161290323,
+   "published_unedited_thinking": 0.16330645161290322
+  },
+  "counting_and_probability": {
+   "n": 38,
+   "unedited_right": 12,
+   "edited_right": 8,
+   "published_edited_thinking": 0.3157894736842105,
+   "published_unedited_thinking": 0.019736842105263157
+  },
+  "geometry": {
+   "n": 41,
+   "unedited_right": 18,
+   "edited_right": 17,
+   "published_edited_thinking": 0.3902439024390244,
+   "published_unedited_thinking": 0.04878048780487805
+  },
+  "intermediate_algebra": {
+   "n": 97,
+   "unedited_right": 20,
+   "edited_right": 23,
+   "published_edited_thinking": 0.23711340206185566,
+   "published_unedited_thinking": 0.005154639175257732
+  },
+  "number_theory": {
+   "n": 62,
+   "unedited_right": 24,
+   "edited_right": 26,
+   "published_edited_thinking": 0.43951612903225806,
+   "published_unedited_thinking": 0.016129032258064516
+  },
+  "prealgebra": {
+   "n": 82,
+   "unedited_right": 42,
+   "edited_right": 43,
+   "published_edited_thinking": 0.5884146341463414,
+   "published_unedited_thinking": 0.14939024390243902
+  },
+  "precalculus": {
+   "n": 56,
+   "unedited_right": 15,
+   "edited_right": 18,
+   "published_edited_thinking": 0.35714285714285715,
+   "published_unedited_thinking": 0.049107142857142856
+  }
+ },
+ "mean_tokens": {
+  "0.0": 3771.1,
+  "6.0": 3563.084
+ }
+}

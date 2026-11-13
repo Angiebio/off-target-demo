@@ -1,0 +1,628 @@
+{
+ "schema": "offtarget.ghostbeat_report/0.1",
+ "prereg": "prereg/002-identical-lines-and-twins.md",
+ "status": "registered run",
+ "analysis_set": 103,
+ "arms": {
+  "dose:0": {
+   "S": {
+    "n": 103,
+    "short": 0,
+    "long": 0,
+    "exact": 103
+   },
+   "all": {
+    "n": 280,
+    "short": 87,
+    "long": 10,
+    "exact": 183
+   },
+   "mean_p_stop_line3": 0.1928671875,
+   "push_relative_to_edit": {
+    "L15": 0.0,
+    "L19": 0.0
+   }
+  },
+  "dose:1": {
+   "S": {
+    "n": 103,
+    "short": 23,
+    "long": 1,
+    "exact": 79
+   },
+   "all": {
+    "n": 280,
+    "short": 110,
+    "long": 11,
+    "exact": 159
+   },
+   "mean_p_stop_line3": 0.23548062500000003,
+   "push_relative_to_edit": {
+    "L15": 0.16664819076854123,
+    "L19": 0.166740073184548
+   }
+  },
+  "dose:2": {
+   "S": {
+    "n": 103,
+    "short": 38,
+    "long": 2,
+    "exact": 63
+   },
+   "all": {
+    "n": 280,
+    "short": 125,
+    "long": 12,
+    "exact": 143
+   },
+   "mean_p_stop_line3": 0.2809491875,
+   "push_relative_to_edit": {
+    "L15": 0.3332791748899569,
+    "L19": 0.33331452581195425
+   }
+  },
+  "dose:4": {
+   "S": {
+    "n": 103,
+    "short": 62,
+    "long": 3,
+    "exact": 38
+   },
+   "all": {
+    "n": 280,
+    "short": 149,
+    "long": 11,
+    "exact": 120
+   },
+   "mean_p_stop_line3": 0.36799575,
+   "push_relative_to_edit": {
+    "L15": 0.666627934962676,
+    "L19": 0.6665841440368464
+   }
+  },
+  "dose:6": {
+   "S": {
+    "n": 103,
+    "short": 75,
+    "long": 3,
+    "exact": 25
+   },
+   "all": {
+    "n": 280,
+    "short": 165,
+    "long": 7,
+    "exact": 108
+   },
+   "mean_p_stop_line3": 0.42958468749999995,
+   "push_relative_to_edit": {
+    "L15": 1.0,
+    "L19": 1.0
+   }
+  },
+  "dose:-2": {
+   "S": {
+    "n": 103,
+    "short": 0,
+    "long": 5,
+    "exact": 98
+   },
+   "all": {
+    "n": 280,
+    "short": 53,
+    "long": 17,
+    "exact": 210
+   },
+   "mean_p_stop_line3": 0.1301709375,
+   "push_relative_to_edit": {
+    "L15": 0.3333001364310663,
+    "L19": 0.3334317576964336
+   }
+  },
+  "dose:-6": {
+   "S": {
+    "n": 103,
+    "short": 60,
+    "long": 0,
+    "exact": 43
+   },
+   "all": {
+    "n": 280,
+    "short": 171,
+    "long": 2,
+    "exact": 107
+   },
+   "mean_p_stop_line3": 0.0551171875,
+   "push_relative_to_edit": {
+    "L15": 0.9999280986468326,
+    "L19": 1.0001160374326874
+   }
+  },
+  "only:15": {
+   "S": {
+    "n": 103,
+    "short": 76,
+    "long": 2,
+    "exact": 25
+   },
+   "all": {
+    "n": 280,
+    "short": 166,
+    "long": 6,
+    "exact": 108
+   },
+   "mean_p_stop_line3": 0.43263187500000005,
+   "push_relative_to_edit": {
+    "L15": 1.0,
+    "L19": 0.0
+   }
+  },
+  "only:19": {
+   "S": {
+    "n": 103,
+    "short": 51,
+    "long": 0,
+    "exact": 52
+   },
+   "all": {
+    "n": 280,
+    "short": 139,
+    "long": 8,
+    "exact": 133
+   },
+   "mean_p_stop_line3": 0.255271625,
+   "push_relative_to_edit": {
+    "L15": 0.0,
+    "L19": 1.0
+   }
+  },
+  "random:0": {
+   "S": {
+    "n": 103,
+    "short": 0,
+    "long": 1,
+    "exact": 102
+   },
+   "all": {
+    "n": 280,
+    "short": 75,
+    "long": 12,
+    "exact": 193
+   },
+   "mean_p_stop_line3": 0.22390012499999998,
+   "push_relative_to_edit": {
+    "L15": 0.2106190522855256,
+    "L19": 0.11132985747228485
+   }
+  },
+  "random:1": {
+   "S": {
+    "n": 103,
+    "short": 26,
+    "long": 0,
+    "exact": 77
+   },
+   "all": {
+    "n": 280,
+    "short": 115,
+    "long": 6,
+    "exact": 159
+   },
+   "mean_p_stop_line3": 0.19311225,
+   "push_relative_to_edit": {
+    "L15": 0.26348444818639977,
+    "L19": 0.19739391859877473
+   }
+  },
+  "random:2": {
+   "S": {
+    "n": 103,
+    "short": 0,
+    "long": 5,
+    "exact": 98
+   },
+   "all": {
+    "n": 280,
+    "short": 67,
+    "long": 17,
+    "exact": 196
+   },
+   "mean_p_stop_line3": 0.1706023125,
+   "push_relative_to_edit": {
+    "L15": 0.15510528809367297,
+    "L19": 0.16906005562293558
+   }
+  },
+  "matched:0": {
+   "S": {
+    "n": 103,
+    "short": 69,
+    "long": 4,
+    "exact": 30
+   },
+   "all": {
+    "n": 280,
+    "short": 168,
+    "long": 13,
+    "exact": 99
+   },
+   "mean_p_stop_line3": 0.328068625,
+   "push_relative_to_edit": {
+    "L15": 1.138317306406314,
+    "L19": 0.4233732880262557
+   }
+  },
+  "matched:1": {
+   "S": {
+    "n": 103,
+    "short": 42,
+    "long": 4,
+    "exact": 57
+   },
+   "all": {
+    "n": 280,
+    "short": 122,
+    "long": 7,
+    "exact": 151
+   },
+   "mean_p_stop_line3": 0.0269604375,
+   "push_relative_to_edit": {
+    "L15": 1.0029558628121245,
+    "L19": 1.2327638298486046
+   }
+  },
+  "matched:2": {
+   "S": {
+    "n": 103,
+    "short": 87,
+    "long": 7,
+    "exact": 9
+   },
+   "all": {
+    "n": 280,
+    "short": 220,
+    "long": 16,
+    "exact": 44
+   },
+   "mean_p_stop_line3": 0.0230746875,
+   "push_relative_to_edit": {
+    "L15": 1.1722859720943253,
+    "L19": 0.8617642092208773
+   }
+  },
+  "matched:3": {
+   "S": {
+    "n": 103,
+    "short": 22,
+    "long": 1,
+    "exact": 80
+   },
+   "all": {
+    "n": 280,
+    "short": 100,
+    "long": 3,
+    "exact": 177
+   },
+   "mean_p_stop_line3": 0.07927775000000001,
+   "push_relative_to_edit": {
+    "L15": 0.7243281739641061,
+    "L19": 1.4472781661216496
+   }
+  },
+  "matched:4": {
+   "S": {
+    "n": 103,
+    "short": 85,
+    "long": 0,
+    "exact": 18
+   },
+   "all": {
+    "n": 280,
+    "short": 181,
+    "long": 1,
+    "exact": 98
+   },
+   "mean_p_stop_line3": 0.2207465,
+   "push_relative_to_edit": {
+    "L15": 0.9041951590149215,
+    "L19": 0.42894377270696454
+   }
+  },
+  "matched:5": {
+   "S": {
+    "n": 103,
+    "short": 76,
+    "long": 0,
+    "exact": 27
+   },
+   "all": {
+    "n": 280,
+    "short": 166,
+    "long": 5,
+    "exact": 109
+   },
+   "mean_p_stop_line3": 0.1889476875,
+   "push_relative_to_edit": {
+    "L15": 0.8523784178537437,
+    "L19": 0.8001017418352309
+   }
+  },
+  "matched:6": {
+   "S": {
+    "n": 103,
+    "short": 0,
+    "long": 36,
+    "exact": 67
+   },
+   "all": {
+    "n": 280,
+    "short": 12,
+    "long": 74,
+    "exact": 194
+   },
+   "mean_p_stop_line3": 0.11227287500000001,
+   "push_relative_to_edit": {
+    "L15": 0.738566983667582,
+    "L19": 1.4106446648373503
+   }
+  },
+  "matched:7": {
+   "S": {
+    "n": 103,
+    "short": 63,
+    "long": 0,
+    "exact": 40
+   },
+   "all": {
+    "n": 280,
+    "short": 153,
+    "long": 6,
+    "exact": 121
+   },
+   "mean_p_stop_line3": 0.098899125,
+   "push_relative_to_edit": {
+    "L15": 0.8055331071261526,
+    "L19": 1.2626782982338038
+   }
+  }
+ },
+ "by_label": {
+  "VT run, 5 beats": {
+   "lists": 56,
+   "unedited_exact": 31,
+   "unedited_short": 18,
+   "unedited_long": 7,
+   "S": 15,
+   "edit_short_in_S": 4,
+   "edit_long_in_S": 3,
+   "mean_p_stop_line3": {
+    "dose:0": 0.25361625,
+    "dose:6": 0.4796146875
+   }
+  },
+  "bradycardia, 44 bpm": {
+   "lists": 56,
+   "unedited_exact": 41,
+   "unedited_short": 15,
+   "unedited_long": 0,
+   "S": 25,
+   "edit_short_in_S": 15,
+   "edit_long_in_S": 0,
+   "mean_p_stop_line3": {
+    "dose:0": 0.1154690625,
+    "dose:6": 0.35938375
+   }
+  },
+  "SpO2 low, 87%": {
+   "lists": 56,
+   "unedited_exact": 40,
+   "unedited_short": 16,
+   "unedited_long": 0,
+   "S": 24,
+   "edit_short_in_S": 24,
+   "edit_long_in_S": 0,
+   "mean_p_stop_line3": {
+    "dose:0": 0.27252125,
+    "dose:6": 0.534058125
+   }
+  },
+  "couplet, ventricular": {
+   "lists": 56,
+   "unedited_exact": 30,
+   "unedited_short": 24,
+   "unedited_long": 2,
+   "S": 14,
+   "edit_short_in_S": 11,
+   "edit_long_in_S": 0,
+   "mean_p_stop_line3": {
+    "dose:0": 0.2091446875,
+    "dose:6": 0.424421875
+   }
+  },
+  "lead off, V2": {
+   "lists": 56,
+   "unedited_exact": 41,
+   "unedited_short": 14,
+   "unedited_long": 1,
+   "S": 25,
+   "edit_short_in_S": 21,
+   "edit_long_in_S": 0,
+   "mean_p_stop_line3": {
+    "dose:0": 0.1135846875,
+    "dose:6": 0.350445
+   }
+  }
+ },
+ "by_size": {
+  "2": {
+   "lists": 40,
+   "unedited_exact": 40,
+   "unedited_short": 0,
+   "unedited_long": 0,
+   "edit_exact": 40,
+   "edit_short_where_unedited_exact": 0,
+   "edit_long_where_unedited_exact": 0
+  },
+  "3": {
+   "lists": 40,
+   "unedited_exact": 40,
+   "unedited_short": 0,
+   "unedited_long": 0,
+   "edit_exact": 40,
+   "edit_short_where_unedited_exact": 0,
+   "edit_long_where_unedited_exact": 0
+  },
+  "4": {
+   "lists": 40,
+   "unedited_exact": 9,
+   "unedited_short": 31,
+   "unedited_long": 0,
+   "edit_exact": 0,
+   "edit_short_where_unedited_exact": 9,
+   "edit_long_where_unedited_exact": 0
+  },
+  "5": {
+   "lists": 40,
+   "unedited_exact": 38,
+   "unedited_short": 2,
+   "unedited_long": 0,
+   "edit_exact": 8,
+   "edit_short_where_unedited_exact": 30,
+   "edit_long_where_unedited_exact": 0
+  },
+  "6": {
+   "lists": 40,
+   "unedited_exact": 18,
+   "unedited_short": 22,
+   "unedited_long": 0,
+   "edit_exact": 3,
+   "edit_short_where_unedited_exact": 16,
+   "edit_long_where_unedited_exact": 0
+  },
+  "7": {
+   "lists": 40,
+   "unedited_exact": 24,
+   "unedited_short": 14,
+   "unedited_long": 2,
+   "edit_exact": 10,
+   "edit_short_where_unedited_exact": 12,
+   "edit_long_where_unedited_exact": 2
+  },
+  "8": {
+   "lists": 40,
+   "unedited_exact": 14,
+   "unedited_short": 18,
+   "unedited_long": 8,
+   "edit_exact": 7,
+   "edit_short_where_unedited_exact": 8,
+   "edit_long_where_unedited_exact": 1
+  }
+ },
+ "lines_written_by_the_edit_on_S": {
+  "4": {
+   "3": 9
+  },
+  "5": {
+   "3": 29,
+   "4": 1,
+   "5": 8
+  },
+  "6": {
+   "3": 10,
+   "5": 6,
+   "6": 2
+  },
+  "7": {
+   "3": 7,
+   "5": 2,
+   "6": 3,
+   "7": 10,
+   "17": 2
+  },
+  "8": {
+   "2": 1,
+   "3": 6,
+   "5": 1,
+   "8": 5,
+   "17": 1
+  }
+ },
+ "twins": {
+  "replay": {
+   "logs": 80,
+   "outcomes": {
+    "dose:0": {
+     "exact": 61,
+     "ghost": 11,
+     "dropped": 6,
+     "other": 2
+    },
+    "dose:6": {
+     "exact": 63,
+     "ghost": 7,
+     "dropped": 6,
+     "both": 1,
+     "other": 3
+    }
+   },
+   "exact_then_not": 4,
+   "not_then_exact": 6
+  },
+  "second": {
+   "logs": 80,
+   "outcomes": {
+    "dose:0": {
+     "exact": 77,
+     "dropped": 3
+    },
+    "dose:6": {
+     "exact": 77,
+     "dropped": 3
+    }
+   },
+   "exact_then_not": 0,
+   "not_then_exact": 0
+  }
+ },
+ "sampled": {
+  "lists": {
+   "logs": 280,
+   "exact": {
+    "dose:0/seed0": 81,
+    "dose:0/seed1": 86,
+    "dose:6/seed0": 68
+   },
+   "short": {
+    "dose:0/seed0": 199,
+    "dose:0/seed1": 194,
+    "dose:6/seed0": 212
+   },
+   "long": {
+    "dose:0/seed0": 0,
+    "dose:0/seed1": 0,
+    "dose:6/seed0": 0
+   },
+   "exactness_differs_between_two_unedited_runs": 5,
+   "exactness_differs_unedited_to_edited": 13
+  },
+  "twins": {
+   "logs": 160,
+   "exact": {
+    "dose:0/seed0": 96,
+    "dose:0/seed1": 101,
+    "dose:6/seed0": 100
+   },
+   "short": {
+    "dose:0/seed0": 47,
+    "dose:0/seed1": 47,
+    "dose:6/seed0": 37
+   },
+   "long": {
+    "dose:0/seed0": 10,
+    "dose:0/seed1": 9,
+    "dose:6/seed0": 13
+   },
+   "exactness_differs_between_two_unedited_runs": 69,
+   "exactness_differs_unedited_to_edited": 20
+  }
+ }
+}

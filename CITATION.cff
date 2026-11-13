@@ -1,0 +1,56 @@
+# Off-Target · CITATION.cff
+# How to cite this repository. GitHub reads this file and shows "Cite this repository".
+# The author list mirrors the article's byline, AI co-author included, because the
+# record should say who did the work. What Flame is: docs/READING-THE-RECORD.md. To cite the work under review, use the authors'
+# own citation, which is the first reference below and is given in full in NOTICE.md.
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software
+title: "Off-Target: a design change review of an AI-authored weight edit"
+abstract: >-
+  A review of the weight edit published in "Sparks of Weight-Space Programming" (Takehi, Teoh,
+  Zhang and Khattab, November 2026), done the way a design change to a regulated product is
+  reviewed: a bit-level diff, provenance checks against the authors' logs, three pre-registered
+  reruns, and a one-command check that recomputes every claimed number from the result files.
+authors:
+  - family-names: Johnson
+    given-names: Angela N.
+    affiliation: The Real Cat Labs
+  - name: "Flame, AI co-author (The Real Cat Labs)"
+version: 0.2.0
+date-released: "2026-11-13"
+license: MIT
+repository-code: "https://github.com/Angiebio/off-target-demo"
+url: "https://github.com/Angiebio/off-target-demo"
+keywords:
+  - mechanistic interpretability
+  - weight editing
+  - change control
+  - pre-registration
+  - reproducibility
+references:
+  - type: blog
+    title: "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights"
+    authors:
+      - family-names: Takehi
+        given-names: Rikiya
+      - family-names: Teoh
+        given-names: Jayden
+      - family-names: Zhang
+        given-names: Alex
+      - family-names: Khattab
+        given-names: Omar
+    url: "https://rikiyat.github.io/blog/weight-space-programming/"
+    year: 2026
+    month: 11
+    notes: "The work under review. Logs at github.com/RikiyaT/lm_understand-logs, commit 4d09ba6, CC BY 4.0."
+  - type: article
+    title: "What really happens when a dev vibes with the code? An empirical study on LLM behavioral divergence in response to expressive code comments"
+    authors:
+      - family-names: Johnson
+        given-names: Angela N.
+    journal: "Frontiers in Artificial Intelligence"
+    volume: 9
+    year: 2026
+    doi: "10.3389/frai.2026.1784973"
+    notes: "A pilot study by this repository's first author, cited in docs/DESIGN.md for the choice to write comments as briefings."

@@ -1,0 +1,266 @@
+{
+ "schema": "offtarget.example_verdict/0.1",
+ "prereg": "prereg/004-the-example-and-both-directions.md",
+ "lists": 480,
+ "Q1": {
+  "verdict": "NOT TESTABLE",
+  "by_example": {
+   "two": {
+    "S": 70,
+    "short": 9,
+    "lengths": {
+     "5": 8,
+     "7": 1
+    },
+    "most_common": [
+     5
+    ],
+    "share_at_the_examples_number": 0.0,
+    "share_at_three": 0.0
+   },
+   "three": {
+    "S": 67,
+    "short": 28,
+    "lengths": {
+     "3": 10,
+     "4": 2,
+     "5": 14,
+     "6": 1,
+     "7": 1
+    },
+    "most_common": [
+     5
+    ],
+    "share_at_the_examples_number": 0.35714285714285715,
+    "share_at_three": 0.35714285714285715
+   },
+   "five": {
+    "S": 42,
+    "short": 20,
+    "lengths": {
+     "5": 14,
+     "6": 5,
+     "7": 1
+    },
+    "most_common": [
+     5
+    ],
+    "share_at_the_examples_number": 0.7,
+    "share_at_three": 0.0
+   }
+  }
+ },
+ "Q2": {
+  "verdict": "MIXED",
+  "by_example": {
+   "two": {
+    "S": 70,
+    "short": 95,
+    "lengths": {
+     "0": 38,
+     "1": 11,
+     "3": 1,
+     "4": 2,
+     "5": 23,
+     "6": 11,
+     "7": 9
+    },
+    "most_common": [
+     0
+    ],
+    "share_at_the_examples_number": 0.0,
+    "share_at_three": 0.010526315789473684
+   },
+   "three": {
+    "S": 67,
+    "short": 118,
+    "lengths": {
+     "0": 34,
+     "1": 16,
+     "3": 4,
+     "4": 2,
+     "5": 33,
+     "6": 18,
+     "7": 11
+    },
+    "most_common": [
+     0
+    ],
+    "share_at_the_examples_number": 0.03389830508474576,
+    "share_at_three": 0.03389830508474576
+   },
+   "five": {
+    "S": 42,
+    "short": 71,
+    "lengths": {
+     "0": 22,
+     "1": 7,
+     "3": 1,
+     "4": 1,
+     "5": 23,
+     "6": 10,
+     "7": 7
+    },
+    "most_common": [
+     5
+    ],
+    "share_at_the_examples_number": 0.323943661971831,
+    "share_at_three": 0.014084507042253521
+   }
+  }
+ },
+ "Q3": {
+  "n": 120,
+  "difference": -0.075,
+  "interval": [
+   -0.12770320152495854,
+   -0.022296798475041464
+  ],
+  "unedited_exact": 67,
+  "reversed_exact": 58,
+  "made_exact": 1,
+  "broken": 10,
+  "unedited_misses": 2,
+  "misses_made_exact": 0,
+  "verdict": "HURTS"
+ },
+ "described": {
+  "short_under_the_edit_by_example": {
+   "three": {
+    "S": 67,
+    "short": 28,
+    "share": 0.417910447761194,
+    "interval": [
+     0.30742116374992556,
+     0.5373028402251399
+    ],
+    "lengths": {
+     "3": 10,
+     "4": 2,
+     "5": 14,
+     "6": 1,
+     "7": 1
+    }
+   },
+   "two": {
+    "S": 70,
+    "short": 9,
+    "share": 0.12857142857142856,
+    "interval": [
+     0.06914021991242263,
+     0.22664968713184502
+    ],
+    "lengths": {
+     "5": 8,
+     "7": 1
+    }
+   },
+   "five": {
+    "S": 42,
+    "short": 20,
+    "share": 0.47619047619047616,
+    "interval": [
+     0.3335936447596496,
+     0.6227778605979295
+    ],
+    "lengths": {
+     "5": 14,
+     "6": 5,
+     "7": 1
+    }
+   },
+   "none": {
+    "S": 74,
+    "short": 4,
+    "share": 0.05405405405405406,
+    "interval": [
+     0.021218668760240082,
+     0.1309056452312503
+    ],
+    "lengths": {
+     "5": 2,
+     "7": 2
+    }
+   }
+  },
+  "exact_share_by_dose_three_example": {
+   "dose:-4": 0.4583333333333333,
+   "dose:-3": 0.4583333333333333,
+   "dose:-2": 0.48333333333333334,
+   "dose:-1": 0.49166666666666664,
+   "dose:0": 0.5583333333333333,
+   "dose:1": 0.5083333333333333,
+   "dose:2": 0.425,
+   "dose:3": 0.43333333333333335,
+   "dose:4": 0.375,
+   "dose:6": 0.36666666666666664
+  },
+  "how_short_handoffs_ended": {
+   "dose:-1": {
+    "short": 1,
+    "with_END": 0,
+    "went_quiet": 1
+   },
+   "dose:-2": {
+    "short": 1,
+    "with_END": 0,
+    "went_quiet": 1
+   },
+   "dose:-3": {
+    "short": 3,
+    "with_END": 2,
+    "went_quiet": 1
+   },
+   "dose:-4": {
+    "short": 6,
+    "with_END": 5,
+    "went_quiet": 1
+   },
+   "dose:0": {
+    "short": 0,
+    "with_END": 0,
+    "went_quiet": 0
+   },
+   "dose:1": {
+    "short": 20,
+    "with_END": 18,
+    "went_quiet": 2
+   },
+   "dose:2": {
+    "short": 45,
+    "with_END": 43,
+    "went_quiet": 2
+   },
+   "dose:3": {
+    "short": 44,
+    "with_END": 43,
+    "went_quiet": 1
+   },
+   "dose:4": {
+    "short": 51,
+    "with_END": 46,
+    "went_quiet": 5
+   },
+   "dose:6": {
+    "short": 61,
+    "with_END": 47,
+    "went_quiet": 14
+   },
+   "matched:2": {
+    "short": 158,
+    "with_END": 12,
+    "went_quiet": 146
+   },
+   "matched:4": {
+    "short": 105,
+    "with_END": 104,
+    "went_quiet": 1
+   },
+   "matched:5": {
+    "short": 92,
+    "with_END": 66,
+    "went_quiet": 26
+   }
+  }
+ }
+}

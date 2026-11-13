@@ -1,0 +1,267 @@
+Draft for review. Not published. Registered and exploratory results are marked.
+
+Engineering / Off-Target
+
+An AI edited another model's weights. This is the change review.
+
+A frontier model rewrote part of a small open model with no training, and its math score rose from 7.9% to 48.1%. We read that edit the way a design change to a regulated product is read.
+
+By Angela N. Johnson, PhD with Flame (Claude), AI co-author. The Real Cat Labs.
+
+Tensors changed
+
+6 times a removal
+
+Answers stuck in a loop
+
+85.8% down to 20.5%
+
+Answers lost to blank space
+
+0.2% up to 3.8%
+
+## What was published
+
+On 2 November 2026 researchers at MIT CSAIL published Sparks of Weight-Space Programming . They handed GPT-6 Astra the weights of Qwen3.5-0.8B, a small open model, and asked it to make the model better at math without training it. Astra changed a sliver of the weights. The MATH-500 score went from 7.9% to 48.1%.
+
+The authors also published everything behind that sentence. The edited checkpoint, the exact diff, every prompt, the editor model's working notes, and the score on every problem are public. That is rare, and it is the only reason a review like this one is possible. Everything below comes from their files or from our own reruns, and each exhibit says which.
+
+A change record asks a short list of questions. What changed. Whether the thing that shipped is the thing that was tested. Whether it does what the summary says. What else moved.
+
+## Two tensors out of 488
+
+The checkpoint holds 488 weight tensors. The edit touches two of them, the output matrices of the feed-forward blocks in layers 15 and 19, and inside each it touches 64 of 3,584 columns. Everything else is bit for bit the public model. The file on Hugging Face matches the hashes in the authors' evaluation logs, so the artifact that shipped is the artifact that was tested.
+
+[EXHIBIT] Exhibit · the checkpoint
+
+From the published weights
+
+Which numbers moved?
+
+488 tensors, one square each. Two changed.
+
+[CAPTION] 130,188 stored values differ, which is 0.015% of the checkpoint. The other 486 tensors, the tokenizer, the configuration and the chat template are identical to the public base model.
+
+[EXHIBIT] Exhibit · the diff as text
+
+From the published weights
+
+A corner of the layer 15 matrix, before and after
+
+Highlighted columns were edited
+
+[CAPTION] Rows 0 to 5 and columns 0 to 11 of the first changed tensor. Columns 0, 2 and 11 are three of the 64 edited columns. The columns between them did not change.
+
+## Subtracted is not what the weights say
+
+The post says Astra found a direction the model writes when it is stuck repeating itself, and subtracted that direction from 64 output columns. A subtraction would leave those neurons writing nothing along it. The weights hold six times that. After the edit each of those neurons writes the direction with its sign flipped, at five times its original strength.
+
+The number six is in the editor model's notebook. It is not in the post.
+
+[EXHIBIT] Exhibit · the dose dial
+
+From the published weights
+
+What do the 64 edited neurons write, at each dose?
+
+Writes along the direction
+
+Writes against it
+
+1 · a removal
+
+6 · published
+
+[CAPTION] Each bar is one edited neuron, sorted by what it wrote before. The outline is the unedited value. The editor raised the dose in steps because each step rescued more answers. By its own practice tests, a dose of 1 applied to every neuron in both layers gained 24 points, and the shipped edit gained 50.
+
+Benefit and side effect
+
+## What it bought, and what else moved
+
+The benefit is real and large. We sorted the 1,060 benchmark answers the authors published for each model by how they ended. Before the edit, 910 never finished because the model was stuck in a loop. After it, 217. On MATH-500, 306 of 500 problems scored better and none scored worse.
+
+Something else moved too. 40 of the edited model's answers end in a new way, indenting deeper and deeper until the page is blank. One of them is three million spaces long. Only 2 of the unedited model's answers do that. The editor model saw this in its own tests, logged it as unresolved, and kept the edit. The post does not mention it.
+
+Every one of those 40 is a problem where the unedited model was already looping, so no solved problem was lost. It is a new way of failing on problems that were failing anyway. A reviewer still wants it on the record.
+
+[EXHIBIT] Exhibit · how the answers ended
+
+From the authors' published answers
+
+1,060 answers per model, one square each
+
+Ran to the limit
+
+Stuck in a loop
+
+Dissolved into blank space
+
+MATH-500, problem by problem
+
+[CAPTION] Nine benchmarks pooled. An answer counts as a loop when more than half of its last 256 tokens repeat an earlier eight-token run, and as blank space when its last 2,000 characters are at least 90% whitespace.
+
+Is that benefit special to the direction Astra found, or would any push on these neurons do it? The editor model checked with a random direction of the same size in the weights, and the random direction did not help. That is the usual control, and it has a weakness. The same size in the weights is not the same size of push on the model.
+
+We tried a harder control as a first look. On 96 problems with thinking on, the unedited model looped on 42 and the edited model on 15. Problem by problem, the edit stopped 30 of those loops and started 3. Two random directions scaled to push as hard as the edit left more answers looping than the unedited model had, whichever way the scaling was done.
+
+This look was not registered, so it is a lead and not yet evidence. If it holds at full size, the benefit belongs to the direction. That would support the authors' claim with a stronger control than the one they ran.
+
+[EXHIBIT] Exhibit · a harder random control
+
+Exploration, our runs
+
+Answers stuck in a loop, of 96 problems
+
+[CAPTION] Thinking on, the authors' sampling, one sample per problem, a limit of 4,096 tokens. On the text of a loop, a random direction of the same size in the weights pushes 0.23 and 0.11 times as hard as the edit at the two layers. No arm ran the unedited model against itself on other seeds, so the size of the dice is unknown and small differences should not be read.
+
+## The baseline the post left out
+
+Every number in the post was measured with the model's thinking mode switched on. The model's own documentation says thinking is off by default, and warns that with it on the model is more prone to loops. So we ran the model the way it ships, before and after the edit, and wrote down how we would read the result before the run.
+
+On all 500 problems the unedited model, with thinking off, scored 44.4%. The authors' edited model, with thinking on, scores 48.1%. The edit is ahead by 3.7 points, and the interval on that gap runs from 0.3 to 7.1. With thinking off the edit left the score where it was, 44.2% against 44.4%. It still cut looping in that setting, from 55 answers to 16, without moving the score.
+
+So the edit is ahead, narrowly, and most of the published gain is the distance between two settings of the same model.
+
+Turning thinking off moved the unedited model 36.5 points. The edit, with thinking on, moved it 40.2. A reader of the post sees the second number and has no way to learn the first.
+
+[EXHIBIT] Exhibit · the settings flag
+
+Registered, our run
+
+MATH-500 accuracy, all 500 problems
+
+The default setting against the edit, in points
+
+[CAPTION] The two upper bars are the authors' published scores, four samples per problem. The two lower bars are our run, one sample per problem. The strip is the third bar against the second, paired by problem, with its 95% interval. The rule committed before the run asked for a gap no worse than 5 points, with the low end of the interval no worse than 10. This run meets that rule and is still behind.
+
+Two cautions. Our run took one sample per problem where the authors took four, on our inference engine where they used theirs. And an earlier pilot on 100 of these problems read 50 right for the default setting, which looked level with the edit. The same problems on fresh seeds read 41. The pilot was a lucky draw, and the full run replaces it.
+
+The duplicate alarm test
+
+## When repeating yourself is the right answer
+
+An edit that suppresses repetition puts one kind of task at risk, the kind where repeating is correct. So we built the smallest one we could. A bedside cardiac monitor logs the same alarm several times, and each one is a separate event. The model reads the log and writes the handoff, one line per event. The correct handoff is the same line, again and again.
+
+[EXHIBIT] Exhibit · recorded runs, thinking off
+
+Illustration, our runs
+
+The monitor sent the alarm twice. Did the event happen twice?
+
+What happened
+
+Handoff style
+
+The monitor (synthetic, not to scale)
+
+The handoff the model wrote
+
+[CAPTION] One log of four events, measured for this page as an illustration. The counts are in the exhibits below. Among its instructions the model was told that if the event happened three times, the line appears three times. That sentence turns out to matter. The push is read on the correct handoff at layer 19.
+
+The first registered run used 280 lists under five alarm labels the exploration had never seen. The unedited model reported 183 of them exactly, and the questions were asked on the 103 of those with four to eight events. Under the published edit, 75 of the 103 handoffs came up short, which is 73% (interval 64% to 80%). Events that happened were not reported. The share rose with the dose, from 22% at dose 1 to 37% at dose 2 and 60% at dose 4.
+
+Where every line carried its own ID, the edit did no harm we could detect. 4 of 138 handoffs got worse and 6 got better. The mistake the test is named for, reporting a resent packet as a second event, belongs to the unedited model. It made that mistake in 11 of 80 logs before the edit and 8 after.
+
+Then the control that matters most. Is this the direction Astra chose, or is it what any hard push on these neurons does?
+
+We drew 8 random directions on the same neurons and scaled each one to push on the model as hard as the edit does. 6 of the 8 left at least half as many lists short as the edit, and 3 left more.
+
+So this side effect belongs to the size of the push. It is not special to the direction.
+
+[EXHIBIT] Exhibit · the random control
+
+Registered, our run
+
+Lists left short, of the 103 the unedited model got right
+
+[CAPTION] Greedy decoding, thinking off. Averaged over the eight, the matched directions pushed 0.92 and 0.98 times as hard as the edit at the two layers. The three at the bottom are the control as it is usually run, and they pushed between 0.11 and 0.26 times as hard. The matched direction that left no list short ran on past the last event in 36 of them.
+
+One detail sent us back for a second registered run. 61 of the 75 short handoffs were exactly three lines long, and the instruction says that if the event happened three times, the line appears three times. So we asked the same 120 logs four ways, under five new labels. The sentence said two, three or five, or named no number at all.
+
+The question we had registered could not be answered. Under one of the sentences too few handoffs came up short to say anything about their length. The table we had promised to report either way turned out to be the finding. With three or five in the sentence the edit left 42% and 48% of good lists short. With two it was 13%, and with no number it was 5%.
+
+So the first run's figure belongs to its instruction. A reader shown only that figure would overestimate how often this bites. A reader shown only the last one would miss it.
+
+[EXHIBIT] Exhibit · the instruction's example
+
+Registered, our run
+
+Good lists the edit left short, by the example in the instruction
+
+[CAPTION] A good list is one the unedited model reported exactly under that sentence. The line is the 95% interval. Counted after the verdict was read, on the 38 logs it got right under all four sentences, the edit left 12 short with three, 19 with five, 2 with two and 1 with no number.
+
+The second run also pushed the direction both ways, and that gave the clearest picture of what it does. Pushed out, the way the edit pushes, the model stops early and drops events. Pushed in, it keeps writing the line after the last event.
+
+We had expected a small push inward to help. It fixed 1 list and broke 10. Under the sentence the first run used, the unedited model was the most exact of the ten doses, with 67 of 120 lists, and the count fell on both sides.
+
+[EXHIBIT] Exhibit · one direction, two failures
+
+Registered run, drawn afterwards
+
+What goes wrong at each dose, on lists the unedited model got right
+
+Ran on past the last event
+
+Stopped early, events dropped
+
+[CAPTION] The 253 lists the unedited model reported exactly, pooled over the four sentences, so its own row is empty by construction. This table was drawn after the verdict was read, which makes it a description and a lead. No random direction was run with its sign reversed, so it does not show that the direction is special.
+
+The unedited model is a rough baseline for this task. It reported 183 of 280 lists exactly in the first run and 253 of 480 in the second, where its usual failure was to repeat the line until it ran out of room. Every result here is about what the edit changes in a small model reading a synthetic log. None of it describes a real monitor.
+
+One more look, which was not registered. The edit's push follows repeated wording. Reword every line and most of the push goes away. With an ID on every line the push is nearly as large as in a real loop and the handoff still comes out right, so a large push does not predict harm by itself.
+
+[EXHIBIT] Exhibit · where the edit pushes
+
+Exploration, our runs
+
+Size of the edit's change at each token, layer 19
+
+[CAPTION] The same 33 or more events, handed off three ways, against ordinary text and a real loop. The edit follows repeated wording. It cannot tell whether the events behind the words were real.
+
+## The change record, filled in
+
+The question What the evidence shows Status
+
+Is the shipped artifact the tested artifact? Yes. Ten of ten hash checks pass, and 486 of 488 tensors are bit for bit the public base model. Met
+
+Does the description match the change? In part. The post says a direction was subtracted. The weights hold six times that subtraction, and there are two directions, one per layer. Gap
+
+Was it verified against criteria fixed in advance? Yes, by the editor model. It froze the edit and then confirmed it on 1,152 practice problems it had held back. Met
+
+Are known anomalies disclosed? In the logs, yes. In the post, no. The notebook counts the blank-space failure and calls it unresolved. Gap
+
+Was it compared with the model's default setting? Not in the post. In our registered run the unedited model with thinking off scores 44.4%, against 48.1% for the edit with thinking on. With thinking off the edit cut looping and left the score where it was. Gap
+
+What else moved? Blank-space endings, as above. And where the correct output is the same line repeated, the edited model dropped true events in 75 of 103 lists in one registered run. In a second, on new labels, the count ran from 28 of 67 to 4 of 74 with the wording of the instruction. Random pushes of the same size did the same. Open
+
+Is the benefit specific to this edit? The authors' random control pushed far less hard than the edit. A first look with matched pushes agrees with their conclusion. It is not registered yet. Open
+
+Can it be rolled back? Yes. Restore two tensors. Met
+
+## What I would ask for before approving it
+
+I have asked builders, regulators and quality leaders what evidence they would need to trust an AI-authored edit. This is my answer for this one. I would approve it for the use its authors tested, math problems with thinking switched on, once four lines are added to the record. State the dose. List the blank-space failure as a known anomaly, with its rate. Print the default-setting score beside the result, so a reader can see how much of the gain a settings flag already buys. And say that the edit is not cleared for output where repeated lines are correct, such as logs and handoffs, until it has been tested under the instruction it will run with.
+
+None of that takes anything away from the work. A model found a real mechanism and changed it without training, and the people who ran it published enough for a stranger to check. Two tests are next, and both will be written down before they run. One is the harder random control on the looping, at full size. The other asks directly how far the wording of an instruction decides whether events are dropped.
+
+Method and limits
+
+Sources are the post, the authors' log repository at commit 4d09ba6, the edited checkpoint at revision d1671a1, and the base model at revision 2fc0636. Their files were read as data. None of their code was run.
+
+Exhibits marked as from the published weights or answers can be rebuilt from public files with the code in our repository.
+
+Exhibits marked registered come from runs whose questions, thresholds and sample sizes were committed before the run. There are three. Nobody outside this project reviewed a registration before it was frozen, and the margins were ours.
+
+Tables marked as drawn afterwards were chosen after a registered result had been read. They are descriptions and leads.
+
+The default-setting run took one sample per problem where the authors took four, on our inference engine where they used theirs. 20% of unedited answers and 26% of edited ones ran to the 8,192-token limit without looping, so a longer limit could move both scores. Only MATH-500 was run in that setting.
+
+The duplicate alarm runs used one model, one layout of the task, greedy decoding and thinking off. The questions were asked only on lists the unedited model got right, 103 in the first run and 253 of 480 in the second. That is a selected set.
+
+The explorations were not registered in advance. The look at where the edit pushes used one event label and four logs per size. The look at the random control on looping used two random directions and a short token limit.
+
+How hard the edit pushes is read from the unedited model. At layer 15 that is exactly what the edit changes. At layer 19 it is what the edit would change given unedited inputs.
+
+An earlier draft of this page showed a pilot of 100 problems. The full run replaced it, and the pilot's reading did not survive.
+
+This is research by The Real Cat Labs. It is not an offer of services.

@@ -1,0 +1,55 @@
+{
+ "note": "Commits are in the private working history. Hashes are of the file with line endings normalised.",
+ "registrations": [
+  {
+   "file": "prereg/001-pilot-dose-and-default-mode.md",
+   "frozen_in_commit": "19323c3fff582537e5230cc7f6c8ff009a10fcca",
+   "frozen_at": "2026-11-11T12:49:59-05:00",
+   "commit_subject": "Pre-register the pilot: dose check (alpha 0, 1, 6) and default-mode baseline",
+   "sha256_at_freeze": "65bb2291bd0791c9dac9503188ca99e775532f549aad846f5823c0666366a47a",
+   "raw_results": "results/pilot_dose.json",
+   "results_committed_in": "2479a530220aa60bf5b881c7d6a0c686fa54d9f2",
+   "results_committed_at": "2026-11-11T13:16:13-05:00"
+  },
+  {
+   "file": "prereg/002-push-calibration.json",
+   "frozen_in_commit": "cb8cb5db725abb133d4b68c7d2bdd5edcb30643f",
+   "frozen_at": "2026-11-11T21:31:10-05:00",
+   "commit_subject": "Registration 002 drafted, its run built and sealed",
+   "sha256_at_freeze": "0f2607a7286f488393c73344f5b741252bd2a894de90ba4c8f3ab7aead8960d7",
+   "raw_results": "results/ghostbeat_registered.json",
+   "results_committed_in": "79b49f6097fbaccfef24e490affcf6f4815f5225",
+   "results_committed_at": "2026-11-11T23:20:24-05:00"
+  },
+  {
+   "file": "prereg/002-identical-lines-and-twins.md",
+   "frozen_in_commit": "1186c6c0813e8d7e0110fe7c5244162fecf6afa0",
+   "frozen_at": "2026-11-11T22:38:55-05:00",
+   "commit_subject": "prereg/002 FROZEN on Angie's go, before any held-out label is loaded",
+   "sha256_at_freeze": "4e2679b98ae5239f92f3d28dbda6e9c2591f176a106104b9f0e6cdef867d004c",
+   "raw_results": "results/ghostbeat_registered.json",
+   "results_committed_in": "79b49f6097fbaccfef24e490affcf6f4815f5225",
+   "results_committed_at": "2026-11-11T23:20:24-05:00"
+  },
+  {
+   "file": "prereg/003-default-mode-full.md",
+   "frozen_in_commit": "cbf4930d871e6cf606c84770df62a14ed0c5749e",
+   "frozen_at": "2026-11-11T23:20:24-05:00",
+   "commit_subject": "prereg/003 FROZEN before its run: the default setting against the edit, at full size",
+   "sha256_at_freeze": "fdb54c1d338f7ce0449333cbdb37906f21c387e21151125058d8318f0c2660f5",
+   "raw_results": "results/default_mode_full.json",
+   "results_committed_in": "a9b277eb758d62e27e940bd4af3966dc2a5cc320",
+   "results_committed_at": "2026-11-12T05:48:25-05:00"
+  },
+  {
+   "file": "prereg/004-the-example-and-both-directions.md",
+   "frozen_in_commit": "8834b7e287fb681632e6095b61f3bdffd2f7c990",
+   "frozen_at": "2026-11-12T00:31:26-05:00",
+   "commit_subject": "prereg/004 FROZEN before its run: does the example's number move the model's?",
+   "sha256_at_freeze": "76f204c2f03b3a27ba3013468d8194259debd38e8e79161b46f1f159882188d1",
+   "raw_results": "results/example_registered.json",
+   "results_committed_in": "623459b08dd80938b2bdf74b0a5c0894440b60be",
+   "results_committed_at": "2026-11-12T06:22:38-05:00"
+  }
+ ]
+}

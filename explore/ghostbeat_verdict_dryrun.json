@@ -1,0 +1,47 @@
+{
+ "schema": "offtarget.ghostbeat_verdict/0.1",
+ "prereg": "prereg/002-identical-lines-and-twins.md",
+ "analysis_set": 8,
+ "lists": 14,
+ "twins": 8,
+ "Q1": {
+  "verdict": "NOT TESTABLE",
+  "n": 8
+ },
+ "Q2": {
+  "verdict": "NOT TESTABLE",
+  "n": 8
+ },
+ "Q3": {
+  "verdict": "NOT READ",
+  "why": "only read if Q1 is supported"
+ },
+ "Q4": {
+  "points_where_p_stop_is_lower": 0.7678571428571429,
+  "points": 56,
+  "unedited_short": 0,
+  "long_share_of_S": {
+   "dose:-6": 0.0,
+   "dose:-2": 0.0
+  },
+  "verdict": "MECHANISM ONLY, SUPPORTED"
+ },
+ "Q5": {
+  "verdict": "NOT TESTABLE",
+  "n": 8
+ },
+ "Q6": {
+  "only:15": {
+   "short_share": 0.625,
+   "p_stop_line3_change": 0.24621125000000002
+  },
+  "only:19": {
+   "short_share": 0.375,
+   "p_stop_line3_change": 0.07476750000000001
+  },
+  "dose:6": {
+   "short_share": 0.625,
+   "p_stop_line3_change": 0.2350075
+  }
+ }
+}

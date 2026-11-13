@@ -1,0 +1,60 @@
+{
+  "schema": "offtarget.published_pairs/0.1",
+  "a": "unedited",
+  "b": "p50c",
+  "problems": 1060,
+  "note": "one published text per problem, taken as the first of the authors' samples. right = the authors' mark for it",
+  "text_is_the_first_sample": {
+    "graded": 685,
+    "agree_with_mark_0": 685,
+    "agree_with_mark_1": 556
+  },
+  "moves": {
+    "finished -> finished": {
+      "n": 137,
+      "a_right": 99,
+      "b_right": 92
+    },
+    "finished -> loop": {
+      "n": 2,
+      "a_right": 2,
+      "b_right": 0
+    },
+    "long -> finished": {
+      "n": 7,
+      "a_right": 0,
+      "b_right": 6
+    },
+    "long -> loop": {
+      "n": 2,
+      "a_right": 0,
+      "b_right": 0
+    },
+    "loop -> finished": {
+      "n": 632,
+      "a_right": 9,
+      "b_right": 316
+    },
+    "loop -> long": {
+      "n": 25,
+      "a_right": 0,
+      "b_right": 0
+    },
+    "loop -> loop": {
+      "n": 213,
+      "a_right": 0,
+      "b_right": 2
+    },
+    "loop -> whitespace": {
+      "n": 40,
+      "a_right": 0,
+      "b_right": 0
+    },
+    "whitespace -> finished": {
+      "n": 2,
+      "a_right": 0,
+      "b_right": 1
+    }
+  },
+  "longest_blank_answer_chars": 3662028
+}

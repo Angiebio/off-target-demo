@@ -1,0 +1,75 @@
+{
+  "schema": "offtarget.sidecar/0.1",
+  "files": {
+    "LICENSE": {
+      "base": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
+      "edited": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
+      "same": true
+    },
+    "README.md": {
+      "base": "87a163af54f32fa608a0f8d3ac67945c53dd2b4a7c96740b3d7fdc28e8458864",
+      "edited": "cc464ae319a6907a944e5d8920388cba8989d9fe83ea9c9d5eae4ee65c4dd5a3",
+      "same": false
+    },
+    "chat_template.jinja": {
+      "base": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+      "edited": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+      "same": true
+    },
+    "config.json": {
+      "base": "b90b86f35c8e6925ef74ee04d0e758f0a845c83a42089ad82bbaa948de9b4204",
+      "edited": "b90b86f35c8e6925ef74ee04d0e758f0a845c83a42089ad82bbaa948de9b4204",
+      "same": true
+    },
+    "merges.txt": {
+      "base": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+      "edited": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+      "same": true
+    },
+    "model.safetensors.index.json": {
+      "base": "d8a08838a613b025eb7952ed9db11696213e57e76a375661ef5c12f9dd5dcf4e",
+      "edited": "d8a08838a613b025eb7952ed9db11696213e57e76a375661ef5c12f9dd5dcf4e",
+      "same": true
+    },
+    "preprocessor_config.json": {
+      "base": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+      "edited": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+      "same": true
+    },
+    "tokenizer.json": {
+      "base": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "edited": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "same": true
+    },
+    "tokenizer_config.json": {
+      "base": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+      "edited": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+      "same": true
+    },
+    "video_preprocessor_config.json": {
+      "base": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+      "edited": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+      "same": true
+    },
+    "vocab.json": {
+      "base": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+      "edited": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+      "same": true
+    }
+  },
+  "same": [
+    "LICENSE",
+    "chat_template.jinja",
+    "config.json",
+    "merges.txt",
+    "model.safetensors.index.json",
+    "preprocessor_config.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "video_preprocessor_config.json",
+    "vocab.json"
+  ],
+  "different": [
+    "README.md"
+  ]
+}

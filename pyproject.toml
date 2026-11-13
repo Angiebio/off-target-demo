@@ -1,0 +1,62 @@
+# offtarget · pyproject.toml
+# v0.2 · 13NOV2026 (v0.1 11NOV2026; v0.2 names every dependency with a range, adds the
+#                   lint rules, and splits the heavy extras from what a check needs)
+#
+# Practical: makes `offtarget` an installable package so every tool runs as
+# `python -m offtarget.<tool>` from anywhere, with no path tricks.
+#   pip install -e ".[dev]"        tests, lint and `python -m offtarget.verify` (CPU only)
+#   pip install -e ".[dev,run]"    also what it takes to run the model again (GPU)
+#
+# Philosophical: the code that reads downloaded weights runs in isolated mode (-I),
+# which means Python will not quietly import whatever happens to sit in the current
+# folder. An audit tool should not be the easiest thing in the room to tamper with.
+# The dependency ranges are part of the same thought. A check that passes today and
+# breaks next year because a library moved is a check with an expiry date nobody wrote
+# down, so each range names the version this was run on and stops at the next major.
+
+[build-system]
+requires = ["setuptools>=77"]     # 77 is the first that reads the licence as a plain SPDX string
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "offtarget"
+version = "0.2.0"
+description = "A design change review of an AI-authored weight edit: the diff, the provenance, the registered reruns, and a one-command check."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Angela N. Johnson" }, { name = "Flame, AI co-author (The Real Cat Labs)" }]
+keywords = ["mechanistic interpretability", "weight editing", "change control", "pre-registration", "reproducibility"]
+# Run on: torch 2.11, safetensors 0.8, numpy 2.5, tokenizers 0.23, math-verify 0.9 (Python 3.13).
+dependencies = [
+    "torch>=2.4,<3",
+    "safetensors>=0.4,<1",
+    "numpy>=1.26,<3",
+    "tokenizers>=0.20,<1",
+    "math-verify>=0.8,<1",
+]
+
+[project.optional-dependencies]
+run = ["transformers>=5.22,<6", "accelerate>=1.0,<2", "datasets>=3,<6", "matplotlib>=3.8,<4"]
+dev = ["pytest>=8,<10", "ruff>=0.6,<1"]
+
+[tool.setuptools.packages.find]
+include = ["offtarget*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+# Lint. The line length is long on purpose: the comments here are prose, and a table of
+# numbers reads better on one line than folded into three. E501 is therefore off, and
+# the rules that catch real mistakes (unused names, shadowed loops, bare excepts) are on.
+[tool.ruff]
+line-length = 160
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I", "UP"]
+ignore = ["E501", "E731", "E741", "B905"]
+
+[tool.ruff.lint.per-file-ignores]
+"page/export_data.py" = ["E402"]
+"explore/*.py" = ["E402"]

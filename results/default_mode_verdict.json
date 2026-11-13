@@ -1,0 +1,59 @@
+{
+ "schema": "offtarget.default_verdict/0.1",
+ "prereg": "prereg/003-default-mode-full.md",
+ "problems_complete": 500,
+ "problems_planned": 500,
+ "Q1": {
+  "n": 500,
+  "difference": -0.037,
+  "interval": [
+   -0.07116644539870023,
+   -0.002833554601299762
+  ],
+  "default_mode_accuracy": 0.444,
+  "published_edited_thinking_accuracy": 0.481,
+  "verdict": "AS GOOD OR BETTER"
+ },
+ "Q2": {
+  "n": 500,
+  "difference": -0.002,
+  "interval": [
+   -0.04182311172742922,
+   0.037823111727429214
+  ],
+  "unedited_accuracy": 0.444,
+  "edited_accuracy": 0.442,
+  "only_unedited_right": 52,
+  "only_edited_right": 51,
+  "verdict": "NO DIFFERENCE DETECTED"
+ },
+ "endings": {
+  "0.0": {
+   "finished": 342,
+   "loop": 55,
+   "whitespace": 1,
+   "long": 102,
+   "mean_tokens": 3771.1
+  },
+  "6.0": {
+   "finished": 352,
+   "loop": 16,
+   "whitespace": 0,
+   "long": 132,
+   "mean_tokens": 3563.084
+  },
+  "unedited_to_edited": {
+   "finished -> finished": 293,
+   "finished -> long": 45,
+   "finished -> loop": 4,
+   "long -> finished": 32,
+   "long -> long": 63,
+   "long -> loop": 7,
+   "loop -> finished": 26,
+   "loop -> long": 24,
+   "loop -> loop": 5,
+   "whitespace -> finished": 1
+  }
+ },
+ "published_unedited_thinking_accuracy": 0.079
+}

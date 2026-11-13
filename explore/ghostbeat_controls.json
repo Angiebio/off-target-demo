@@ -1,0 +1,5153 @@
+{
+ "schema": "offtarget.ghostbeat_controls/0.1",
+ "status": "exploration, not registered, not evidence",
+ "wiring": {
+  "max_logit_change_at_published_dose": 0.94140625,
+  "restored_exactly": true
+ },
+ "wording": {
+  "same wording, IDs": {
+   "L15": {
+    "0": {
+     "tokens": 80,
+     "mean_push": 1.1133535265922547,
+     "mean_write": 2.0621646881103515,
+     "ratio_of_means": 0.5398955442363177
+    },
+    "1-3": {
+     "tokens": 240,
+     "mean_push": 1.7840459823608399,
+     "mean_write": 1.9641687393188476,
+     "ratio_of_means": 0.9082956808382602
+    },
+    "4-7": {
+     "tokens": 320,
+     "mean_push": 1.7286976128816605,
+     "mean_write": 1.8813134610652924,
+     "ratio_of_means": 0.9188780331709245
+    },
+    "8-15": {
+     "tokens": 640,
+     "mean_push": 1.5906159237027169,
+     "mean_write": 1.8599834978580474,
+     "ratio_of_means": 0.8551774386893574
+    },
+    "16-31": {
+     "tokens": 1280,
+     "mean_push": 1.485013511031866,
+     "mean_write": 1.8494610324501992,
+     "ratio_of_means": 0.8029439306782763
+    },
+    "32-99": {
+     "tokens": 1360,
+     "mean_push": 1.3767327638233409,
+     "mean_write": 1.8439254297929653,
+     "ratio_of_means": 0.7466314752098839
+    }
+   },
+   "L19": {
+    "0": {
+     "tokens": 80,
+     "mean_push": 0.7703087270259857,
+     "mean_write": 1.9543240308761596,
+     "ratio_of_means": 0.39415609430982745
+    },
+    "1-3": {
+     "tokens": 240,
+     "mean_push": 2.3141350746154785,
+     "mean_write": 1.957352590560913,
+     "ratio_of_means": 1.1822780861123867
+    },
+    "4-7": {
+     "tokens": 320,
+     "mean_push": 2.666815918684006,
+     "mean_write": 1.9450867295265197,
+     "ratio_of_means": 1.3710524462491047
+    },
+    "8-15": {
+     "tokens": 640,
+     "mean_push": 2.776929885149002,
+     "mean_write": 1.95670006275177,
+     "ratio_of_means": 1.4191903695468362
+    },
+    "16-31": {
+     "tokens": 1280,
+     "mean_push": 2.6836097821593285,
+     "mean_write": 1.9423746779561042,
+     "ratio_of_means": 1.3816128333093805
+    },
+    "32-99": {
+     "tokens": 1360,
+     "mean_push": 2.517214233033797,
+     "mean_write": 1.9149014739429249,
+     "ratio_of_means": 1.3145398169497804
+    }
+   }
+  },
+  "varied wording, IDs": {
+   "L15": {
+    "0": {
+     "tokens": 102,
+     "mean_push": 0.8260641472012389,
+     "mean_write": 1.9550413617900773,
+     "ratio_of_means": 0.42253026628801194
+    },
+    "1-3": {
+     "tokens": 331,
+     "mean_push": 0.8951147575032675,
+     "mean_write": 1.809809514763132,
+     "ratio_of_means": 0.49459059099952857
+    },
+    "4-7": {
+     "tokens": 448,
+     "mean_push": 0.8133803904056549,
+     "mean_write": 1.7538870487894331,
+     "ratio_of_means": 0.4637587072480328
+    },
+    "8-15": {
+     "tokens": 877,
+     "mean_push": 0.8597851397645923,
+     "mean_write": 1.7490478187221759,
+     "ratio_of_means": 0.4915732609258999
+    },
+    "16-31": {
+     "tokens": 1790,
+     "mean_push": 0.9829223755351658,
+     "mean_write": 1.7546344288234603,
+     "ratio_of_means": 0.5601864179732569
+    },
+    "32-99": {
+     "tokens": 1886,
+     "mean_push": 1.1220381854068437,
+     "mean_write": 1.771053368820239,
+     "ratio_of_means": 0.6335428424465113
+    }
+   },
+   "L19": {
+    "0": {
+     "tokens": 102,
+     "mean_push": 0.6221284772835526,
+     "mean_write": 2.062315529468013,
+     "ratio_of_means": 0.3016650305901709
+    },
+    "1-3": {
+     "tokens": 331,
+     "mean_push": 0.8813076105722848,
+     "mean_write": 2.0733486993795434,
+     "ratio_of_means": 0.42506482910280313
+    },
+    "4-7": {
+     "tokens": 448,
+     "mean_push": 0.9059288374015263,
+     "mean_write": 2.0311927667685916,
+     "ratio_of_means": 0.4460083022266573
+    },
+    "8-15": {
+     "tokens": 877,
+     "mean_push": 0.9308034892500874,
+     "mean_write": 2.0046163187059602,
+     "ratio_of_means": 0.46432999699959987
+    },
+    "16-31": {
+     "tokens": 1790,
+     "mean_push": 0.9637414564633503,
+     "mean_write": 1.9686928605234157,
+     "ratio_of_means": 0.4895336777963022
+    },
+    "32-99": {
+     "tokens": 1886,
+     "mean_push": 1.045338124005185,
+     "mean_write": 1.9341612752143804,
+     "ratio_of_means": 0.5404606830882399
+    }
+   }
+  },
+  "identical lines, no IDs": {
+   "L15": {
+    "0": {
+     "tokens": 40,
+     "mean_push": 0.8117462158203125,
+     "mean_write": 1.9681859731674194,
+     "ratio_of_means": 0.4124336962497309
+    },
+    "1-3": {
+     "tokens": 120,
+     "mean_push": 2.355876072247823,
+     "mean_write": 2.0315850496292116,
+     "ratio_of_means": 1.1596246352953812
+    },
+    "4-7": {
+     "tokens": 160,
+     "mean_push": 2.4860514879226683,
+     "mean_write": 1.9537588596343993,
+     "ratio_of_means": 1.2724454073047045
+    },
+    "8-15": {
+     "tokens": 320,
+     "mean_push": 2.1927890837192536,
+     "mean_write": 1.8719616949558258,
+     "ratio_of_means": 1.171385659027066
+    },
+    "16-31": {
+     "tokens": 640,
+     "mean_push": 2.01131494641304,
+     "mean_write": 1.8287582978606225,
+     "ratio_of_means": 1.099825465599244
+    },
+    "32-99": {
+     "tokens": 680,
+     "mean_push": 1.946760270174812,
+     "mean_write": 1.8168354385039385,
+     "ratio_of_means": 1.0715116123988968
+    }
+   },
+   "L19": {
+    "0": {
+     "tokens": 40,
+     "mean_push": 0.4245821386575699,
+     "mean_write": 2.044046092033386,
+     "ratio_of_means": 0.2077165188751698
+    },
+    "1-3": {
+     "tokens": 120,
+     "mean_push": 2.324813910325368,
+     "mean_write": 2.102352666854858,
+     "ratio_of_means": 1.1058153786364084
+    },
+    "4-7": {
+     "tokens": 160,
+     "mean_push": 2.930183434486389,
+     "mean_write": 2.1171406626701357,
+     "ratio_of_means": 1.384028697833825
+    },
+    "8-15": {
+     "tokens": 320,
+     "mean_push": 2.601414826512337,
+     "mean_write": 2.0713783353567123,
+     "ratio_of_means": 1.2558858911036872
+    },
+    "16-31": {
+     "tokens": 640,
+     "mean_push": 2.2054021999239923,
+     "mean_write": 2.0640343606472014,
+     "ratio_of_means": 1.0684910299809462
+    },
+    "32-99": {
+     "tokens": 680,
+     "mean_push": 2.02883354215061,
+     "mean_write": 2.048261052019456,
+     "ratio_of_means": 0.9905151202041889
+    }
+   }
+  }
+ },
+ "wording_cases": [
+  "id-second-n32-s0",
+  "id-second-n32-s1",
+  "id-second-n32-s2",
+  "id-second-n32-s3",
+  "id-second-n64-s0",
+  "id-second-n64-s1",
+  "id-second-n64-s2",
+  "id-second-n64-s3"
+ ],
+ "push_wiring": {
+  "L15": {
+   "hook_rel_error": 0.00166,
+   "formula_rel_error": 0.00075,
+   "u_norm": 1.0
+  },
+  "L19": {
+   "hook_rel_error": 0.00166,
+   "formula_rel_error": 0.00066,
+   "u_norm": 1.0
+  }
+ },
+ "reference": {
+  "thinking on": {
+   "answers": {
+    "finished": 0,
+    "long": 8,
+    "loop": 8
+   },
+   "max_answer_tokens": 4096,
+   "loops_still_looping_at_the_cut": "8 of 8",
+   "by_kind": {
+    "long": {
+     "L15": {
+      "0-127": {
+       "tokens": 1024,
+       "mean_push": 0.33801570162177086,
+       "mean_write": 1.7923344671726227,
+       "ratio_of_means": 0.1885896342522414
+      },
+      "128-511": {
+       "tokens": 3072,
+       "mean_push": 0.4271053845683734,
+       "mean_write": 1.8222681085268657,
+       "ratio_of_means": 0.23438119921532752
+      },
+      "512-1023": {
+       "tokens": 4096,
+       "mean_push": 0.5350260958075523,
+       "mean_write": 1.8430932462215424,
+       "ratio_of_means": 0.29028704700882046
+      },
+      "1024-2047": {
+       "tokens": 8192,
+       "mean_push": 0.47375477105379105,
+       "mean_write": 1.8162464052438736,
+       "ratio_of_means": 0.26084278525532906
+      },
+      "2048-9999": {
+       "tokens": 16384,
+       "mean_push": 0.5081127844750881,
+       "mean_write": 1.7932740300893784,
+       "ratio_of_means": 0.28334363624825554
+      },
+      "last 256": {
+       "tokens": 2048,
+       "mean_push": 0.526722252368927,
+       "mean_write": 1.7733188271522522,
+       "ratio_of_means": 0.2970262562512703
+      }
+     },
+     "L19": {
+      "0-127": {
+       "tokens": 1024,
+       "mean_push": 0.5102312862873077,
+       "mean_write": 2.218082308769226,
+       "ratio_of_means": 0.23003262064266042
+      },
+      "128-511": {
+       "tokens": 3072,
+       "mean_push": 0.6792740970849991,
+       "mean_write": 2.1906587878863015,
+       "ratio_of_means": 0.3100775441804013
+      },
+      "512-1023": {
+       "tokens": 4096,
+       "mean_push": 0.7733116820454597,
+       "mean_write": 2.1740643680095673,
+       "ratio_of_means": 0.35569861381494144
+      },
+      "1024-2047": {
+       "tokens": 8192,
+       "mean_push": 0.7126635611057281,
+       "mean_write": 2.1906338930130005,
+       "ratio_of_means": 0.325322986820737
+      },
+      "2048-9999": {
+       "tokens": 16384,
+       "mean_push": 0.7455589473247528,
+       "mean_write": 2.1633699238300323,
+       "ratio_of_means": 0.3446285071786588
+      },
+      "last 256": {
+       "tokens": 2048,
+       "mean_push": 0.7500505670905113,
+       "mean_write": 2.1453998684883118,
+       "ratio_of_means": 0.34960875038135003
+      }
+     }
+    },
+    "loop": {
+     "L15": {
+      "0-127": {
+       "tokens": 1024,
+       "mean_push": 0.3819580525159836,
+       "mean_write": 1.8171721696853638,
+       "ratio_of_means": 0.21019365082072444
+      },
+      "128-511": {
+       "tokens": 3072,
+       "mean_push": 0.4822159707546234,
+       "mean_write": 1.8129978775978088,
+       "ratio_of_means": 0.2659771292140459
+      },
+      "512-1023": {
+       "tokens": 4096,
+       "mean_push": 0.5095090344548225,
+       "mean_write": 1.8033122718334198,
+       "ratio_of_means": 0.2825406572189557
+      },
+      "1024-2047": {
+       "tokens": 8192,
+       "mean_push": 0.7050736472010612,
+       "mean_write": 1.7888069450855255,
+       "ratio_of_means": 0.3941586033854261
+      },
+      "2048-9999": {
+       "tokens": 16384,
+       "mean_push": 1.5075805708765984,
+       "mean_write": 1.8093866556882858,
+       "ratio_of_means": 0.8331997841020435
+      },
+      "last 256": {
+       "tokens": 2048,
+       "mean_push": 2.1280424892902374,
+       "mean_write": 1.8489835262298584,
+       "ratio_of_means": 1.1509256080985155
+      }
+     },
+     "L19": {
+      "0-127": {
+       "tokens": 1024,
+       "mean_push": 0.5846723392605782,
+       "mean_write": 2.226597785949707,
+       "ratio_of_means": 0.2625855208111594
+      },
+      "128-511": {
+       "tokens": 3072,
+       "mean_push": 0.6563724925120672,
+       "mean_write": 2.165251314640045,
+       "ratio_of_means": 0.3031391728406287
+      },
+      "512-1023": {
+       "tokens": 4096,
+       "mean_push": 0.6772430464625359,
+       "mean_write": 2.1606782972812653,
+       "ratio_of_means": 0.31344001895825774
+      },
+      "1024-2047": {
+       "tokens": 8192,
+       "mean_push": 0.9142155647277832,
+       "mean_write": 2.126543164253235,
+       "ratio_of_means": 0.4299068930720824
+      },
+      "2048-9999": {
+       "tokens": 16384,
+       "mean_push": 2.1877995654940605,
+       "mean_write": 2.1253298223018646,
+       "ratio_of_means": 1.029392964111583
+      },
+      "last 256": {
+       "tokens": 2048,
+       "mean_push": 3.2302251532673836,
+       "mean_write": 2.1431746184825897,
+       "ratio_of_means": 1.507215102964614
+      }
+     }
+    }
+   }
+  },
+  "thinking off": {
+   "answers": {
+    "finished": 8,
+    "long": 8,
+    "loop": 7
+   },
+   "max_answer_tokens": 4096,
+   "loops_still_looping_at_the_cut": "4 of 7",
+   "by_kind": {
+    "finished": {
+     "L15": {
+      "0-127": {
+       "tokens": 1024,
+       "mean_push": 0.3161343354731798,
+       "mean_write": 1.8213239163160324,
+       "ratio_of_means": 0.17357392204711203
+      },
+      "128-511": {
+       "tokens": 2802,
+       "mean_push": 0.3231389265584571,
+       "mean_write": 1.8515674991321769,
+       "ratio_of_means": 0.17452181824854412
+      },
+      "512-1023": {
+       "tokens": 1790,
+       "mean_push": 0.3870657467975297,
+       "mean_write": 1.8667420115550803,
+       "ratio_of_means": 0.20734828080238385
+      },
+      "1024-2047": {
+       "tokens": 2048,
+       "mean_push": 0.439426064491272,
+       "mean_write": 1.8654478788375854,
+       "ratio_of_means": 0.23556062298834693
+      },
+      "2048-9999": {
+       "tokens": 3916,
+       "mean_push": 0.4249513370876293,
+       "mean_write": 1.8471273825531473,
+       "ratio_of_means": 0.2300606558602637
+      },
+      "last 256": {
+       "tokens": 2048,
+       "mean_push": 0.4237602762877941,
+       "mean_write": 1.8825875520706177,
+       "ratio_of_means": 0.22509459165482598
+      }
+     },
+     "L19": {
+      "0-127": {
+       "tokens": 1024,
+       "mean_push": 0.52408017963171,
+       "mean_write": 2.2630285024642944,
+       "ratio_of_means": 0.23158355233308817
+      },
+      "128-511": {
+       "tokens": 2802,
+       "mean_push": 0.6658882614887246,
+       "mean_write": 2.246863224266428,
+       "ratio_of_means": 0.2963635054849093
+      },
+      "512-1023": {
+       "tokens": 1790,
+       "mean_push": 0.7452303071261784,
+       "mean_write": 2.263975328839691,
+       "ratio_of_means": 0.3291689170076407
+      },
+      "1024-2047": {
+       "tokens": 2048,
+       "mean_push": 0.742719441652298,
+       "mean_write": 2.2636098861694336,
+       "ratio_of_means": 0.3281128281822253
+      },
+      "2048-9999": {
+       "tokens": 3916,
+       "mean_push": 0.7349956072143928,
+       "mean_write": 2.2473755506256383,
+       "ratio_of_means": 0.32704618816814135
+      },
+      "last 256": {
+       "tokens": 2048,
+       "mean_push": 0.794165201485157,
+       "mean_write": 2.224990665912628,
+       "ratio_of_means": 0.35692967779683377
+      }
+     }
+    },
+    "long": {
+     "L15": {
+      "0-127": {
+       "tokens": 1024,
+       "mean_push": 0.30561043694615364,
+       "mean_write": 1.811135321855545,
+       "ratio_of_means": 0.16873970335526864
+      },
+      "128-511": {
+       "tokens": 3072,
+       "mean_push": 0.36566975712776184,
+       "mean_write": 1.838775138060252,
+       "ratio_of_means": 0.19886594590000367
+      },
+      "512-1023": {
+       "tokens": 4096,
+       "mean_push": 0.4519118443131447,
+       "mean_write": 1.865001618862152,
+       "ratio_of_means": 0.24231177053286346
+      },
+      "1024-2047": {
+       "tokens": 8192,
+       "mean_push": 0.38786615803837776,
+       "mean_write": 1.8542610853910446,
+       "ratio_of_means": 0.20917559080229567
+      },
+      "2048-9999": {
+       "tokens": 16384,
+       "mean_push": 0.4302794970571995,
+       "mean_write": 1.859856054186821,
+       "ratio_of_means": 0.2313509672367248
+      },
+      "last 256": {
+       "tokens": 2048,
+       "mean_push": 0.4423951730132103,
+       "mean_write": 1.8774344474077225,
+       "ratio_of_means": 0.235638146314003
+      }
+     },
+     "L19": {
+      "0-127": {
+       "tokens": 1024,
+       "mean_push": 0.5331059880554676,
+       "mean_write": 2.2499700784683228,
+       "ratio_of_means": 0.23693914561671944
+      },
+      "128-511": {
+       "tokens": 3072,
+       "mean_push": 0.6496855914592743,
+       "mean_write": 2.2301283280054727,
+       "ratio_of_means": 0.29132206577561576
+      },
+      "512-1023": {
+       "tokens": 4096,
+       "mean_push": 0.7623895928263664,
+       "mean_write": 2.2505890130996704,
+       "ratio_of_means": 0.3387511395411771
+      },
+      "1024-2047": {
+       "tokens": 8192,
+       "mean_push": 0.6557488366961479,
+       "mean_write": 2.26117342710495,
+       "ratio_of_means": 0.29000377805417754
+      },
+      "2048-9999": {
+       "tokens": 16384,
+       "mean_push": 0.7255300581455231,
+       "mean_write": 2.2518071234226227,
+       "ratio_of_means": 0.32219902432973807
+      },
+      "last 256": {
+       "tokens": 2048,
+       "mean_push": 0.8135768286883831,
+       "mean_write": 2.2448500096797943,
+       "ratio_of_means": 0.3624192374458157
+      }
+     }
+    },
+    "loop": {
+     "L15": {
+      "0-127": {
+       "tokens": 896,
+       "mean_push": 0.34555152484348844,
+       "mean_write": 1.8117390700748988,
+       "ratio_of_means": 0.1907291897332672
+      },
+      "128-511": {
+       "tokens": 2688,
+       "mean_push": 0.342528502146403,
+       "mean_write": 1.842062132699149,
+       "ratio_of_means": 0.1859483977581693
+      },
+      "512-1023": {
+       "tokens": 3584,
+       "mean_push": 0.4783219311918531,
+       "mean_write": 1.8496963126318795,
+       "ratio_of_means": 0.25859484496201574
+      },
+      "1024-2047": {
+       "tokens": 7168,
+       "mean_push": 0.5167536096913474,
+       "mean_write": 1.8420805420194353,
+       "ratio_of_means": 0.28052715280562107
+      },
+      "2048-9999": {
+       "tokens": 14336,
+       "mean_push": 0.9517388003213065,
+       "mean_write": 1.8669133526938302,
+       "ratio_of_means": 0.5097927008492449
+      },
+      "last 256": {
+       "tokens": 1792,
+       "mean_push": 1.1447589780603136,
+       "mean_write": 1.8813901458467757,
+       "ratio_of_means": 0.608464427533759
+      }
+     },
+     "L19": {
+      "0-127": {
+       "tokens": 896,
+       "mean_push": 0.6298083237239293,
+       "mean_write": 2.2412380490984236,
+       "ratio_of_means": 0.28100911635748843
+      },
+      "128-511": {
+       "tokens": 2688,
+       "mean_push": 0.6520879325412569,
+       "mean_write": 2.233683290935698,
+       "ratio_of_means": 0.2919339259900605
+      },
+      "512-1023": {
+       "tokens": 3584,
+       "mean_push": 0.8475899824074337,
+       "mean_write": 2.2125545910426547,
+       "ratio_of_means": 0.3830820653369783
+      },
+      "1024-2047": {
+       "tokens": 7168,
+       "mean_push": 0.8440311806542533,
+       "mean_write": 2.198760918208531,
+       "ratio_of_means": 0.38386673769967616
+      },
+      "2048-9999": {
+       "tokens": 14336,
+       "mean_push": 1.5701401659420557,
+       "mean_write": 2.165146861757551,
+       "ratio_of_means": 0.7251887590976159
+      },
+      "last 256": {
+       "tokens": 1792,
+       "mean_push": 1.920549988746643,
+       "mean_write": 2.1831327165876115,
+       "ratio_of_means": 0.8797220499487527
+      }
+     }
+    }
+   }
+  }
+ },
+ "decoding": {
+  "card profile, second run (seed 1)": {
+   "0.0": {
+    "seconds": 139.4,
+    "cells": {
+     "id/replay/n1": {
+      "n": 4,
+      "exact": 4,
+      "dropped": 0,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.0
+     },
+     "id/replay": {
+      "n": 24,
+      "exact": 16,
+      "dropped": 1,
+      "ghost": 3,
+      "both": 3,
+      "other": 1,
+      "no_answer": 0,
+      "omitted_per_case": 0.20833333333333334,
+      "ghosts_per_case": 0.25
+     },
+     "id": {
+      "n": 48,
+      "exact": 36,
+      "dropped": 4,
+      "ghost": 3,
+      "both": 4,
+      "other": 1,
+      "no_answer": 0,
+      "omitted_per_case": 0.22916666666666666,
+      "ghosts_per_case": 0.16666666666666666
+     },
+     "id/second/n1": {
+      "n": 4,
+      "exact": 4,
+      "dropped": 0,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.0
+     },
+     "id/second": {
+      "n": 24,
+      "exact": 20,
+      "dropped": 3,
+      "ghost": 0,
+      "both": 1,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.25,
+      "ghosts_per_case": 0.08333333333333333
+     },
+     "id/replay/n2": {
+      "n": 4,
+      "exact": 4,
+      "dropped": 0,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.0
+     },
+     "id/second/n2": {
+      "n": 4,
+      "exact": 4,
+      "dropped": 0,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.0
+     },
+     "id/replay/n4": {
+      "n": 4,
+      "exact": 3,
+      "dropped": 0,
+      "ghost": 0,
+      "both": 0,
+      "other": 1,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.0
+     },
+     "id/second/n4": {
+      "n": 4,
+      "exact": 3,
+      "dropped": 1,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.25,
+      "ghosts_per_case": 0.0
+     },
+     "id/replay/n8": {
+      "n": 4,
+      "exact": 2,
+      "dropped": 0,
+      "ghost": 2,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.5
+     },
+     "id/second/n8": {
+      "n": 4,
+      "exact": 4,
+      "dropped": 0,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.0
+     },
+     "id/replay/n16": {
+      "n": 4,
+      "exact": 3,
+      "dropped": 1,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.25,
+      "ghosts_per_case": 0.0
+     },
+     "id/second/n16": {
+      "n": 4,
+      "exact": 3,
+      "dropped": 1,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.25,
+      "ghosts_per_case": 0.0
+     },
+     "id/replay/n32": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 0,
+      "ghost": 1,
+      "both": 3,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 1.0,
+      "ghosts_per_case": 1.0
+     },
+     "id/second/n32": {
+      "n": 4,
+      "exact": 2,
+      "dropped": 1,
+      "ghost": 0,
+      "both": 1,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 1.0,
+      "ghosts_per_case": 0.5
+     },
+     "bare/replay/n1": {
+      "n": 4,
+      "exact": 1,
+      "dropped": 0,
+      "ghost": 3,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.75
+     },
+     "bare/replay": {
+      "n": 24,
+      "exact": 2,
+      "dropped": 15,
+      "ghost": 7,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 2.625,
+      "ghosts_per_case": 0.4166666666666667
+     },
+     "bare": {
+      "n": 48,
+      "exact": 8,
+      "dropped": 29,
+      "ghost": 11,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 3.3958333333333335,
+      "ghosts_per_case": 0.5833333333333334
+     },
+     "bare/second/n1": {
+      "n": 4,
+      "exact": 2,
+      "dropped": 2,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.5,
+      "ghosts_per_case": 0.0
+     },
+     "bare/second": {
+      "n": 24,
+      "exact": 6,
+      "dropped": 14,
+      "ghost": 4,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 4.166666666666667,
+      "ghosts_per_case": 0.75
+     },
+     "bare/replay/n2": {
+      "n": 4,
+      "exact": 1,
+      "dropped": 2,
+      "ghost": 1,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.5,
+      "ghosts_per_case": 0.25
+     },
+     "bare/second/n2": {
+      "n": 4,
+      "exact": 3,
+      "dropped": 1,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.5,
+      "ghosts_per_case": 0.0
+     },
+     "bare/replay/n4": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 4,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 1.0,
+      "ghosts_per_case": 0.0
+     },
+     "bare/second/n4": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 4,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 2.25,
+      "ghosts_per_case": 0.0
+     },
+     "bare/replay/n8": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 3,
+      "ghost": 1,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 2.5,
+      "ghosts_per_case": 0.25
+     },
+     "bare/second/n8": {
+      "n": 4,
+      "exact": 1,
+      "dropped": 2,
+      "ghost": 1,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 1.5,
+      "ghosts_per_case": 0.25
+     },
+     "bare/replay/n16": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 2,
+      "ghost": 2,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 1.25,
+      "ghosts_per_case": 1.25
+     },
+     "bare/second/n16": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 2,
+      "ghost": 2,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 3.0,
+      "ghosts_per_case": 4.0
+     },
+     "bare/replay/n32": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 4,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 10.5,
+      "ghosts_per_case": 0.0
+     },
+     "bare/second/n32": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 3,
+      "ghost": 1,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 17.25,
+      "ghosts_per_case": 0.25
+     }
+    },
+    "per_case": [
+     {
+      "case": "id-replay-n1-s0",
+      "outcome": "exact",
+      "entries": 1,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "id-second-n1-s0",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-replay-n1-s1",
+      "outcome": "exact",
+      "entries": 1,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "id-second-n1-s1",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-replay-n1-s2",
+      "outcome": "exact",
+      "entries": 1,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "id-second-n1-s2",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-replay-n1-s3",
+      "outcome": "exact",
+      "entries": 1,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "id-second-n1-s3",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "id-replay-n2-s0",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 19
+     },
+     {
+      "case": "id-second-n2-s0",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 49
+     },
+     {
+      "case": "id-replay-n2-s1",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-second-n2-s1",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 76
+     },
+     {
+      "case": "id-replay-n2-s2",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 19
+     },
+     {
+      "case": "id-second-n2-s2",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 31
+     },
+     {
+      "case": "id-replay-n2-s3",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-second-n2-s3",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 31
+     },
+     {
+      "case": "id-replay-n4-s0",
+      "outcome": "exact",
+      "entries": 4,
+      "truth": 4,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 41
+     },
+     {
+      "case": "id-second-n4-s0",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "id-replay-n4-s1",
+      "outcome": "other",
+      "entries": 4,
+      "truth": 4,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 41
+     },
+     {
+      "case": "id-second-n4-s1",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "id-replay-n4-s2",
+      "outcome": "exact",
+      "entries": 4,
+      "truth": 4,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 41
+     },
+     {
+      "case": "id-second-n4-s2",
+      "outcome": "dropped",
+      "entries": 4,
+      "truth": 5,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 41
+     },
+     {
+      "case": "id-replay-n4-s3",
+      "outcome": "exact",
+      "entries": 4,
+      "truth": 4,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 41
+     },
+     {
+      "case": "id-second-n4-s3",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "id-replay-n8-s0",
+      "outcome": "exact",
+      "entries": 8,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 81
+     },
+     {
+      "case": "id-second-n8-s0",
+      "outcome": "exact",
+      "entries": 9,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 226
+     },
+     {
+      "case": "id-replay-n8-s1",
+      "outcome": "exact",
+      "entries": 8,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 81
+     },
+     {
+      "case": "id-second-n8-s1",
+      "outcome": "exact",
+      "entries": 9,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 145
+     },
+     {
+      "case": "id-replay-n8-s2",
+      "outcome": "ghost",
+      "entries": 9,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 226
+     },
+     {
+      "case": "id-second-n8-s2",
+      "outcome": "exact",
+      "entries": 9,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 91
+     },
+     {
+      "case": "id-replay-n8-s3",
+      "outcome": "ghost",
+      "entries": 9,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 91
+     },
+     {
+      "case": "id-second-n8-s3",
+      "outcome": "exact",
+      "entries": 9,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 91
+     },
+     {
+      "case": "id-replay-n16-s0",
+      "outcome": "dropped",
+      "entries": 15,
+      "truth": 16,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 151
+     },
+     {
+      "case": "id-second-n16-s0",
+      "outcome": "dropped",
+      "entries": 16,
+      "truth": 17,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 161
+     },
+     {
+      "case": "id-replay-n16-s1",
+      "outcome": "exact",
+      "entries": 16,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 161
+     },
+     {
+      "case": "id-second-n16-s1",
+      "outcome": "exact",
+      "entries": 17,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 171
+     },
+     {
+      "case": "id-replay-n16-s2",
+      "outcome": "exact",
+      "entries": 16,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 161
+     },
+     {
+      "case": "id-second-n16-s2",
+      "outcome": "exact",
+      "entries": 17,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 171
+     },
+     {
+      "case": "id-replay-n16-s3",
+      "outcome": "exact",
+      "entries": 16,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 161
+     },
+     {
+      "case": "id-second-n16-s3",
+      "outcome": "exact",
+      "entries": 17,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 169
+     },
+     {
+      "case": "id-replay-n32-s0",
+      "outcome": "both",
+      "entries": 32,
+      "truth": 32,
+      "omitted": 1,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 319
+     },
+     {
+      "case": "id-second-n32-s0",
+      "outcome": "exact",
+      "entries": 33,
+      "truth": 33,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 329
+     },
+     {
+      "case": "id-replay-n32-s1",
+      "outcome": "ghost",
+      "entries": 33,
+      "truth": 32,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 329
+     },
+     {
+      "case": "id-second-n32-s1",
+      "outcome": "exact",
+      "entries": 33,
+      "truth": 33,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 329
+     },
+     {
+      "case": "id-replay-n32-s2",
+      "outcome": "both",
+      "entries": 31,
+      "truth": 32,
+      "omitted": 2,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "id-second-n32-s2",
+      "outcome": "both",
+      "entries": 32,
+      "truth": 33,
+      "omitted": 3,
+      "ghosts": 2,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 319
+     },
+     {
+      "case": "id-replay-n32-s3",
+      "outcome": "both",
+      "entries": 32,
+      "truth": 32,
+      "omitted": 1,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 321
+     },
+     {
+      "case": "id-second-n32-s3",
+      "outcome": "dropped",
+      "entries": 32,
+      "truth": 33,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 319
+     },
+     {
+      "case": "bare-replay-n1-s0",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-second-n1-s0",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-replay-n1-s1",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-second-n1-s1",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-replay-n1-s2",
+      "outcome": "exact",
+      "entries": 1,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 6
+     },
+     {
+      "case": "bare-second-n1-s2",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 2,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-replay-n1-s3",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-second-n1-s3",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 2,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-replay-n2-s0",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 2,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-second-n2-s0",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 16
+     },
+     {
+      "case": "bare-replay-n2-s1",
+      "outcome": "ghost",
+      "entries": 3,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 16
+     },
+     {
+      "case": "bare-second-n2-s1",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-replay-n2-s2",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 2,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-second-n2-s2",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 3,
+      "omitted": 2,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-replay-n2-s3",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-second-n2-s3",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-replay-n4-s0",
+      "outcome": "dropped",
+      "entries": 3,
+      "truth": 4,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-second-n4-s0",
+      "outcome": "dropped",
+      "entries": 3,
+      "truth": 5,
+      "omitted": 2,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-replay-n4-s1",
+      "outcome": "dropped",
+      "entries": 3,
+      "truth": 4,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-second-n4-s1",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 5,
+      "omitted": 4,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-replay-n4-s2",
+      "outcome": "dropped",
+      "entries": 3,
+      "truth": 4,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-second-n4-s2",
+      "outcome": "dropped",
+      "entries": 4,
+      "truth": 5,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 19
+     },
+     {
+      "case": "bare-replay-n4-s3",
+      "outcome": "dropped",
+      "entries": 3,
+      "truth": 4,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-second-n4-s3",
+      "outcome": "dropped",
+      "entries": 3,
+      "truth": 5,
+      "omitted": 2,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-replay-n8-s0",
+      "outcome": "dropped",
+      "entries": 4,
+      "truth": 8,
+      "omitted": 4,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 19
+     },
+     {
+      "case": "bare-second-n8-s0",
+      "outcome": "exact",
+      "entries": 9,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 46
+     },
+     {
+      "case": "bare-replay-n8-s1",
+      "outcome": "dropped",
+      "entries": 3,
+      "truth": 8,
+      "omitted": 5,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-second-n8-s1",
+      "outcome": "dropped",
+      "entries": 6,
+      "truth": 9,
+      "omitted": 3,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 31
+     },
+     {
+      "case": "bare-replay-n8-s2",
+      "outcome": "dropped",
+      "entries": 7,
+      "truth": 8,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 36
+     },
+     {
+      "case": "bare-second-n8-s2",
+      "outcome": "dropped",
+      "entries": 6,
+      "truth": 9,
+      "omitted": 3,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 31
+     },
+     {
+      "case": "bare-replay-n8-s3",
+      "outcome": "ghost",
+      "entries": 9,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 46
+     },
+     {
+      "case": "bare-second-n8-s3",
+      "outcome": "ghost",
+      "entries": 10,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "bare-replay-n16-s0",
+      "outcome": "dropped",
+      "entries": 15,
+      "truth": 16,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 76
+     },
+     {
+      "case": "bare-second-n16-s0",
+      "outcome": "dropped",
+      "entries": 12,
+      "truth": 17,
+      "omitted": 5,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 61
+     },
+     {
+      "case": "bare-replay-n16-s1",
+      "outcome": "ghost",
+      "entries": 18,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 2,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 91
+     },
+     {
+      "case": "bare-second-n16-s1",
+      "outcome": "ghost",
+      "entries": 23,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 6,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 116
+     },
+     {
+      "case": "bare-replay-n16-s2",
+      "outcome": "ghost",
+      "entries": 19,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 3,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 96
+     },
+     {
+      "case": "bare-second-n16-s2",
+      "outcome": "dropped",
+      "entries": 10,
+      "truth": 17,
+      "omitted": 7,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "bare-replay-n16-s3",
+      "outcome": "dropped",
+      "entries": 12,
+      "truth": 16,
+      "omitted": 4,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 61
+     },
+     {
+      "case": "bare-second-n16-s3",
+      "outcome": "ghost",
+      "entries": 27,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 10,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 136
+     },
+     {
+      "case": "bare-replay-n32-s0",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 32,
+      "omitted": 31,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n32-s0",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 33,
+      "omitted": 32,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-replay-n32-s1",
+      "outcome": "dropped",
+      "entries": 29,
+      "truth": 32,
+      "omitted": 3,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 146
+     },
+     {
+      "case": "bare-second-n32-s1",
+      "outcome": "ghost",
+      "entries": 34,
+      "truth": 33,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 171
+     },
+     {
+      "case": "bare-replay-n32-s2",
+      "outcome": "dropped",
+      "entries": 31,
+      "truth": 32,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 156
+     },
+     {
+      "case": "bare-second-n32-s2",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 33,
+      "omitted": 32,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-replay-n32-s3",
+      "outcome": "dropped",
+      "entries": 25,
+      "truth": 32,
+      "omitted": 7,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 126
+     },
+     {
+      "case": "bare-second-n32-s3",
+      "outcome": "dropped",
+      "entries": 28,
+      "truth": 33,
+      "omitted": 5,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 141
+     }
+    ]
+   }
+  },
+  "card profile without the presence penalty": {
+   "0.0": {
+    "seconds": 196.7,
+    "cells": {
+     "id/replay/n1": {
+      "n": 4,
+      "exact": 1,
+      "dropped": 0,
+      "ghost": 3,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.75
+     },
+     "id/replay": {
+      "n": 24,
+      "exact": 10,
+      "dropped": 2,
+      "ghost": 10,
+      "both": 1,
+      "other": 1,
+      "no_answer": 0,
+      "omitted_per_case": 1.4583333333333333,
+      "ghosts_per_case": 0.4583333333333333
+     },
+     "id": {
+      "n": 48,
+      "exact": 30,
+      "dropped": 6,
+      "ghost": 10,
+      "both": 1,
+      "other": 1,
+      "no_answer": 0,
+      "omitted_per_case": 0.8541666666666666,
+      "ghosts_per_case": 0.22916666666666666
+     },
+     "id/second/n1": {
+      "n": 4,
+      "exact": 3,
+      "dropped": 1,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.5,
+      "ghosts_per_case": 0.0
+     },
+     "id/second": {
+      "n": 24,
+      "exact": 20,
+      "dropped": 4,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.25,
+      "ghosts_per_case": 0.0
+     },
+     "id/replay/n2": {
+      "n": 4,
+      "exact": 3,
+      "dropped": 0,
+      "ghost": 1,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.25
+     },
+     "id/second/n2": {
+      "n": 4,
+      "exact": 4,
+      "dropped": 0,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.0
+     },
+     "id/replay/n4": {
+      "n": 4,
+      "exact": 2,
+      "dropped": 0,
+      "ghost": 1,
+      "both": 0,
+      "other": 1,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.25
+     },
+     "id/second/n4": {
+      "n": 4,
+      "exact": 4,
+      "dropped": 0,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.0
+     },
+     "id/replay/n8": {
+      "n": 4,
+      "exact": 2,
+      "dropped": 0,
+      "ghost": 2,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.5
+     },
+     "id/second/n8": {
+      "n": 4,
+      "exact": 4,
+      "dropped": 0,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.0
+     },
+     "id/replay/n16": {
+      "n": 4,
+      "exact": 2,
+      "dropped": 0,
+      "ghost": 2,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.5
+     },
+     "id/second/n16": {
+      "n": 4,
+      "exact": 4,
+      "dropped": 0,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.0
+     },
+     "id/replay/n32": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 2,
+      "ghost": 1,
+      "both": 1,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 8.75,
+      "ghosts_per_case": 0.5
+     },
+     "id/second/n32": {
+      "n": 4,
+      "exact": 1,
+      "dropped": 3,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 1.0,
+      "ghosts_per_case": 0.0
+     },
+     "bare/replay/n1": {
+      "n": 4,
+      "exact": 1,
+      "dropped": 0,
+      "ghost": 3,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.75
+     },
+     "bare/replay": {
+      "n": 24,
+      "exact": 1,
+      "dropped": 3,
+      "ghost": 20,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.20833333333333334,
+      "ghosts_per_case": 26.125
+     },
+     "bare": {
+      "n": 48,
+      "exact": 8,
+      "dropped": 8,
+      "ghost": 32,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.25,
+      "ghosts_per_case": 29.479166666666668
+     },
+     "bare/second/n1": {
+      "n": 4,
+      "exact": 1,
+      "dropped": 3,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.75,
+      "ghosts_per_case": 0.0
+     },
+     "bare/second": {
+      "n": 24,
+      "exact": 7,
+      "dropped": 5,
+      "ghost": 12,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.2916666666666667,
+      "ghosts_per_case": 32.833333333333336
+     },
+     "bare/replay/n2": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 1,
+      "ghost": 3,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.25,
+      "ghosts_per_case": 0.75
+     },
+     "bare/second/n2": {
+      "n": 4,
+      "exact": 2,
+      "dropped": 2,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 1.0,
+      "ghosts_per_case": 0.0
+     },
+     "bare/replay/n4": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 2,
+      "ghost": 2,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 1.0,
+      "ghosts_per_case": 0.5
+     },
+     "bare/second/n4": {
+      "n": 4,
+      "exact": 4,
+      "dropped": 0,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.0
+     },
+     "bare/replay/n8": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 0,
+      "ghost": 4,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 2.75
+     },
+     "bare/second/n8": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 0,
+      "ghost": 4,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 47.0
+     },
+     "bare/replay/n16": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 0,
+      "ghost": 4,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 84.0
+     },
+     "bare/second/n16": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 0,
+      "ghost": 4,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 83.0
+     },
+     "bare/replay/n32": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 0,
+      "ghost": 4,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 68.0
+     },
+     "bare/second/n32": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 0,
+      "ghost": 4,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 67.0
+     }
+    },
+    "per_case": [
+     {
+      "case": "id-replay-n1-s0",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-second-n1-s0",
+      "outcome": "dropped",
+      "entries": 0,
+      "truth": 2,
+      "omitted": 2,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-replay-n1-s1",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-second-n1-s1",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-replay-n1-s2",
+      "outcome": "exact",
+      "entries": 1,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "id-second-n1-s2",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-replay-n1-s3",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-second-n1-s3",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-replay-n2-s0",
+      "outcome": "ghost",
+      "entries": 3,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 76
+     },
+     {
+      "case": "id-second-n2-s0",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 31
+     },
+     {
+      "case": "id-replay-n2-s1",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-second-n2-s1",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 31
+     },
+     {
+      "case": "id-replay-n2-s2",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-second-n2-s2",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 76
+     },
+     {
+      "case": "id-replay-n2-s3",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-second-n2-s3",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 76
+     },
+     {
+      "case": "id-replay-n4-s0",
+      "outcome": "ghost",
+      "entries": 5,
+      "truth": 4,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 126
+     },
+     {
+      "case": "id-second-n4-s0",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "id-replay-n4-s1",
+      "outcome": "other",
+      "entries": 4,
+      "truth": 4,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 41
+     },
+     {
+      "case": "id-second-n4-s1",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "id-replay-n4-s2",
+      "outcome": "exact",
+      "entries": 4,
+      "truth": 4,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 41
+     },
+     {
+      "case": "id-second-n4-s2",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "id-replay-n4-s3",
+      "outcome": "exact",
+      "entries": 4,
+      "truth": 4,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 41
+     },
+     {
+      "case": "id-second-n4-s3",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "id-replay-n8-s0",
+      "outcome": "exact",
+      "entries": 8,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 81
+     },
+     {
+      "case": "id-second-n8-s0",
+      "outcome": "exact",
+      "entries": 9,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 91
+     },
+     {
+      "case": "id-replay-n8-s1",
+      "outcome": "ghost",
+      "entries": 9,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 226
+     },
+     {
+      "case": "id-second-n8-s1",
+      "outcome": "exact",
+      "entries": 9,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 91
+     },
+     {
+      "case": "id-replay-n8-s2",
+      "outcome": "exact",
+      "entries": 8,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 81
+     },
+     {
+      "case": "id-second-n8-s2",
+      "outcome": "exact",
+      "entries": 9,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 226
+     },
+     {
+      "case": "id-replay-n8-s3",
+      "outcome": "ghost",
+      "entries": 9,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 226
+     },
+     {
+      "case": "id-second-n8-s3",
+      "outcome": "exact",
+      "entries": 9,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 91
+     },
+     {
+      "case": "id-replay-n16-s0",
+      "outcome": "ghost",
+      "entries": 17,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 426
+     },
+     {
+      "case": "id-second-n16-s0",
+      "outcome": "exact",
+      "entries": 17,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 171
+     },
+     {
+      "case": "id-replay-n16-s1",
+      "outcome": "ghost",
+      "entries": 17,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 426
+     },
+     {
+      "case": "id-second-n16-s1",
+      "outcome": "exact",
+      "entries": 17,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 171
+     },
+     {
+      "case": "id-replay-n16-s2",
+      "outcome": "exact",
+      "entries": 16,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 161
+     },
+     {
+      "case": "id-second-n16-s2",
+      "outcome": "exact",
+      "entries": 17,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 171
+     },
+     {
+      "case": "id-replay-n16-s3",
+      "outcome": "exact",
+      "entries": 16,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 161
+     },
+     {
+      "case": "id-second-n16-s3",
+      "outcome": "exact",
+      "entries": 17,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 171
+     },
+     {
+      "case": "id-replay-n32-s0",
+      "outcome": "ghost",
+      "entries": 33,
+      "truth": 32,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 331
+     },
+     {
+      "case": "id-second-n32-s0",
+      "outcome": "exact",
+      "entries": 33,
+      "truth": 33,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 331
+     },
+     {
+      "case": "id-replay-n32-s1",
+      "outcome": "both",
+      "entries": 31,
+      "truth": 32,
+      "omitted": 2,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "id-second-n32-s1",
+      "outcome": "dropped",
+      "entries": 31,
+      "truth": 33,
+      "omitted": 2,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "id-replay-n32-s2",
+      "outcome": "dropped",
+      "entries": 31,
+      "truth": 32,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 309
+     },
+     {
+      "case": "id-second-n32-s2",
+      "outcome": "dropped",
+      "entries": 32,
+      "truth": 33,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 319
+     },
+     {
+      "case": "id-replay-n32-s3",
+      "outcome": "dropped",
+      "entries": 0,
+      "truth": 32,
+      "omitted": 32,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 331
+     },
+     {
+      "case": "id-second-n32-s3",
+      "outcome": "dropped",
+      "entries": 32,
+      "truth": 33,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 321
+     },
+     {
+      "case": "bare-replay-n1-s0",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-second-n1-s0",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-replay-n1-s1",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-second-n1-s1",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 2,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-replay-n1-s2",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-second-n1-s2",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 2,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-replay-n1-s3",
+      "outcome": "exact",
+      "entries": 1,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-second-n1-s3",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 2,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-replay-n2-s0",
+      "outcome": "ghost",
+      "entries": 3,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 16
+     },
+     {
+      "case": "bare-second-n2-s0",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 3,
+      "omitted": 2,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-replay-n2-s1",
+      "outcome": "ghost",
+      "entries": 3,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 16
+     },
+     {
+      "case": "bare-second-n2-s1",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 3,
+      "omitted": 2,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-replay-n2-s2",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 2,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-second-n2-s2",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 16
+     },
+     {
+      "case": "bare-replay-n2-s3",
+      "outcome": "ghost",
+      "entries": 3,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 16
+     },
+     {
+      "case": "bare-second-n2-s3",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 16
+     },
+     {
+      "case": "bare-replay-n4-s0",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 4,
+      "omitted": 3,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-second-n4-s0",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 26
+     },
+     {
+      "case": "bare-replay-n4-s1",
+      "outcome": "ghost",
+      "entries": 5,
+      "truth": 4,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 26
+     },
+     {
+      "case": "bare-second-n4-s1",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 26
+     },
+     {
+      "case": "bare-replay-n4-s2",
+      "outcome": "ghost",
+      "entries": 5,
+      "truth": 4,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 26
+     },
+     {
+      "case": "bare-second-n4-s2",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 26
+     },
+     {
+      "case": "bare-replay-n4-s3",
+      "outcome": "dropped",
+      "entries": 3,
+      "truth": 4,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-second-n4-s3",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 26
+     },
+     {
+      "case": "bare-replay-n8-s0",
+      "outcome": "ghost",
+      "entries": 10,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 2,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "bare-second-n8-s0",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 91,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-replay-n8-s1",
+      "outcome": "ghost",
+      "entries": 14,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 6,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 71
+     },
+     {
+      "case": "bare-second-n8-s1",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 91,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-replay-n8-s2",
+      "outcome": "ghost",
+      "entries": 10,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 2,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "bare-second-n8-s2",
+      "outcome": "ghost",
+      "entries": 14,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 5,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 71
+     },
+     {
+      "case": "bare-replay-n8-s3",
+      "outcome": "ghost",
+      "entries": 9,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 46
+     },
+     {
+      "case": "bare-second-n8-s3",
+      "outcome": "ghost",
+      "entries": 10,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "bare-replay-n16-s0",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 84,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n16-s0",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 83,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-replay-n16-s1",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 84,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n16-s1",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 83,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-replay-n16-s2",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 84,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n16-s2",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 83,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-replay-n16-s3",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 84,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n16-s3",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 83,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-replay-n32-s0",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 32,
+      "omitted": 0,
+      "ghosts": 68,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n32-s0",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 33,
+      "omitted": 0,
+      "ghosts": 67,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-replay-n32-s1",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 32,
+      "omitted": 0,
+      "ghosts": 68,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n32-s1",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 33,
+      "omitted": 0,
+      "ghosts": 67,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-replay-n32-s2",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 32,
+      "omitted": 0,
+      "ghosts": 68,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n32-s2",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 33,
+      "omitted": 0,
+      "ghosts": 67,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-replay-n32-s3",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 32,
+      "omitted": 0,
+      "ghosts": 68,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n32-s3",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 33,
+      "omitted": 0,
+      "ghosts": 67,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     }
+    ]
+   },
+   "6.0": {
+    "seconds": 186.4,
+    "cells": {
+     "id/replay/n1": {
+      "n": 4,
+      "exact": 1,
+      "dropped": 0,
+      "ghost": 3,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.75
+     },
+     "id/replay": {
+      "n": 24,
+      "exact": 13,
+      "dropped": 2,
+      "ghost": 7,
+      "both": 2,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.6666666666666666,
+      "ghosts_per_case": 0.375
+     },
+     "id": {
+      "n": 48,
+      "exact": 32,
+      "dropped": 6,
+      "ghost": 8,
+      "both": 2,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.4791666666666667,
+      "ghosts_per_case": 0.2708333333333333
+     },
+     "id/second/n1": {
+      "n": 4,
+      "exact": 3,
+      "dropped": 1,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.5,
+      "ghosts_per_case": 0.0
+     },
+     "id/second": {
+      "n": 24,
+      "exact": 19,
+      "dropped": 4,
+      "ghost": 1,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.2916666666666667,
+      "ghosts_per_case": 0.16666666666666666
+     },
+     "id/replay/n2": {
+      "n": 4,
+      "exact": 3,
+      "dropped": 0,
+      "ghost": 1,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.25
+     },
+     "id/second/n2": {
+      "n": 4,
+      "exact": 3,
+      "dropped": 1,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.75,
+      "ghosts_per_case": 0.0
+     },
+     "id/replay/n4": {
+      "n": 4,
+      "exact": 2,
+      "dropped": 1,
+      "ghost": 1,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.25,
+      "ghosts_per_case": 0.25
+     },
+     "id/second/n4": {
+      "n": 4,
+      "exact": 4,
+      "dropped": 0,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.0
+     },
+     "id/replay/n8": {
+      "n": 4,
+      "exact": 3,
+      "dropped": 0,
+      "ghost": 0,
+      "both": 1,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.5,
+      "ghosts_per_case": 0.25
+     },
+     "id/second/n8": {
+      "n": 4,
+      "exact": 4,
+      "dropped": 0,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.0
+     },
+     "id/replay/n16": {
+      "n": 4,
+      "exact": 3,
+      "dropped": 0,
+      "ghost": 1,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.25
+     },
+     "id/second/n16": {
+      "n": 4,
+      "exact": 3,
+      "dropped": 0,
+      "ghost": 1,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 1.0
+     },
+     "id/replay/n32": {
+      "n": 4,
+      "exact": 1,
+      "dropped": 1,
+      "ghost": 1,
+      "both": 1,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 3.25,
+      "ghosts_per_case": 0.5
+     },
+     "id/second/n32": {
+      "n": 4,
+      "exact": 2,
+      "dropped": 2,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.5,
+      "ghosts_per_case": 0.0
+     },
+     "bare/replay/n1": {
+      "n": 4,
+      "exact": 1,
+      "dropped": 0,
+      "ghost": 3,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 0.75
+     },
+     "bare/replay": {
+      "n": 24,
+      "exact": 2,
+      "dropped": 5,
+      "ghost": 17,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.25,
+      "ghosts_per_case": 21.166666666666668
+     },
+     "bare": {
+      "n": 48,
+      "exact": 8,
+      "dropped": 15,
+      "ghost": 25,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 1.6875,
+      "ghosts_per_case": 16.770833333333332
+     },
+     "bare/second/n1": {
+      "n": 4,
+      "exact": 2,
+      "dropped": 2,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.5,
+      "ghosts_per_case": 0.0
+     },
+     "bare/second": {
+      "n": 24,
+      "exact": 6,
+      "dropped": 10,
+      "ghost": 8,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 3.125,
+      "ghosts_per_case": 12.375
+     },
+     "bare/replay/n2": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 1,
+      "ghost": 3,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.25,
+      "ghosts_per_case": 0.75
+     },
+     "bare/second/n2": {
+      "n": 4,
+      "exact": 2,
+      "dropped": 2,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 1.0,
+      "ghosts_per_case": 0.0
+     },
+     "bare/replay/n4": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 3,
+      "ghost": 1,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.75,
+      "ghosts_per_case": 0.25
+     },
+     "bare/second/n4": {
+      "n": 4,
+      "exact": 1,
+      "dropped": 3,
+      "ghost": 0,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 1.25,
+      "ghosts_per_case": 0.0
+     },
+     "bare/replay/n8": {
+      "n": 4,
+      "exact": 1,
+      "dropped": 1,
+      "ghost": 2,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.5,
+      "ghosts_per_case": 0.75
+     },
+     "bare/second/n8": {
+      "n": 4,
+      "exact": 1,
+      "dropped": 0,
+      "ghost": 3,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 23.5
+     },
+     "bare/replay/n16": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 0,
+      "ghost": 4,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 84.0
+     },
+     "bare/second/n16": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 2,
+      "ghost": 2,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 8.0,
+      "ghosts_per_case": 41.5
+     },
+     "bare/replay/n32": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 0,
+      "ghost": 4,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 0.0,
+      "ghosts_per_case": 40.5
+     },
+     "bare/second/n32": {
+      "n": 4,
+      "exact": 0,
+      "dropped": 1,
+      "ghost": 3,
+      "both": 0,
+      "other": 0,
+      "no_answer": 0,
+      "omitted_per_case": 8.0,
+      "ghosts_per_case": 9.25
+     }
+    },
+    "per_case": [
+     {
+      "case": "id-replay-n1-s0",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-second-n1-s0",
+      "outcome": "dropped",
+      "entries": 0,
+      "truth": 2,
+      "omitted": 2,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-replay-n1-s1",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-second-n1-s1",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-replay-n1-s2",
+      "outcome": "exact",
+      "entries": 1,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "id-second-n1-s2",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-replay-n1-s3",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-second-n1-s3",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-replay-n2-s0",
+      "outcome": "ghost",
+      "entries": 3,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 52
+     },
+     {
+      "case": "id-second-n2-s0",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 31
+     },
+     {
+      "case": "id-replay-n2-s1",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-second-n2-s1",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 31
+     },
+     {
+      "case": "id-replay-n2-s2",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "id-second-n2-s2",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 76
+     },
+     {
+      "case": "id-replay-n2-s3",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 41
+     },
+     {
+      "case": "id-second-n2-s3",
+      "outcome": "dropped",
+      "entries": 0,
+      "truth": 3,
+      "omitted": 3,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 31
+     },
+     {
+      "case": "id-replay-n4-s0",
+      "outcome": "ghost",
+      "entries": 5,
+      "truth": 4,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 116
+     },
+     {
+      "case": "id-second-n4-s0",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 81
+     },
+     {
+      "case": "id-replay-n4-s1",
+      "outcome": "dropped",
+      "entries": 3,
+      "truth": 4,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 31
+     },
+     {
+      "case": "id-second-n4-s1",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "id-replay-n4-s2",
+      "outcome": "exact",
+      "entries": 4,
+      "truth": 4,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 41
+     },
+     {
+      "case": "id-second-n4-s2",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "id-replay-n4-s3",
+      "outcome": "exact",
+      "entries": 4,
+      "truth": 4,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 41
+     },
+     {
+      "case": "id-second-n4-s3",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 101
+     },
+     {
+      "case": "id-replay-n8-s0",
+      "outcome": "exact",
+      "entries": 8,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 85
+     },
+     {
+      "case": "id-second-n8-s0",
+      "outcome": "exact",
+      "entries": 9,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 91
+     },
+     {
+      "case": "id-replay-n8-s1",
+      "outcome": "exact",
+      "entries": 8,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 177
+     },
+     {
+      "case": "id-second-n8-s1",
+      "outcome": "exact",
+      "entries": 9,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 112
+     },
+     {
+      "case": "id-replay-n8-s2",
+      "outcome": "exact",
+      "entries": 8,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 95
+     },
+     {
+      "case": "id-second-n8-s2",
+      "outcome": "exact",
+      "entries": 9,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 277
+     },
+     {
+      "case": "id-replay-n8-s3",
+      "outcome": "both",
+      "entries": 7,
+      "truth": 8,
+      "omitted": 2,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 176
+     },
+     {
+      "case": "id-second-n8-s3",
+      "outcome": "exact",
+      "entries": 9,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 88
+     },
+     {
+      "case": "id-replay-n16-s0",
+      "outcome": "exact",
+      "entries": 16,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 168
+     },
+     {
+      "case": "id-second-n16-s0",
+      "outcome": "exact",
+      "entries": 17,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 171
+     },
+     {
+      "case": "id-replay-n16-s1",
+      "outcome": "ghost",
+      "entries": 17,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 375
+     },
+     {
+      "case": "id-second-n16-s1",
+      "outcome": "exact",
+      "entries": 17,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 182
+     },
+     {
+      "case": "id-replay-n16-s2",
+      "outcome": "exact",
+      "entries": 16,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 158
+     },
+     {
+      "case": "id-second-n16-s2",
+      "outcome": "exact",
+      "entries": 17,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 161
+     },
+     {
+      "case": "id-replay-n16-s3",
+      "outcome": "exact",
+      "entries": 16,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 257
+     },
+     {
+      "case": "id-second-n16-s3",
+      "outcome": "ghost",
+      "entries": 21,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 4,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 466
+     },
+     {
+      "case": "id-replay-n32-s0",
+      "outcome": "ghost",
+      "entries": 33,
+      "truth": 32,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 353
+     },
+     {
+      "case": "id-second-n32-s0",
+      "outcome": "exact",
+      "entries": 33,
+      "truth": 33,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 311
+     },
+     {
+      "case": "id-replay-n32-s1",
+      "outcome": "both",
+      "entries": 29,
+      "truth": 32,
+      "omitted": 4,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "id-second-n32-s1",
+      "outcome": "dropped",
+      "entries": 32,
+      "truth": 33,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "id-replay-n32-s2",
+      "outcome": "exact",
+      "entries": 32,
+      "truth": 32,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 344
+     },
+     {
+      "case": "id-second-n32-s2",
+      "outcome": "dropped",
+      "entries": 32,
+      "truth": 33,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 396
+     },
+     {
+      "case": "id-replay-n32-s3",
+      "outcome": "dropped",
+      "entries": 23,
+      "truth": 32,
+      "omitted": 9,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "id-second-n32-s3",
+      "outcome": "exact",
+      "entries": 33,
+      "truth": 33,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 329
+     },
+     {
+      "case": "bare-replay-n1-s0",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-second-n1-s0",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-replay-n1-s1",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-second-n1-s1",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 2,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-replay-n1-s2",
+      "outcome": "ghost",
+      "entries": 2,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-second-n1-s2",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 2,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-replay-n1-s3",
+      "outcome": "exact",
+      "entries": 1,
+      "truth": 1,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-second-n1-s3",
+      "outcome": "exact",
+      "entries": 2,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 11
+     },
+     {
+      "case": "bare-replay-n2-s0",
+      "outcome": "ghost",
+      "entries": 3,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 16
+     },
+     {
+      "case": "bare-second-n2-s0",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 3,
+      "omitted": 2,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-replay-n2-s1",
+      "outcome": "ghost",
+      "entries": 3,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 16
+     },
+     {
+      "case": "bare-second-n2-s1",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 3,
+      "omitted": 2,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-replay-n2-s2",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 2,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 4
+     },
+     {
+      "case": "bare-second-n2-s2",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 16
+     },
+     {
+      "case": "bare-replay-n2-s3",
+      "outcome": "ghost",
+      "entries": 3,
+      "truth": 2,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 16
+     },
+     {
+      "case": "bare-second-n2-s3",
+      "outcome": "exact",
+      "entries": 3,
+      "truth": 3,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 16
+     },
+     {
+      "case": "bare-replay-n4-s0",
+      "outcome": "dropped",
+      "entries": 3,
+      "truth": 4,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-second-n4-s0",
+      "outcome": "dropped",
+      "entries": 3,
+      "truth": 5,
+      "omitted": 2,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-replay-n4-s1",
+      "outcome": "dropped",
+      "entries": 3,
+      "truth": 4,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-second-n4-s1",
+      "outcome": "dropped",
+      "entries": 4,
+      "truth": 5,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 21
+     },
+     {
+      "case": "bare-replay-n4-s2",
+      "outcome": "ghost",
+      "entries": 5,
+      "truth": 4,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 26
+     },
+     {
+      "case": "bare-second-n4-s2",
+      "outcome": "exact",
+      "entries": 5,
+      "truth": 5,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 26
+     },
+     {
+      "case": "bare-replay-n4-s3",
+      "outcome": "dropped",
+      "entries": 3,
+      "truth": 4,
+      "omitted": 1,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-second-n4-s3",
+      "outcome": "dropped",
+      "entries": 3,
+      "truth": 5,
+      "omitted": 2,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": false,
+      "finished": true,
+      "tokens": 14
+     },
+     {
+      "case": "bare-replay-n8-s0",
+      "outcome": "ghost",
+      "entries": 10,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 2,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "bare-second-n8-s0",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 91,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-replay-n8-s1",
+      "outcome": "dropped",
+      "entries": 6,
+      "truth": 8,
+      "omitted": 2,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 31
+     },
+     {
+      "case": "bare-second-n8-s1",
+      "outcome": "exact",
+      "entries": 9,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 46
+     },
+     {
+      "case": "bare-replay-n8-s2",
+      "outcome": "exact",
+      "entries": 8,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 41
+     },
+     {
+      "case": "bare-second-n8-s2",
+      "outcome": "ghost",
+      "entries": 11,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 2,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 56
+     },
+     {
+      "case": "bare-replay-n8-s3",
+      "outcome": "ghost",
+      "entries": 9,
+      "truth": 8,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 46
+     },
+     {
+      "case": "bare-second-n8-s3",
+      "outcome": "ghost",
+      "entries": 10,
+      "truth": 9,
+      "omitted": 0,
+      "ghosts": 1,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 51
+     },
+     {
+      "case": "bare-replay-n16-s0",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 84,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n16-s0",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 17,
+      "omitted": 16,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 125
+     },
+     {
+      "case": "bare-replay-n16-s1",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 84,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n16-s1",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 17,
+      "omitted": 16,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 482
+     },
+     {
+      "case": "bare-replay-n16-s2",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 84,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n16-s2",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 83,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-replay-n16-s3",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 16,
+      "omitted": 0,
+      "ghosts": 84,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n16-s3",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 17,
+      "omitted": 0,
+      "ghosts": 83,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-replay-n32-s0",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 32,
+      "omitted": 0,
+      "ghosts": 68,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n32-s0",
+      "outcome": "ghost",
+      "entries": 48,
+      "truth": 33,
+      "omitted": 0,
+      "ghosts": 15,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 241
+     },
+     {
+      "case": "bare-replay-n32-s1",
+      "outcome": "ghost",
+      "entries": 50,
+      "truth": 32,
+      "omitted": 0,
+      "ghosts": 18,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 251
+     },
+     {
+      "case": "bare-second-n32-s1",
+      "outcome": "ghost",
+      "entries": 37,
+      "truth": 33,
+      "omitted": 0,
+      "ghosts": 4,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 186
+     },
+     {
+      "case": "bare-replay-n32-s2",
+      "outcome": "ghost",
+      "entries": 40,
+      "truth": 32,
+      "omitted": 0,
+      "ghosts": 8,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 201
+     },
+     {
+      "case": "bare-second-n32-s2",
+      "outcome": "ghost",
+      "entries": 51,
+      "truth": 33,
+      "omitted": 0,
+      "ghosts": 18,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 256
+     },
+     {
+      "case": "bare-replay-n32-s3",
+      "outcome": "ghost",
+      "entries": 100,
+      "truth": 32,
+      "omitted": 0,
+      "ghosts": 68,
+      "foreign": 0,
+      "ended": false,
+      "finished": false,
+      "tokens": 500
+     },
+     {
+      "case": "bare-second-n32-s3",
+      "outcome": "dropped",
+      "entries": 1,
+      "truth": 33,
+      "omitted": 32,
+      "ghosts": 0,
+      "foreign": 0,
+      "ended": true,
+      "finished": true,
+      "tokens": 237
+     }
+    ]
+   }
+  }
+ }
+}

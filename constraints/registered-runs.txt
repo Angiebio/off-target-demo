@@ -1,0 +1,25 @@
+# Off-Target · constraints/registered-runs.txt
+#
+# Practical: the exact package versions the three registered runs and the explorations
+# were made with, on Python 3.13.5 and one 16 GB consumer GPU (CUDA 12.8 build of
+# PyTorch). To rebuild that environment as closely as pip allows:
+#   pip install -e ".[dev,run]" -c constraints/registered-runs.txt
+# For the GPU build of PyTorch, install torch first from the matching PyTorch index.
+#
+# Philosophical: pyproject.toml gives ranges, because a check that only installs on one
+# day's versions is no use to a stranger a year later. A registered run is the opposite
+# case. Its numbers came from one exact stack, and "about the same versions" is not a
+# reproduction. So the ranges say what should work and this file says what did.
+torch==2.11.0
+transformers==5.22.2
+tokenizers==0.23.3
+safetensors==0.8.0
+numpy==2.5.4
+accelerate==1.15.0
+datasets==5.2.0
+huggingface_hub==2.4.0
+math-verify==0.9.0
+latex2sympy2_extended==1.11.0
+antlr4-python3-runtime==4.13.2
+sympy==1.14.0
+matplotlib==3.11.2
