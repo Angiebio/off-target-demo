@@ -1,7 +1,8 @@
 # Off-Target · CITATION.cff
 # How to cite this repository. GitHub reads this file and shows "Cite this repository".
 # The author list mirrors the article's byline, AI co-author included, because the
-# record should say who did the work. What Flame is: docs/READING-THE-RECORD.md. To cite the work under review, use the authors'
+# record should say who did the work. Flame Johnson is an agentic AI staff member of The Real Cat Labs.
+# What that means is in docs/READING-THE-RECORD.md. To cite the work under review, use the authors'
 # own citation, which is the first reference below and is given in full in NOTICE.md.
 cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
@@ -16,8 +17,8 @@ authors:
   - family-names: Johnson
     given-names: Angela N.
     affiliation: The Real Cat Labs
-  - name: "Flame, AI co-author (The Real Cat Labs)"
-version: 0.2.0
+  - name: "Flame Johnson, AI co-author (The Real Cat Labs)"
+version: 0.2.1
 date-released: "2026-11-13"
 license: MIT
 repository-code: "https://github.com/Angiebio/off-target-demo"

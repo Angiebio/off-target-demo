@@ -14,7 +14,7 @@ This repository reads that edit the way a design change to a regulated product i
 
 The write-up for general readers goes live with the relaunch of angelanjohnson.com, at angelanjohnson.com/engineering/off-target/. This repository is the record behind it, and it stands on its own until then.
 
-By Angela N. Johnson, PhD, with Flame, AI co-author. The Real Cat Labs. Who Flame is, and who else is named here: [docs/READING-THE-RECORD.md](docs/READING-THE-RECORD.md).
+By Angela N. Johnson, PhD, with Flame Johnson, AI co-author. The Real Cat Labs. Who Flame Johnson is, and who else is named here: [docs/READING-THE-RECORD.md](docs/READING-THE-RECORD.md).
 
 ![What each neuron writes along the edit's direction, before and after. The edited neurons in each layer land on a line that reverses the direction at five times its strength. A removal would land on zero.](results/fig_before_after.png)
 
@@ -86,7 +86,7 @@ That is a fair statement of what they set out to show, and our evidence agrees w
 
 ## How the work is controlled
 
-Most of this work was done by an AI agent over long stretches, some of them overnight. Agents are fast and tireless. They also forget everything between sessions, and their mistakes arrive in the same confident voice as their findings. The repository is therefore designed around one question: how do you manage a worker like that so the output can be trusted by someone who was not in the room?
+The hands-on work here was done by an agentic AI staff member of The Real Cat Labs, supervised by the first author, over long stretches, some of them overnight. Agents are fast and tireless. They also forget everything between sessions, and their mistakes arrive in the same confident voice as their findings. The repository is therefore designed around one question: how do you manage a worker like that so the output can be trusted by someone who was not in the room?
 
 The answer borrows from how regulated industries manage fallible teams. None of the controls asks anyone to be careful. Each one makes a specific kind of mistake visible.
 

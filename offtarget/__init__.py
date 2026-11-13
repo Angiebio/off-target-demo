@@ -4,4 +4,4 @@
 # Practical: package marker. Tools live in their own modules and run with -m.
 # Philosophical: a patch note for a mind should be at least as careful as a patch
 # note for a pacemaker. Everything in here exists to write that patch note.
-__version__ = "0.2.0"
+__version__ = "0.2.1"

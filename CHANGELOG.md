@@ -4,6 +4,13 @@ All notable changes to this repository are recorded here. The format is based on
 
 The working history behind these entries is kept in a private repository. This public copy is made from it by an export that takes an explicit list of files and stops if a machine path or a working note is found in any of them. [docs/FREEZE-LOG.md](docs/FREEZE-LOG.md) says what that does and does not let you check.
 
+## [0.2.1] - 2026-11-13
+
+### Changed
+
+- The AI co-author is named in full, Flame Johnson, in the byline, the citation file and the package metadata. The frozen registrations and working notes keep "Flame" as written.
+- Who did the hands-on work is described in the lab's own terms: an agentic AI staff member of The Real Cat Labs, supervised by the first author. `docs/READING-THE-RECORD.md`, the README and `docs/DESIGN.md`.
+
 ## [0.2.0] - 2026-11-13
 
 First public copy.

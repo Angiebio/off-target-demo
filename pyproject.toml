@@ -20,12 +20,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "offtarget"
-version = "0.2.0"
+version = "0.2.1"
 description = "A design change review of an AI-authored weight edit: the diff, the provenance, the registered reruns, and a one-command check."
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
-authors = [{ name = "Angela N. Johnson" }, { name = "Flame, AI co-author (The Real Cat Labs)" }]
+authors = [{ name = "Angela N. Johnson" }, { name = "Flame Johnson, AI co-author (The Real Cat Labs)" }]
 keywords = ["mechanistic interpretability", "weight editing", "change control", "pre-registration", "reproducibility"]
 # Run on: torch 2.11, safetensors 0.8, numpy 2.5, tokenizers 0.23, math-verify 0.9 (Python 3.13).
 dependencies = [

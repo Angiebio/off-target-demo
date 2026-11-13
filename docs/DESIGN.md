@@ -4,7 +4,7 @@
 
 ## The problem this design answers
 
-Most of the work in this repository was done by an AI agent. It read the authors' logs, wrote the tools, registered the experiments, ran them through the night, wrote up the results and drafted the article. A person set the direction, made the calls that were hers to make, and read what came back.
+The hands-on work in this repository was done by an agentic AI staff member of The Real Cat Labs, supervised by the first author. It read the authors' logs, wrote the tools, registered the experiments, ran them, some overnight, wrote up the results and drafted the article. The first author set the direction, gave the go-ahead for the runs, made the calls that were hers to make, and read what came back.
 
 That arrangement changes what a repository is for. A codebase written by a small human team can lean on memory. Someone remembers why a threshold is five points, which number came from the pilot, and which sentence was checked. An agent has none of that. It is fast, tireless and fluent, and it has three properties a manager has to plan around.
 
